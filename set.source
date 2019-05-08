@@ -1,0 +1,10 @@
+#!/bin/source
+
+if [ -d "venv" ];then
+	echo "activite virtual environment source"
+	source venv/bin/activate
+else
+	echo " virtual environment mot exist, build python3.6 environment!!\n"
+	virtualenv --python=python3.6 venv
+	source venv/bin/activite
+fi
