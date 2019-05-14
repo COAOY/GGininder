@@ -16,7 +16,7 @@ oh la ha la ya
 	mac: like above, but on the OSX
 	package: install requirement package on python
 
-## if you are first. >////<
+## If you are first. >////<
 	venv -> source -> ubuntun or mac -> package
 
 who cares the fail~
