@@ -5,3 +5,5 @@ scipy >= 0.17.0
 pomegranate == 0.10.0
 matplotlib
 seaborn
+pygraphviz
+image
