@@ -64,10 +64,12 @@ model.add_edge(s1, s3)
 model.add_edge(s2, s3)
 model.bake()
 
-print('Probability A,B,C: ',model.probability(['A', 'B', 'C']) )
 
-print('Probability A,B,B: ',model.probability(['A', 'B', 'B']) )
+print(model.predict_proba({'guest': 'A', 'monty': 'C'}))
+# print('Probability A,B,C: ',model.probability(['A', 'B', 'C']) )
 
-print('Predict Probability A,None,None: ',model.predict_proba(['A', None, None]) )
+# print('Probability A,B,B: ',model.probability(['A', 'B', 'B']) )
+
+# print('Predict Probability A,None,None: ',model.predict_proba(['A', None, None]) )
 
 model.plot("Monty Hall Problem")
