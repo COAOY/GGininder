@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn; seaborn.set_style('whitegrid')
 import numpy
 import copy
+from pomegranate import *
 
 
 class Gate:
@@ -30,11 +31,19 @@ class Gate:
 		self.name = name
 		self.gid = gid
 
+		if self.arrt == 'i':
+			self.add_Input_to_bayesian()
+		elif self.arrt == 'g':
+			if self.seq[0]=='nand':
+				self.add_Nand_to_bayesian(self.seq[1],self.seq[2])
+
+	def return_bayref(self):
+		return self.bay_ref
 	
 	def add_Input_to_bayesian(self):
 		self.gcref = DiscreteDistribution({True: 0.5, False: 0.5})
-		self.gsref = State(grcef, name=self.name)
-		bay_ref.add_states(gsref)
+		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
 
 	def add_Nand_to_bayesian(self, d1, d2):
 
@@ -47,5 +56,5 @@ class Gate:
          [False, True,  False, 0.0],
          [False, False, True,  1.0],
          [False, False, False, 0.0]], [d1, d2])
-		self.gsref = State(grcef, name=self.name)
-		bay_ref.add_states(gsref)
+		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
