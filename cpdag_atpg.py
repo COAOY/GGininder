@@ -27,7 +27,7 @@ class CPD:
 
 	def parsar(self):
 		'''
-		only implement nand gate and input
+		only implement nand,and,or gate and input
 		'''
 		num=0
 		infile=open(self.filename,'r')

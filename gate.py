@@ -38,6 +38,11 @@ class Gate:
 			if self.seq[0]=='nand':
 				# print(self.seq[1],self.seq[2])
 				self.add_Nand_to_bayesian(self.seq[1],self.seq[2])
+			elif self.seq[0]=='and':
+				self.add_And_to_bayesian(self.seq[1],self.seq[2])
+			elif self.seq[0]=='or':
+				self.add_Or_to_bayesian(self.seq[1],self.seq[2])
+
 
 	def return_bayref(self):
 		return self.bay_ref
@@ -53,10 +58,10 @@ class Gate:
 	def add_Nand_to_bayesian(self, d1, d2):
 
 		self.gcref =ConditionalProbabilityTable(
-        [[True,  True,  True,  1.0],
-         [True,  True,  False, 0.0],
-         [True,  False, True,  0.0],
-         [True,  False, False, 1.0],
+        [[True,  True,  True,  0.0],
+         [True,  True,  False, 1.0],
+         [True,  False, True,  1.0],
+         [True,  False, False, 0.0],
          [False, True,  True,  1.0],
          [False, True,  False, 0.0],
          [False, False, True,  1.0],
@@ -69,8 +74,44 @@ class Gate:
 		self.bay_dic.setdefault(self.name, self.gcref)
 		self.state_ref_dic.setdefault(self.name, self.gsref)
 
+	def add_And_to_bayesian(self, d1, d2):
+
+		self.gcref =ConditionalProbabilityTable(
+        [[True,  True,  True,  1.0],
+         [True,  True,  False, 0.0],
+         [True,  False, True,  0.0],
+         [True,  False, False, 1.0],
+         [False, True,  True,  1.0],
+         [False, True,  False, 0.0],
+         [False, False, True,  0.0],
+         [False, False, False, 1.0]], [self.bay_dic[d1], self.bay_dic[d2]])
+		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
+		self.bay_ref.add_edge(self.state_ref_dic[d1],self.gsref)
+		self.bay_ref.add_edge(self.state_ref_dic[d2],self.gsref)
+		
+		self.bay_dic.setdefault(self.name, self.gcref)
+		self.state_ref_dic.setdefault(self.name, self.gsref)
 
 
+	def add_Or_to_bayesian(self, d1, d2):
+
+		self.gcref =ConditionalProbabilityTable(
+        [[True,  True,  True,  1.0],
+         [True,  True,  False, 0.0],
+         [True,  False, True,  1.0],
+         [True,  False, False, 0.0],
+         [False, True,  True,  1.0],
+         [False, True,  False, 0.0],
+         [False, False, True,  0.0],
+         [False, False, False, 1.0]], [self.bay_dic[d1], self.bay_dic[d2]])
+		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
+		self.bay_ref.add_edge(self.state_ref_dic[d1],self.gsref)
+		self.bay_ref.add_edge(self.state_ref_dic[d2],self.gsref)
+		
+		self.bay_dic.setdefault(self.name, self.gcref)
+		self.state_ref_dic.setdefault(self.name, self.gsref)
 
 
 
