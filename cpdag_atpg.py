@@ -16,6 +16,7 @@ class CPD:
 	bay= None 		# bayesian reference
 	model = None
 	wire = []
+	Gate_dict = {}
 	wire_dict = {}
 	state_ref_dict = {}
 	def __init__(self, filename):
@@ -31,27 +32,38 @@ class CPD:
 		'''
 		num=0
 		infile=open(self.filename,'r')
-		outwire = []
-		outnum = []
+		gate_list=[]
 		for line in infile:
+			gate_list.append(line)
+
+
+		for line in gate_list:
 			if(line[0]== 'i'):
 				inp=line.split()
-				w1 = Gate(deepcopy(line[0]),deepcopy(line),self.model,deepcopy(inp[1]),deepcopy(num), self.wire_dict, self.state_ref_dict )
+				w1 = Gate(deepcopy(line[0]),deepcopy(inp),self.model,deepcopy(num), self.Gate_dict )
 				self.wire.append(w1)
+				self.Gate_dict.setdefault(w1.return_name(),w1)
+				num=num+1
 				# print(inp[1])
 			elif(line[0]== 'o'):
-				inp=line.split()
-				outwire.append(deepcopy(inp) )
-				outnum.append(deepcopy(num))
+				continue
+				# inp=line.split()
+				# outwire.append(deepcopy(inp) )
+				# outnum.append(deepcopy(num))
 				# print(inp[1])
 			elif(line[0]== 'g'):
 				inp=line.split()
-				w1 = Gate(deepcopy(line[0]),deepcopy(inp[1:]),self.model,deepcopy(inp[5]),deepcopy(num), self.wire_dict, self.state_ref_dict )
+				w1 = Gate(deepcopy(line[0]),deepcopy(inp[1:]),self.model,deepcopy(num),self.Gate_dict )
 				self.wire.append(w1)
+				print(w1.return_name())
+				self.Gate_dict.setdefault(w1.return_name(),w1)
+				num=num+1
 				# print(inp[5])
 			else:
+				# print(" input file have ilegal parameter")
 				pass
-			num=num+1
+		for k, v in self.Gate_dict.items():
+			v.build_conditional_prob()
 		
 	def return_bayRef(self):
 		return self.model

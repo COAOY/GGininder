@@ -24,25 +24,84 @@ class Gate:
 	gcref(ref) = gate condition refference
 	gsref(ref) = gate state refference
 	'''
-	def __init__(self, arrtibute, sequence, bay_ref, name, gid, bay_dic, state_ref_dic):
+	def __init__(self, arrtibute, sequence, bay_ref, gid, gate_dic):
 		self.arrt = arrtibute
 		self.seq = sequence
 		self.bay_ref = bay_ref
-		self.name = name
 		self.gid = gid
-		self.bay_dic = bay_dic
-		self.state_ref_dic = state_ref_dic 
+		self.gate_dic=gate_dic
 		if self.arrt == 'i':
+			# arrtibute: input
+			self.name = self.seq[1]
 			self.add_Input_to_bayesian()
 		elif self.arrt == 'g':
+			# arrtibute: gate
 			if self.seq[0]=='nand':
-				# print(self.seq[1],self.seq[2])
-				self.add_Nand_to_bayesian(self.seq[1],self.seq[2])
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+				else:
+					print(" input file have ilegal NAND gate")
 			elif self.seq[0]=='and':
-				self.add_And_to_bayesian(self.seq[1],self.seq[2])
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+				else:
+					print(" input file have ilegal AND gate")
 			elif self.seq[0]=='or':
-				self.add_Or_to_bayesian(self.seq[1],self.seq[2])
-
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+				else:
+					print(" input file have ilegal OR gate")
+			elif self.seq[0]=='not':
+				self.name = self.seq[3]
+			else:
+				print(" ilegal gate!!")
+		
+		
+	def build_conditional_prob(self):
+		if self.arrt == 'i':
+			# arrtibute: input
+			self.name = self.seq[1]
+			self.add_Input_to_bayesian()
+		elif self.arrt == 'g':
+			# arrtibute: gate
+			if self.seq[0]=='nand':
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+					self.add_Nand_to_bayesian(self.seq[1],self.seq[2])
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+					self.add_Nand_to_bayesian(self.seq[1],self.seq[1])
+				else:
+					print(" input file have ilegal NAND gate")
+			elif self.seq[0]=='and':
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+					self.add_And_to_bayesian(self.seq[1],self.seq[2])
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+					self.add_And_to_bayesian(self.seq[1],self.seq[1])
+				else:
+					print(" input file have ilegal AND gate")
+			elif self.seq[0]=='or':
+				if len(self.seq)==5:
+					self.name = self.seq[4]
+					self.add_Or_to_bayesian(self.seq[1],self.seq[2])
+				elif len(self.seq)==4:
+					self.name = self.seq[3]
+					self.add_Or_to_bayesian(self.seq[1],self.seq[1])
+				else:
+					print(" input file have ilegal OR gate")
+			elif self.seq[0]=='not':
+				self.name = self.seq[3]
+				self.add_Not_to_bayesian(self.seq[1])
+			else:
+				print(" ilegal gate!!")
 
 	def return_bayref(self):
 		return self.bay_ref
@@ -51,9 +110,7 @@ class Gate:
 		self.gcref = DiscreteDistribution({True: 0.5, False: 0.5})
 		self.gsref = State(self.gcref, name=self.name)
 		self.bay_ref.add_states(self.gsref)
-		
-		self.bay_dic.setdefault(self.name,self.gcref)
-		self.state_ref_dic.setdefault(self.name, self.gsref)
+	
 
 	def add_Nand_to_bayesian(self, d1, d2):
 
@@ -65,14 +122,13 @@ class Gate:
          [False, True,  True,  1.0],
          [False, True,  False, 0.0],
          [False, False, True,  1.0],
-         [False, False, False, 0.0]], [self.bay_dic[d1], self.bay_dic[d2]])
+         [False, False, False, 0.0]], [self.gate_dic[d1].return_gcref(), self.gate_dic[d2].return_gcref()])
 		self.gsref = State(self.gcref, name=self.name)
 		self.bay_ref.add_states(self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d1],self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d2],self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d1].return_gsref(),self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d2].return_gsref(),self.gsref)
 		
-		self.bay_dic.setdefault(self.name, self.gcref)
-		self.state_ref_dic.setdefault(self.name, self.gsref)
+
 
 	def add_And_to_bayesian(self, d1, d2):
 
@@ -84,14 +140,13 @@ class Gate:
          [False, True,  True,  1.0],
          [False, True,  False, 0.0],
          [False, False, True,  0.0],
-         [False, False, False, 1.0]], [self.bay_dic[d1], self.bay_dic[d2]])
+         [False, False, False, 1.0]], [self.gate_dic[d1].return_gcref(), self.gate_dic[d2].return_gcref()])
 		self.gsref = State(self.gcref, name=self.name)
 		self.bay_ref.add_states(self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d1],self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d2],self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d1].return_gsref(),self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d2].return_gsref(),self.gsref)
 		
-		self.bay_dic.setdefault(self.name, self.gcref)
-		self.state_ref_dic.setdefault(self.name, self.gsref)
+
 
 
 	def add_Or_to_bayesian(self, d1, d2):
@@ -104,16 +159,31 @@ class Gate:
          [False, True,  True,  1.0],
          [False, True,  False, 0.0],
          [False, False, True,  0.0],
-         [False, False, False, 1.0]], [self.bay_dic[d1], self.bay_dic[d2]])
+         [False, False, False, 1.0]], [self.gate_dic[d1].return_gcref(), self.gate_dic[d2].return_gcref()])
 		self.gsref = State(self.gcref, name=self.name)
 		self.bay_ref.add_states(self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d1],self.gsref)
-		self.bay_ref.add_edge(self.state_ref_dic[d2],self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d1].return_gsref(),self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d2].return_gsref(),self.gsref)
 		
-		self.bay_dic.setdefault(self.name, self.gcref)
-		self.state_ref_dic.setdefault(self.name, self.gsref)
 
 
 
+	def add_Not_to_bayesian(self, d1):
+
+		self.gcref =ConditionalProbabilityTable(
+        [[True,  True,  0.0],
+         [True,  False, 1.0],
+         [False, True, 1.0],
+         [False,  False, 0.0],], [self.gate_dic[d1].return_gcref()])
+		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
+		self.bay_ref.add_edge(self.gate_dic[d1].return_gsref(),self.gsref)
+		
 
 
+	def return_name(self):
+		return self.name
+	def return_gcref(self):
+		return self.gcref
+	def return_gsref(self):
+		return self.gsref
