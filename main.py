@@ -24,7 +24,8 @@ def main():
 	# try:
 		print("[main] program start")
 		cpd = CPD(argv[1])
-
+		cpd.return_bayRef().plot("Circuit")
+		print(cpd.return_bayRef().predict_proba({"1GAT(0)":True}))
 
 		print("[main] program end")
 	# except:
