@@ -16,14 +16,17 @@ class CPD:
 	bay= None 		# bayesian reference
 	model = None
 	Gate_dict = {}
-	output_wirez = []
+	input_wire_set = set()
+	output_wire_set = set()
+	output_wire = []
+	exe_set = set()
 
 	def __init__(self, filename):
 		self.filename = filename
 		self.model = BayesianNetwork("CPDAG")
 		print("[Read File] Parsar")
 		self.parsar()
-		self.model.bake()
+		
 
 	def parsar(self):
 		'''
@@ -38,51 +41,42 @@ class CPD:
 			inp = line.split()
 
 			if line[0]=='i' :
-				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict )
+				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict, self.exe_set )
+				self.Gate_dict.setdefault(w1.return_name(),w1)
+				self.input_wire_set.add(inp[1])
+				num+=1
+			elif line[0]=='g' :
+				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict, self.exe_set )
 				self.Gate_dict.setdefault(w1.return_name(),w1)
 				num+=1
-			if line[0]=='g' :
-				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict )
-				self.Gate_dict.setdefault(w1.return_name(),w1)
-				num+=1
-			if line[0]=='o' :
-				self.output_wirez.append(inp[1])
+			elif line[0]=='o' :
+				self.output_wire_set.add(inp[1])
+				self.output_wire.append(inp[1])
 			
 		infile.close()
 
 
 
 
-
-		# for line in gate_list:
-		# 	if(line[0]== 'i'):
-		# 		inp=line.split()
-		# 		w1 = Gate(deepcopy(line[0]),deepcopy(inp),self.model,deepcopy(num), self.Gate_dict )
-		# 		self.wire.append(w1)
-		# 		self.Gate_dict.setdefault(w1.return_name(),w1)
-		# 		num=num+1
-		# 		# print(inp[1])
-		# 	elif(line[0]== 'o'):
-		# 		continue
-		# 		# inp=line.split()
-		# 		# outwire.append(deepcopy(inp) )
-		# 		# outnum.append(deepcopy(num))
-		# 		# print(inp[1])
-		# 	elif(line[0]== 'g'):
-		# 		inp=line.split()
-		# 		w1 = Gate(deepcopy(line[0]),deepcopy(inp[1:]),self.model,deepcopy(num),self.Gate_dict )
-		# 		self.wire.append(w1)
-		# 		print(w1.return_name())
-		# 		self.Gate_dict.setdefault(w1.return_name(),w1)
-		# 		num=num+1
-		# 		# print(inp[5])
-		# 	else:
-		# 		# print(" input file have ilegal parameter")
-		# 		pass
-		# for k, v in self.Gate_dict.items():
-		# 	v.build_conditional_prob()
-
 	def logic_simulation(self):
+		# print(self.Gate_dict)
+		print('[parsar] ..Logic simulation' )
+		for i in self.input_wire_set:
+			self.Gate_dict[i].bay_conditional_prob_buid()
+
+
+		for i in self.Gate_dict:
+			if(i in self.exe_set):
+				pass
+			else:
+				self.Gate_dict[i].bay_conditional_prob_buid()
+
+		self.model.bake()
+		print('[parsar] ..Logic simulation over' )
+		# self.model.plot(self.filename)
+		# print(self.model.predict_proba({}))
+		# print(self.model.predict_proba({self.output_wire[1]:True}))
+
 		pass
 
 
