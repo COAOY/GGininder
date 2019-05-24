@@ -30,7 +30,7 @@ class Gate:
 	rely_list[list]: the gate input in this gate 
 	exe_set: the table of  logic have been simulated
 	'''
-	def __init__(self, arrtibute, sequence, bay_ref, gid, gate_dic, exe_set):
+	def __init__(self, arrtibute, sequence, bay_ref, gid, gate_dic, exe_set, gmt):
 		self.arrt = arrtibute
 		self.seq = sequence
 		self.bay_ref = bay_ref
@@ -38,6 +38,7 @@ class Gate:
 		self.gate_dic = gate_dic
 		self.exe_set = exe_set 
 		self.rely_list = []
+		self.gmt= gmt
 		# set gtype
 		# set input 
 		# set rely list
@@ -73,6 +74,7 @@ class Gate:
 		else:
 			self.build_gate_conditional_prob()
 
+		self.gmt.append(self.name)
 		self.exe_set.add(self.name)
 
 	def build_gate_conditional_prob(self):
@@ -100,8 +102,7 @@ class Gate:
 			self.bay_ref.add_edge(self.gate_dic[i].return_gsref(),self.gsref)
 
 
-	def return_bayref(self):
-		return self.bay_ref
+	
 	
 	def add_Input_to_bayesian(self):
 		self.gcref = DiscreteDistribution({True: 0.5, False: 0.5})
@@ -161,8 +162,9 @@ class Gate:
 		return self.gcref
 	def return_gsref(self):
 		return self.gsref
-
-
+	def return_bayref(self):
+		return self.bay_ref
+	
 
 
 
