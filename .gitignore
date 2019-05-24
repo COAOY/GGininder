@@ -1,3 +1,6 @@
 venv
 *.o
 *.pdf
+__pycache__/
+*.pyc
+graphiz/
