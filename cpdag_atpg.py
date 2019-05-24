@@ -15,10 +15,9 @@ class CPD:
 	filename = None  	# the name of circuit file 
 	bay= None 		# bayesian reference
 	model = None
-	wire = []
 	Gate_dict = {}
-	wire_dict = {}
-	state_ref_dict = {}
+	output_wirez = []
+
 	def __init__(self, filename):
 		self.filename = filename
 		self.model = BayesianNetwork("CPDAG")
@@ -35,11 +34,23 @@ class CPD:
 		infile=open(self.filename,'r')
 		line_list=[]
 		for line in infile:
-			line_list.append(line)
-		close(infile)
+			inp = line.strip()
+			inp = line.split()
 
-		for line in line_list:
+			if line[0]=='i' :
+				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict )
+				self.Gate_dict.setdefault(w1.return_name(),w1)
+				num+=1
+			if line[0]=='g' :
+				w1 = Gate(deepcopy(inp[0]),deepcopy(inp[1:]),self.model,deepcopy(num), self.Gate_dict )
+				self.Gate_dict.setdefault(w1.return_name(),w1)
+				num+=1
+			if line[0]=='o' :
+				self.output_wirez.append(inp[1])
 			
+		infile.close()
+
+
 
 
 

@@ -39,12 +39,12 @@ class Gate:
 		# set input
 		if(self.arrt=='g'):
 			self.gtype = self.seq[1]
-			for i in range(2:len(self.seq)):
+			for i in range(2,len(self.seq)):
 				self.rely_list.append(self.seq[i])
 
 		# set name
-		for i in self.seq:
-			if i == ';':
+		for i in range(len(self.seq)):
+			if self.seq[i] == ';':
 				self.name = self.seq[i+1]
 				break
 		
@@ -66,16 +66,15 @@ class Gate:
 			plz do not use input in this fun.
 		'''
 		number_of_input = self.rely_list
-		table self.assign_ouput_to_true_tble(self.build_true_table(number_of_input),self.gtype)
+		table = self.assign_ouput_to_true_tble(self.build_true_table(number_of_input),self.gtype)
 		# find others gcref ref and create list
 		glist=[]
 		for i in self.rely_list:
 			glist.append(self.gate_dic[i].return_gcref())
-		if len(glist)==1 and gtype != 'not':
-			glist.append(glist[0])
 
 		self.gcref =ConditionalProbabilityTable(table,glist)
 		self.gsref = State(self.gcref, name=self.name)
+		self.bay_ref.add_states(self.gsref)
 		#create edge
 		for i in len(glist):
 			self.bay_ref.add_edge(i,self.gsref)
@@ -89,17 +88,6 @@ class Gate:
 		self.gsref = State(self.gcref, name=self.name)
 		self.bay_ref.add_states(self.gsref)
 		
-
-	
-
-	def return_name(self):
-		return self.name
-	def return_gcref(self):
-		return self.gcref
-	def return_gsref(self):
-		return self.gsref
-
-
 	def build_true_table(self, input_number):
 		'''
 		input: 
@@ -141,9 +129,18 @@ class Gate:
 					print('wronf gtype in gate.py')
 			if(gtype=='nand'):
 				res = not res
+			if(gtype=='xor' and len(j)==3):
+				res = res^res
 			j[-1] = (1.0 if (res==j[-2]) else 0.0)
 		return table
 
+
+	def return_name(self):
+		return self.name
+	def return_gcref(self):
+		return self.gcref
+	def return_gsref(self):
+		return self.gsref
 
 
 
