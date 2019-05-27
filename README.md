@@ -16,15 +16,15 @@ oh la ha la ya
 	mac: like above, but on the OSX
 	package: install requirement package on python
 
-## If you are first use this >////<
-	venv -> source -> ubuntun or mac -> package
+	#If you are first use this >////<
+		venv -> source -> ubuntun or mac -> package
 
-# Program hint
+# Program information
 
-## execude command
-[python version][ main.py][ISECS circuit file location]
+## command
+	[python version][ main.py][ISECS circuit file location]
 
-ex: python main.py sample_circuits/c17.ckt
+	ex: python main.py sample_circuits/c17.ckt
 
 # execute sequence
 
