@@ -103,11 +103,11 @@ class CPD:
 			words= t.split()
 			for i in range(0,len(words)):
 				if words[i]=='"True"':
-					ofile.write(('True '+ words[i+1]))
+					ofile.write(('True '+ str(round(float(words[i+1]),4))))
 					break	
 			for i in range(0,len(words)):
 				if words[i]=='"False"':
-					ofile.write(('\nFalse '+ words[i+1] + '\n\n'))
+					ofile.write(('\nFalse '+ str(round(float(words[i+1]),4))+'\n\n'))
 					break
 			# ofile.write(str(nlist[i])+'\n' )
 		ofile.close()
