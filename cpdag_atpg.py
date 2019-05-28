@@ -86,7 +86,7 @@ class CPD:
 
 
 		# print(self.input_wire_set)
-		print(self.gmt)
+		# print(self.gmt)
 		# print('')
 		# self.model.plot(self.filename)
 		# 
@@ -99,7 +99,7 @@ class CPD:
 			ofile.write(self.gmt[i]+'\n')
 			
 			t=(' '.join((str(nlist[i]).split(':'))) )
-			t=(' '.join((str(nlist[i]).split(','))) )
+			t=(' '.join((t.split(','))) )
 			words= t.split()
 			for i in range(0,len(words)):
 				if words[i]=='"True"':
