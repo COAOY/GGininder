@@ -59,20 +59,11 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 	vector<string> _regpats;
 	switch(tdfpodem(&_F1,nbt,2,_regpats)){
     case TRUE:
-      // cout << "Current fault:  ";
-      // display_fault(&_F1);
+
       for(auto &x:_regpats)
       {
         patterns.push_back(x);
-        // string _ans=x;
-        // bool MI=MayIassignYou(&_F2,_ans);
-        // if(MI)
-        // {
-        // 	if(!exist_table.count(_ans)){
-        // 		patterns.push_back(_ans);
-        // 		exist_table.insert({_ans,1});
-        // 	}
-        // }
+   
       }
       return(TRUE);
     case FALSE:
@@ -87,14 +78,22 @@ void ATPG::tdfatpg()
 
 
     // total_attempt_num = 8;
-  	// backtrack_limit   = 500;
-
-    for(auto &y: hash_nlist)
-    {
-      ;
+  	backtrack_limit   = 1;
+    cout <<".........................................hihihihihihih:"<<endl;
+    if(cpdag==true){
+      // change the sequence from true prob height to low
+      cout <<".........................................hihihihihihih:"<<endl;
+      for(auto &y: hash_nlist)
+      {
+        for(auto &x:y){
+          // cout <<".........................................hihihihihihih:"<< x->name <<endl;
+          bubble_sort(x->iwire);
+          bubble_sort(x->owire);
+        }
+      }
     }
 
-    set_backtrack_limit(500);
+    // set_backtrack_limit(1);
     int nbt = 0;
 
     for(auto &x:flist_undetect)
@@ -112,6 +111,18 @@ void ATPG::tdfatpg()
     // }
     // patterns=_v2;
     output_patterns();
+}
+void ATPG::bubble_sort(vector<wptr>& vec)
+{
+  int bound=vec.size();
+  for(int i=0;i<bound;i++)
+  {
+    for(int j=0;j<bound-i-1;j++){
+      if( true_prob.find(vec[j]->name)->second < true_prob.find(vec[j+1]->name)->second  ){
+        swap(vec[j],vec[j+1]);
+      }
+    }
+  }
 }
 
 void ATPG::random_fill(string& vec) {

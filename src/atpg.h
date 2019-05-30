@@ -272,12 +272,12 @@ public:
   void display_undetect(void);
   void display_fault(fptr);
 
-
 // cpdag experment
   void write_cp_table(string name);  
-  static unordered_map<string,float> true_prob;
-  static unordered_map<string,float> false_prob;
-  
+  void bubble_sort(vector<wptr>&);
+  unordered_map<string,float> true_prob;
+  unordered_map<string,float> false_prob;
+  int number_of_total_backtracks=0;
   /* detail declaration of WIRE, NODE, and FAULT classes */
   class WIRE {
   public:
@@ -310,10 +310,6 @@ public:
   public:
     NODE();
 
-   bool operator< (const wptr &s)const
-  {
-    return true_prob.find(this->name)->second > true_prob.find(s->name)->second;
-  }
     string name;               /* ascii name of node */
     vector<wptr> iwire;        /* wires driving this node */
     vector<wptr> owire;        /* wires driven by this node */

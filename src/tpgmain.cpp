@@ -9,8 +9,7 @@
 
 
 
-unordered_map<string,float> ATPG::true_prob;
-unordered_map<string,float> ATPG::false_prob;
+
 void usage(void);
 
 int main(int argc, char *argv[]) {
@@ -51,6 +50,7 @@ int main(int argc, char *argv[]) {
     else if(strcmp(argv[i],"-tdfatpg")==0){
       // vetFile = string(argv[i+1]);
       // tdfatpg=true;
+      // cout <<".........................................hihihihihihih:1"<<endl;
       atpg.set_tdfatpg(true);
       i+=1;
       // cout << argv[i]<< " " <<i<<endl;
@@ -58,6 +58,7 @@ int main(int argc, char *argv[]) {
     else if(strcmp(argv[i],"-cpdag")==0)
     {
       atpg.cpdag=true;
+      // cout <<".........................................hihihihihihih:2"<<endl;
       i+=1;
     }
 ///////////////////////////////////////////////   
