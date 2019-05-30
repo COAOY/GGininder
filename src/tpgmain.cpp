@@ -7,6 +7,10 @@
 
 #include "atpg.h"
 
+
+
+unordered_map<string,float> ATPG::true_prob;
+unordered_map<string,float> ATPG::false_prob;
 void usage(void);
 
 int main(int argc, char *argv[]) {
@@ -15,7 +19,6 @@ int main(int argc, char *argv[]) {
   ATPG atpg; // create an ATPG obj, named atpg
   
   atpg.timer(stdout,"START");
-  
   i = 1;
   // bool tdfatpg=false, compression=false;
 /* parse the input switches & arguments */
@@ -52,7 +55,11 @@ int main(int argc, char *argv[]) {
       i+=1;
       // cout << argv[i]<< " " <<i<<endl;
     } 
-
+    else if(strcmp(argv[i],"-cpdag")==0)
+    {
+      atpg.cpdag=true;
+      i+=1;
+    }
 ///////////////////////////////////////////////   
     else if (strcmp(argv[i],"-compression") == 0) {
       atpg.set_compression(true);
@@ -90,7 +97,10 @@ int main(int argc, char *argv[]) {
 /* if vector file is provided, read it */
   if(!vetFile.empty()) { atpg.read_vectors(vetFile); }
   // atpg.timer(stdout,"for reading in circuit");
-  
+  if(atpg.cpdag==true)
+  { 
+    atpg.write_cp_table(inpFile);
+  }
   atpg.level_circuit();  // level.cpp
   // atpg.timer(stdout,"for levelling circuit");
   

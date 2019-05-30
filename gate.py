@@ -17,7 +17,6 @@ class Gate:
 	# gtype = None
 	# gcref = None
 	# gsref = None
-	
 	'''
 	arrtibute(string): the type of gate, input(i), gate(g)
 	sequence(string) : read line from file

@@ -1,5 +1,5 @@
 #include "atpg.h"
-
+#include <algorithm>
 ////////////////////////////////////
 //Author:     Joe
 //Date    :    2018/11/29 
@@ -84,8 +84,16 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 
 void ATPG::tdfatpg()
 {
+
+
     // total_attempt_num = 8;
   	// backtrack_limit   = 500;
+
+    for(auto &y: hash_nlist)
+    {
+      ;
+    }
+
     set_backtrack_limit(500);
     int nbt = 0;
 
