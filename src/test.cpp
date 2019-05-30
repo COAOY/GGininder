@@ -29,7 +29,7 @@ void ATPG::test(void) {
     return;
   }// if tdfsim only
 
-set_backtrack_limit(1);
+set_backtrack_limit(100);
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;
