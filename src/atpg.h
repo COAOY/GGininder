@@ -125,6 +125,7 @@ public:
   /* to support N-detection */
   void set_ndet(short n)      { ndet = n; }
   
+// private:
 
 
   /* alias declaration */
@@ -159,7 +160,6 @@ public:
   bool tdfsim_only;                      /* flag to indicate tdfault simulation only */
   bool atpg;                      /* flag to indicate tdfatpg */
   bool faultdrop;
-  bool cpdag=false;
   bool compression = false;              /* flag to indicate compression */
   int LIMIT = 16;
   
@@ -271,8 +271,8 @@ public:
   void display_io(void);
   void display_undetect(void);
   void display_fault(fptr);
-
-// cpdag experment
+  // cpdag experment
+  bool cpdag = false;
   void write_cp_table(string name);  
   void bubble_sort(vector<wptr>&);
   unordered_map<string,float> true_prob;
@@ -301,23 +301,18 @@ public:
     int fault_flag;            /* indicates the fault-injected bit position, for pfedfs */
     int wlist_index;           /* index into the sorted_wlist array */
     int triv = 0;              /* triversal flag */
-    float pt,pf;              /* probatility of gate ouput*/
-    
   };
   
-
   class NODE {
   public:
     NODE();
-
+    
     string name;               /* ascii name of node */
     vector<wptr> iwire;        /* wires driving this node */
     vector<wptr> owire;        /* wires driven by this node */
-
     int type;                  /* node type */
     int flag;                  /* flag word */
     int beDetected = 0;
-
   };
       
   class FAULT {

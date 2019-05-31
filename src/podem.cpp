@@ -389,7 +389,7 @@ ATPG::wptr ATPG::find_pi_assignment(const wptr object_wire, const int& object_le
           break;
         }
       case  AND:
-		// TODO find the input wire  
+    // TODO find the input wire  
     // Hint similar to OR and NAND but different polarity
     //--------------------------------- hole -------------------------------------------
         if(cpdag)
@@ -403,7 +403,7 @@ ATPG::wptr ATPG::find_pi_assignment(const wptr object_wire, const int& object_le
           break;
         }
     //----------------------------------------------------------------------------------
-		//  TODO 
+    //  TODO 
       case  NOT:
       case  BUF:
         new_object_wire = object_wire->inode.front()->iwire.front();
@@ -422,8 +422,7 @@ ATPG::wptr ATPG::find_pi_assignment(const wptr object_wire, const int& object_le
     if (new_object_wire) return(find_pi_assignment(new_object_wire,new_object_level));
     else return(nullptr);
   }
-}/* end of find_pi_assignment */
-
+}
 
 /* Fig 9.4 */
 ATPG::wptr ATPG::find_hardest_control(const nptr n) {
@@ -637,10 +636,12 @@ int ATPG::set_uniquely_implied_value(const fptr fault) {
 	//HINT use backward_imply function to check if fault can excite or not
 	//------------------------------------ hole ----------------------------------------
   int _sel;
-  if(fault->fault_type==1)
+  if(fault->fault_type==1){
     _sel=backward_imply(w,0); 
-  else if(fault->fault_type==0)
+  }
+  else if(fault->fault_type==0){
     _sel=backward_imply(w,1); 
+  }
   switch (_sel) {
                 case TRUE: pi_is_reach = TRUE; break;
                 case CONFLICT: return(CONFLICT); break;
@@ -660,10 +661,14 @@ int ATPG::backward_imply(const wptr current_wire, const int& desired_logic_value
   int pi_is_reach = FALSE;
   int i, nin;
 
+
+  
   nin = current_wire->inode.front()->iwire.size();
   if (current_wire->flag & INPUT) { // if PI
     if (current_wire->value != U &&  
-      current_wire->value != desired_logic_value) { 
+      (current_wire->value != desired_logic_value)
+
+      ) { 
       return(CONFLICT); // conlict with previous assignment
     }
     current_wire->value = desired_logic_value; // assign PI to the objective value

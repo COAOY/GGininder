@@ -7,9 +7,6 @@
 
 #include "atpg.h"
 
-
-
-
 void usage(void);
 
 int main(int argc, char *argv[]) {
@@ -18,6 +15,7 @@ int main(int argc, char *argv[]) {
   ATPG atpg; // create an ATPG obj, named atpg
   
   atpg.timer(stdout,"START");
+  
   i = 1;
   // bool tdfatpg=false, compression=false;
 /* parse the input switches & arguments */
@@ -44,23 +42,23 @@ int main(int argc, char *argv[]) {
       atpg.set_ndet(atoi(argv[i+1]));
       i+=2;
     }
-////////////////////////////////////////////////
-    //Joe 11/29
-    // this part is about tdfatpg homework 
-    else if(strcmp(argv[i],"-tdfatpg")==0){
-      // vetFile = string(argv[i+1]);
-      // tdfatpg=true;
-      // cout <<".........................................hihihihihihih:1"<<endl;
-      atpg.set_tdfatpg(true);
-      i+=1;
-      // cout << argv[i]<< " " <<i<<endl;
-    } 
     else if(strcmp(argv[i],"-cpdag")==0)
     {
       atpg.cpdag=true;
       // cout <<".........................................hihihihihihih:2"<<endl;
       i+=1;
     }
+////////////////////////////////////////////////
+    //Joe 11/29
+    // this part is about tdfatpg homework 
+    else if(strcmp(argv[i],"-tdfatpg")==0){
+      // vetFile = string(argv[i+1]);
+      // tdfatpg=true;
+      atpg.set_tdfatpg(true);
+      i+=1;
+      // cout << argv[i]<< " " <<i<<endl;
+    } 
+
 ///////////////////////////////////////////////   
     else if (strcmp(argv[i],"-compression") == 0) {
       atpg.set_compression(true);

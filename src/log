@@ -1,0 +1,4101 @@
+
+#Circuit Summary:
+#---------------
+#number of inputs = 32
+#number of outputs = 32
+#number of gates = 4800
+#number of wires = 4832
+Dual: 1
+Dual: 0
+Dual: 1
+Fault name: g255
+Fault typed:0
+Or:01xxxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v2_1:1xxxxxxxxxxxxxx11xxxxxxxxxxxxxxx
+v2:01xxxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v1: 1xxxxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+Fault name: g255
+Fault typed:0
+Or:01xxxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v2_1:1xxxxxxxxxxxxxx01xxxxxxxxxxxxxxx
+v2:01xxxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v1: 1xxxxxxxxxxxxxx011xxxxxxxxxxxxxx 0
+1xxxxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+1xxxxxxxxxxxxxx011xxxxxxxxxxxxxx 0
+# vector[0] detects 3032 faults (3032)
+# vector[1] detects 2565 faults (5597)
+Dual: 0
+Fault name: g255
+Fault typed:1
+Or:10xxxxxxxxxxxxxxx1xxxxxxxxxxxxxx
+v2_1:0xxxxxxxxxxxxxxx1xxxxxxxxxxxxxxx
+v2:10xxxxxxxxxxxxxxx1xxxxxxxxxxxxxx
+v1: 0xxxxxxxxxxxxxxx11xxxxxxxxxxxxxx 1
+0xxxxxxxxxxxxxxx11xxxxxxxxxxxxxx 1
+# vector[2] detects 3189 faults (8786)
+Dual: 1
+Fault name: g254
+Fault typed:0
+Or:011xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx101xxxxxxxxxxxxxx
+v2:011xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx1011xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:011xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:011xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx1111xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:0x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v2_1:x1xxxxxxxxxxxxx001xxxxxxxxxxxxxx
+v2:0x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx0011xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:011xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:011xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx0111xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:010xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx101xxxxxxxxxxxxxx
+v2:010xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx1011xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:010xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx001xxxxxxxxxxxxxx
+v2:010xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx0011xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:010xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:010xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx1111xxxxxxxxxxxxx 0
+Fault name: g254
+Fault typed:0
+Or:010xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:010xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx0111xxxxxxxxxxxxx 0
+11xxxxxxxxxxxxx1011xxxxxxxxxxxxx 0
+11xxxxxxxxxxxxx1111xxxxxxxxxxxxx 0
+11xxxxxxxxxxxxx0011xxxxxxxxxxxxx 0
+11xxxxxxxxxxxxx0111xxxxxxxxxxxxx 0
+10xxxxxxxxxxxxx1011xxxxxxxxxxxxx 0
+10xxxxxxxxxxxxx0011xxxxxxxxxxxxx 0
+10xxxxxxxxxxxxx1111xxxxxxxxxxxxx 0
+10xxxxxxxxxxxxx0111xxxxxxxxxxxxx 0
+# vector[3] detects 2760 faults (11546)
+# vector[4] detects 2189 faults (13735)
+# vector[5] detects 2555 faults (16290)
+# vector[6] detects 2702 faults (18992)
+# vector[7] detects 2946 faults (21938)
+# vector[8] detects 2886 faults (24824)
+# vector[9] detects 3139 faults (27963)
+# vector[10] detects 2271 faults (30234)
+Dual: 0
+Fault name: g254
+Fault typed:1
+Or:101xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx101xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx1011xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:1x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v2_1:x1xxxxxxxxxxxxx001xxxxxxxxxxxxxx
+v2:1x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx0011xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:101xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx0111xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:100xxxxxxxxxxxxxx01xxxxxxxxxxxxx
+v2_1:00xxxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v2:100xxxxxxxxxxxxxx01xxxxxxxxxxxxx
+v1: 00xxxxxxxxxxxxxx011xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:100xxxxxxxxxxxxxx11xxxxxxxxxxxxx
+v2_1:00xxxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v2:100xxxxxxxxxxxxxx11xxxxxxxxxxxxx
+v1: 00xxxxxxxxxxxxxx111xxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx1011xxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx0011xxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx0111xxxxxxxxxxxxx 1
+00xxxxxxxxxxxxxx011xxxxxxxxxxxxx 1
+00xxxxxxxxxxxxxx111xxxxxxxxxxxxx 1
+# vector[11] detects 2978 faults (33212)
+# vector[12] detects 2988 faults (36200)
+# vector[13] detects 2971 faults (39171)
+# vector[14] detects 2633 faults (41804)
+# vector[15] detects 2890 faults (44694)
+# vector[16] detects 2900 faults (47594)
+Dual: 0
+Fault name: g253
+Fault typed:1
+Or:1011xxxxxxxxxxxx1001xxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx1001xxxxxxxxxxxxx
+v2:1011xxxxxxxxxxxx1001xxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx10011xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1011xxxxxxxxxxxx1011xxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx1011xxxxxxxxxxxxx
+v2:1011xxxxxxxxxxxx1011xxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx10111xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1001xxxxxxxxxxxx1001xxxxxxxxxxxx
+v2_1:001xxxxxxxxxxxx1001xxxxxxxxxxxxx
+v2:1001xxxxxxxxxxxx1001xxxxxxxxxxxx
+v1: 001xxxxxxxxxxxx10011xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1001xxxxxxxxxxxx1011xxxxxxxxxxxx
+v2_1:001xxxxxxxxxxxx1011xxxxxxxxxxxxx
+v2:1001xxxxxxxxxxxx1011xxxxxxxxxxxx
+v1: 001xxxxxxxxxxxx10111xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1001xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v2_1:001xxxxxxxxxxxx11x1xxxxxxxxxxxxx
+v2:1001xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v1: 001xxxxxxxxxxxx11x11xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1011xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx11x1xxxxxxxxxxxxx
+v2:1011xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx11x11xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:1xx1xxxxxxxxxxxx0001xxxxxxxxxxxx
+v2_1:xx1xxxxxxxxxxxx0001xxxxxxxxxxxxx
+v2:1xx1xxxxxxxxxxxx0001xxxxxxxxxxxx
+v1: 0x1xxxxxxxxxxxx00011xxxxxxxxxxxx 1
+Fault name: g253
+Fault typed:1
+Or:10x1xxxxxxxxxxxx0011xxxxxxxxxxxx
+v2_1:0x1xxxxxxxxxxxx0011xxxxxxxxxxxxx
+v2:10x1xxxxxxxxxxxx0011xxxxxxxxxxxx
+v1: 0x1xxxxxxxxxxxx00111xxxxxxxxxxxx 1
+011xxxxxxxxxxxx10011xxxxxxxxxxxx 1
+011xxxxxxxxxxxx10111xxxxxxxxxxxx 1
+001xxxxxxxxxxxx10011xxxxxxxxxxxx 1
+001xxxxxxxxxxxx10111xxxxxxxxxxxx 1
+001xxxxxxxxxxxx11x11xxxxxxxxxxxx 1
+011xxxxxxxxxxxx11x11xxxxxxxxxxxx 1
+0x1xxxxxxxxxxxx00011xxxxxxxxxxxx 1
+0x1xxxxxxxxxxxx00111xxxxxxxxxxxx 1
+# vector[17] detects 2719 faults (50313)
+# vector[18] detects 2591 faults (52904)
+# vector[19] detects 2365 faults (55269)
+# vector[20] detects 2438 faults (57707)
+# vector[21] detects 2508 faults (60215)
+# vector[22] detects 2608 faults (62823)
+# vector[23] detects 1934 faults (64757)
+# vector[24] detects 2333 faults (67090)
+Dual: 1
+Fault name: g252
+Fault typed:0
+Or:01111xxxxxxxxxxx10001xxxxxxxxxxx
+v2_1:1111xxxxxxxxxxx10001xxxxxxxxxxxx
+v2:01111xxxxxxxxxxx10001xxxxxxxxxxx
+v1: 1111xxxxxxxxxxx100011xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01111xxxxxxxxxxx10011xxxxxxxxxxx
+v2_1:1111xxxxxxxxxxx10011xxxxxxxxxxxx
+v2:01111xxxxxxxxxxx10011xxxxxxxxxxx
+v1: 1111xxxxxxxxxxx100111xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01011xxxxxxxxxxx10001xxxxxxxxxxx
+v2_1:1011xxxxxxxxxxx10001xxxxxxxxxxxx
+v2:01011xxxxxxxxxxx10001xxxxxxxxxxx
+v1: 1011xxxxxxxxxxx100011xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01011xxxxxxxxxxx10011xxxxxxxxxxx
+v2_1:1011xxxxxxxxxxx10011xxxxxxxxxxxx
+v2:01011xxxxxxxxxxx10011xxxxxxxxxxx
+v1: 1011xxxxxxxxxxx100111xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01011xxxxxxxxxxx10111xxxxxxxxxxx
+v2_1:1011xxxxxxxxxxx10111xxxxxxxxxxxx
+v2:01011xxxxxxxxxxx10111xxxxxxxxxxx
+v1: 1011xxxxxxxxxxx101111xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01011xxxxxxxxxxx10101xxxxxxxxxxx
+v2_1:1011xxxxxxxxxxx10101xxxxxxxxxxxx
+v2:01011xxxxxxxxxxx10101xxxxxxxxxxx
+v1: 1011xxxxxxxxxxx101011xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01111xxxxxxxxxxx10101xxxxxxxxxxx
+v2_1:1111xxxxxxxxxxx10101xxxxxxxxxxxx
+v2:01111xxxxxxxxxxx10101xxxxxxxxxxx
+v1: 1111xxxxxxxxxxx101011xxxxxxxxxxx 0
+Fault name: g252
+Fault typed:0
+Or:01111xxxxxxxxxxx10111xxxxxxxxxxx
+v2_1:1111xxxxxxxxxxx10111xxxxxxxxxxxx
+v2:01111xxxxxxxxxxx10111xxxxxxxxxxx
+v1: 1111xxxxxxxxxxx101111xxxxxxxxxxx 0
+1111xxxxxxxxxxx100011xxxxxxxxxxx 0
+1111xxxxxxxxxxx100111xxxxxxxxxxx 0
+1011xxxxxxxxxxx100011xxxxxxxxxxx 0
+1011xxxxxxxxxxx100111xxxxxxxxxxx 0
+1011xxxxxxxxxxx101111xxxxxxxxxxx 0
+1011xxxxxxxxxxx101011xxxxxxxxxxx 0
+1111xxxxxxxxxxx101011xxxxxxxxxxx 0
+1111xxxxxxxxxxx101111xxxxxxxxxxx 0
+# vector[25] detects 1852 faults (68942)
+# vector[26] detects 2271 faults (71213)
+# vector[27] detects 1551 faults (72764)
+# vector[28] detects 2032 faults (74796)
+# vector[29] detects 2237 faults (77033)
+# vector[30] detects 2396 faults (79429)
+# vector[31] detects 2272 faults (81701)
+# vector[32] detects 1502 faults (83203)
+Dual: 0
+Fault name: g251
+Fault typed:1
+Or:101111xxxxxxxxxx100001xxxxxxxxxx
+v2_1:01111xxxxxxxxxx100001xxxxxxxxxxx
+v2:101111xxxxxxxxxx100001xxxxxxxxxx
+v1: 01111xxxxxxxxxx1000011xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:101111xxxxxxxxxx100011xxxxxxxxxx
+v2_1:01111xxxxxxxxxx100011xxxxxxxxxxx
+v2:101111xxxxxxxxxx100011xxxxxxxxxx
+v1: 01111xxxxxxxxxx1000111xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:100111xxxxxxxxxx100001xxxxxxxxxx
+v2_1:00111xxxxxxxxxx100001xxxxxxxxxxx
+v2:100111xxxxxxxxxx100001xxxxxxxxxx
+v1: 00111xxxxxxxxxx1000011xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:100111xxxxxxxxxx100011xxxxxxxxxx
+v2_1:00111xxxxxxxxxx100011xxxxxxxxxxx
+v2:100111xxxxxxxxxx100011xxxxxxxxxx
+v1: 00111xxxxxxxxxx1000111xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:100111xxxxxxxxxx1001x1xxxxxxxxxx
+v2_1:00111xxxxxxxxxx1001x1xxxxxxxxxxx
+v2:100111xxxxxxxxxx1001x1xxxxxxxxxx
+v1: 00111xxxxxxxxxx1001x11xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:101111xxxxxxxxxx1001x1xxxxxxxxxx
+v2_1:01111xxxxxxxxxx1001x1xxxxxxxxxxx
+v2:101111xxxxxxxxxx1001x1xxxxxxxxxx
+v1: 01111xxxxxxxxxx1001x11xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:101011xxxxxxxxxx100001xxxxxxxxxx
+v2_1:01011xxxxxxxxxx100001xxxxxxxxxxx
+v2:101011xxxxxxxxxx100001xxxxxxxxxx
+v1: 01011xxxxxxxxxx1000011xxxxxxxxxx 1
+Fault name: g251
+Fault typed:1
+Or:101011xxxxxxxxxx100011xxxxxxxxxx
+v2_1:01011xxxxxxxxxx100011xxxxxxxxxxx
+v2:101011xxxxxxxxxx100011xxxxxxxxxx
+v1: 01011xxxxxxxxxx1000111xxxxxxxxxx 1
+01111xxxxxxxxxx1000011xxxxxxxxxx 1
+01111xxxxxxxxxx1000111xxxxxxxxxx 1
+00111xxxxxxxxxx1000011xxxxxxxxxx 1
+00111xxxxxxxxxx1000111xxxxxxxxxx 1
+00111xxxxxxxxxx1001x11xxxxxxxxxx 1
+01111xxxxxxxxxx1001x11xxxxxxxxxx 1
+01011xxxxxxxxxx1000011xxxxxxxxxx 1
+01011xxxxxxxxxx1000111xxxxxxxxxx 1
+# vector[33] detects 1660 faults (84863)
+# vector[34] detects 1527 faults (86390)
+# vector[35] detects 1393 faults (87783)
+# vector[36] detects 1365 faults (89148)
+# vector[37] detects 1617 faults (90765)
+# vector[38] detects 1487 faults (92252)
+# vector[39] detects 1104 faults (93356)
+# vector[40] detects 1228 faults (94584)
+Dual: 1
+Fault name: g250
+Fault typed:0
+Or:0111111xxxxxxxxx1000001xxxxxxxxx
+v2_1:111111xxxxxxxxx1000001xxxxxxxxxx
+v2:0111111xxxxxxxxx1000001xxxxxxxxx
+v1: 111111xxxxxxxxx10000011xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0111111xxxxxxxxx1000011xxxxxxxxx
+v2_1:111111xxxxxxxxx1000011xxxxxxxxxx
+v2:0111111xxxxxxxxx1000011xxxxxxxxx
+v1: 111111xxxxxxxxx10000111xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0101111xxxxxxxxx1000001xxxxxxxxx
+v2_1:101111xxxxxxxxx1000001xxxxxxxxxx
+v2:0101111xxxxxxxxx1000001xxxxxxxxx
+v1: 101111xxxxxxxxx10000011xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0101111xxxxxxxxx1000011xxxxxxxxx
+v2_1:101111xxxxxxxxx1000011xxxxxxxxxx
+v2:0101111xxxxxxxxx1000011xxxxxxxxx
+v1: 101111xxxxxxxxx10000111xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0101111xxxxxxxxx1000111xxxxxxxxx
+v2_1:101111xxxxxxxxx1000111xxxxxxxxxx
+v2:0101111xxxxxxxxx1000111xxxxxxxxx
+v1: 101111xxxxxxxxx10001111xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0101111xxxxxxxxx1000101xxxxxxxxx
+v2_1:101111xxxxxxxxx1000101xxxxxxxxxx
+v2:0101111xxxxxxxxx1000101xxxxxxxxx
+v1: 101111xxxxxxxxx10001011xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0111111xxxxxxxxx1000101xxxxxxxxx
+v2_1:111111xxxxxxxxx1000101xxxxxxxxxx
+v2:0111111xxxxxxxxx1000101xxxxxxxxx
+v1: 111111xxxxxxxxx10001011xxxxxxxxx 0
+Fault name: g250
+Fault typed:0
+Or:0111111xxxxxxxxx1000111xxxxxxxxx
+v2_1:111111xxxxxxxxx1000111xxxxxxxxxx
+v2:0111111xxxxxxxxx1000111xxxxxxxxx
+v1: 111111xxxxxxxxx10001111xxxxxxxxx 0
+111111xxxxxxxxx10000011xxxxxxxxx 0
+111111xxxxxxxxx10000111xxxxxxxxx 0
+101111xxxxxxxxx10000011xxxxxxxxx 0
+101111xxxxxxxxx10000111xxxxxxxxx 0
+101111xxxxxxxxx10001111xxxxxxxxx 0
+101111xxxxxxxxx10001011xxxxxxxxx 0
+111111xxxxxxxxx10001011xxxxxxxxx 0
+111111xxxxxxxxx10001111xxxxxxxxx 0
+# vector[41] detects 899 faults (95483)
+# vector[42] detects 967 faults (96450)
+# vector[43] detects 971 faults (97421)
+# vector[44] detects 888 faults (98309)
+# vector[45] detects 1065 faults (99374)
+# vector[46] detects 748 faults (100122)
+# vector[47] detects 1016 faults (101138)
+# vector[48] detects 842 faults (101980)
+Dual: 1
+Fault name: g240
+Fault typed:0
+Or:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+Fault name: g240
+Fault typed:0
+Or:101xxxxxxxxxxxxx110xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx110xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx110xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+# vector[49] detects 1135 faults (103115)
+# vector[50] detects 1400 faults (104515)
+Dual: 0
+Fault name: g240
+Fault typed:1
+Or:110xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+Fault name: g240
+Fault typed:1
+Or:110xxxxxxxxxxxxx110xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx110xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx110xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+# vector[51] detects 966 faults (105481)
+# vector[52] detects 1200 faults (106681)
+Dual: 1
+Fault name: g239
+Fault typed:0
+Or:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+Fault name: g239
+Fault typed:0
+Or:001xxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx11xxxxxxxxxxxxxxx
+v2:001xxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+Fault name: g239
+Fault typed:0
+Or:101xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:101xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx011xxxxxxxxxxxxxx 1
+Fault name: g239
+Fault typed:0
+Or:001xxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v2_1:01xxxxxxxxxxxxx01xxxxxxxxxxxxxxx
+v2:001xxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v1: 01xxxxxxxxxxxxx011xxxxxxxxxxxxxx 0
+01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+01xxxxxxxxxxxxx011xxxxxxxxxxxxxx 1
+01xxxxxxxxxxxxx011xxxxxxxxxxxxxx 0
+# vector[53] detects 876 faults (107557)
+# vector[54] detects 679 faults (108236)
+# vector[55] detects 980 faults (109216)
+# vector[56] detects 583 faults (109799)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Fault name: g225
+Fault typed:1
+Or:11011111111111110111111111111111
+v2_1:1011111111111110111111111111111x
+v2:11011111111111110111111111111111
+v1: 10111111111111101111111111111111 1
+Fault name: g225
+Fault typed:1
+Or:01011111111111110111111111111111
+v2_1:1011111111111110111111111111111x
+v2:01011111111111110111111111111111
+v1: 10111111111111101111111111111111 0
+Fault name: g225
+Fault typed:1
+Or:11011111111111110111111111111101
+v2_1:1011111111111110111111111111101x
+v2:11011111111111110111111111111101
+v1: 10111111111111101111111111111011 1
+Fault name: g225
+Fault typed:1
+Or:11011111111111110111111111111011
+v2_1:1011111111111110111111111111011x
+v2:11011111111111110111111111111011
+v1: 10111111111111101111111111110111 1
+Fault name: g225
+Fault typed:1
+Or:11011111111111110111111111111001
+v2_1:1011111111111110111111111111001x
+v2:11011111111111110111111111111001
+v1: 10111111111111101111111111110011 1
+Fault name: g225
+Fault typed:1
+Or:01011111111111110111111111111011
+v2_1:1011111111111110111111111111011x
+v2:01011111111111110111111111111011
+v1: 10111111111111101111111111110111 0
+Fault name: g225
+Fault typed:1
+Or:01011111111111110111111111111001
+v2_1:1011111111111110111111111111001x
+v2:01011111111111110111111111111001
+v1: 10111111111111101111111111110011 0
+Fault name: g225
+Fault typed:1
+Or:11001111111111110111111111111111
+v2_1:1001111111111110111111111111111x
+v2:11001111111111110111111111111111
+v1: 10011111111111101111111111111111 1
+10111111111111101111111111111111 1
+10111111111111101111111111111111 0
+10111111111111101111111111111011 1
+10111111111111101111111111110111 1
+10111111111111101111111111110011 1
+10111111111111101111111111110111 0
+10111111111111101111111111110011 0
+10011111111111101111111111111111 1
+# vector[57] detects 651 faults (110450)
+# vector[58] detects 563 faults (111013)
+# vector[59] detects 524 faults (111537)
+# vector[60] detects 479 faults (112016)
+# vector[61] detects 453 faults (112469)
+# vector[62] detects 292 faults (112761)
+# vector[63] detects 262 faults (113023)
+# vector[64] detects 195 faults (113218)
+Dual: 1
+Fault name: g224
+Fault typed:0
+Or:1101xxxxxxxxxxxx1111xxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx1111xxxxxxxxxxxxx
+v2:1101xxxxxxxxxxxx1111xxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:0
+Or:1101xxxxxxxxxxxx1110xxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx1110xxxxxxxxxxxxx
+v2:1101xxxxxxxxxxxx1110xxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:0
+Or:0101xxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:0101xxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+Fault name: g224
+Fault typed:0
+Or:1101xxxxxxxxxxxx1101xxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx1101xxxxxxxxxxxxx
+v2:1101xxxxxxxxxxxx1101xxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:0
+Or:1101xxxxxxxxxxxx1100xxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx1100xxxxxxxxxxxxx
+v2:1101xxxxxxxxxxxx1100xxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:0
+Or:0101xxxxxxxxxxxx110xxxxxxxxxxxxx
+v2_1:101xxxxxxxxxxxx110xxxxxxxxxxxxxx
+v2:0101xxxxxxxxxxxx110xxxxxxxxxxxxx
+v1: 101xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+101xxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+101xxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+101xxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+101xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+101xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+101xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+# vector[65] detects 606 faults (113824)
+# vector[66] detects 832 faults (114656)
+# vector[67] detects 369 faults (115025)
+# vector[68] detects 642 faults (115667)
+# vector[69] detects 509 faults (116176)
+# vector[70] detects 556 faults (116732)
+Dual: 0
+Fault name: g224
+Fault typed:1
+Or:1110xxxxxxxxxxxx1111xxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx1111xxxxxxxxxxxxx
+v2:1110xxxxxxxxxxxx1111xxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:1
+Or:1110xxxxxxxxxxxx1110xxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx1110xxxxxxxxxxxxx
+v2:1110xxxxxxxxxxxx1110xxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:1
+Or:0110xxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:0110xxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+Fault name: g224
+Fault typed:1
+Or:1110xxxxxxxxxxxx1101xxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx1101xxxxxxxxxxxxx
+v2:1110xxxxxxxxxxxx1101xxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:1
+Or:1110xxxxxxxxxxxx1100xxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx1100xxxxxxxxxxxxx
+v2:1110xxxxxxxxxxxx1100xxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+Fault name: g224
+Fault typed:1
+Or:0110xxxxxxxxxxxx110xxxxxxxxxxxxx
+v2_1:110xxxxxxxxxxxx110xxxxxxxxxxxxxx
+v2:0110xxxxxxxxxxxx110xxxxxxxxxxxxx
+v1: 110xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+110xxxxxxxxxxxx1111xxxxxxxxxxxxx 1
+110xxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+110xxxxxxxxxxxx111xxxxxxxxxxxxxx 0
+110xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+110xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+110xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+# vector[71] detects 490 faults (117222)
+# vector[72] detects 567 faults (117789)
+# vector[73] detects 556 faults (118345)
+# vector[74] detects 805 faults (119150)
+# vector[75] detects 530 faults (119680)
+# vector[76] detects 516 faults (120196)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Fault name: g212
+Fault typed:1
+Or:1110111111111111100000000000111x
+v2_1:110111111111111100000000000111xx
+v2:1110111111111111100000000000111x
+v1: 110111111111111100000000000111xx 1
+Fault name: g212
+Fault typed:1
+Or:0110111111111111100000000000111x
+v2_1:110111111111111100000000000111xx
+v2:0110111111111111100000000000111x
+v1: 110111111111111100000000000111xx 0
+Fault name: g212
+Fault typed:1
+Or:11101111111111111000000000001101
+v2_1:1101111111111111000000000001101x
+v2:11101111111111111000000000001101
+v1: 1101111111111111000000000001101x 1
+Fault name: g212
+Fault typed:1
+Or:01101111111111111000000000001101
+v2_1:1101111111111111000000000001101x
+v2:01101111111111111000000000001101
+v1: 1101111111111111000000000001101x 0
+Fault name: g212
+Fault typed:1
+Or:01101111111111111000000000001100
+v2_1:1101111111111111000000000001100x
+v2:01101111111111111000000000001100
+v1: 1101111111111111000000000001100x 0
+Fault name: g212
+Fault typed:1
+Or:11101111111111111000000000001100
+v2_1:1101111111111111000000000001100x
+v2:11101111111111111000000000001100
+v1: 1101111111111111000000000001100x 1
+Fault name: g212
+Fault typed:1
+Or:1010111111111111100000000000111x
+v2_1:010111111111111100000000000111xx
+v2:1010111111111111100000000000111x
+v1: 010111111111111100000000000111xx 1
+Fault name: g212
+Fault typed:1
+Or:1010111111111111100000000000110x
+v2_1:010111111111111100000000000110xx
+v2:1010111111111111100000000000110x
+v1: 010111111111111100000000000110xx 1
+110111111111111100000000000111xx 1
+110111111111111100000000000111xx 0
+1101111111111111000000000001101x 1
+1101111111111111000000000001101x 0
+1101111111111111000000000001100x 0
+1101111111111111000000000001100x 1
+010111111111111100000000000111xx 1
+010111111111111100000000000110xx 1
+# vector[77] detects 137 faults (120333)
+# vector[78] detects 159 faults (120492)
+# vector[79] detects 229 faults (120721)
+# vector[80] detects 132 faults (120853)
+# vector[81] detects 70 faults (120923)
+# vector[82] detects 43 faults (120966)
+# vector[83] detects 119 faults (121085)
+# vector[84] detects 57 faults (121142)
+Dual: 1
+Fault name: g208
+Fault typed:0
+Or:1110111xxxxxxxxx111111xxxxxxxxxx
+v2_1:110111xxxxxxxxx111111xxxxxxxxxxx
+v2:1110111xxxxxxxxx111111xxxxxxxxxx
+v1: 110111xxxxxxxxx111111xxxxxxxxxxx 1
+Fault name: g208
+Fault typed:0
+Or:0110111xxxxxxxxx111111xxxxxxxxxx
+v2_1:110111xxxxxxxxx111111xxxxxxxxxxx
+v2:0110111xxxxxxxxx111111xxxxxxxxxx
+v1: 110111xxxxxxxxx111111xxxxxxxxxxx 0
+Fault name: g208
+Fault typed:0
+Or:11101111xxxxxxxx1111101xxxxxxxxx
+v2_1:1101111xxxxxxxx1111101xxxxxxxxxx
+v2:11101111xxxxxxxx1111101xxxxxxxxx
+v1: 1101111xxxxxxxx1111101xxxxxxxxxx 1
+Fault name: g208
+Fault typed:0
+Or:01101111xxxxxxxx1111101xxxxxxxxx
+v2_1:1101111xxxxxxxx1111101xxxxxxxxxx
+v2:01101111xxxxxxxx1111101xxxxxxxxx
+v1: 1101111xxxxxxxx1111101xxxxxxxxxx 0
+Fault name: g208
+Fault typed:0
+Or:11101111111xxxxx1111100111xxxxxx
+v2_1:1101111111xxxxx1111100111xxxxxxx
+v2:11101111111xxxxx1111100111xxxxxx
+v1: 1101111111xxxxx1111100111xxxxxxx 1
+Fault name: g208
+Fault typed:0
+Or:01101111111xxxxx1111100111xxxxxx
+v2_1:1101111111xxxxx1111100111xxxxxxx
+v2:01101111111xxxxx1111100111xxxxxx
+v1: 1101111111xxxxx1111100111xxxxxxx 0
+Fault name: g208
+Fault typed:0
+Or:111011111111xxxx11111001101xxxxx
+v2_1:11011111111xxxx11111001101xxxxxx
+v2:111011111111xxxx11111001101xxxxx
+v1: 11011111111xxxx11111001101xxxxxx 1
+Fault name: g208
+Fault typed:0
+Or:011011111111xxxx11111001101xxxxx
+v2_1:11011111111xxxx11111001101xxxxxx
+v2:011011111111xxxx11111001101xxxxx
+v1: 11011111111xxxx11111001101xxxxxx 0
+110111xxxxxxxxx111111xxxxxxxxxxx 1
+110111xxxxxxxxx111111xxxxxxxxxxx 0
+1101111xxxxxxxx1111101xxxxxxxxxx 1
+1101111xxxxxxxx1111101xxxxxxxxxx 0
+1101111111xxxxx1111100111xxxxxxx 1
+1101111111xxxxx1111100111xxxxxxx 0
+11011111111xxxx11111001101xxxxxx 1
+11011111111xxxx11111001101xxxxxx 0
+# vector[85] detects 381 faults (121523)
+# vector[86] detects 341 faults (121864)
+# vector[87] detects 320 faults (122184)
+# vector[88] detects 401 faults (122585)
+# vector[89] detects 385 faults (122970)
+# vector[90] detects 294 faults (123264)
+# vector[91] detects 227 faults (123491)
+# vector[92] detects 297 faults (123788)
+Dual: 0
+Fault name: g208
+Fault typed:1
+Or:111101xxxxxxxxxx11111xxxxxxxxxxx
+v2_1:11101xxxxxxxxxx11111xxxxxxxxxxxx
+v2:111101xxxxxxxxxx11111xxxxxxxxxxx
+v1: 11101xxxxxxxxxx11111xxxxxxxxxxxx 1
+Fault name: g208
+Fault typed:1
+Or:111101xxxxxxxxxx11110xxxxxxxxxxx
+v2_1:11101xxxxxxxxxx11110xxxxxxxxxxxx
+v2:111101xxxxxxxxxx11110xxxxxxxxxxx
+v1: 11101xxxxxxxxxx11110xxxxxxxxxxxx 1
+Fault name: g208
+Fault typed:1
+Or:011101xxxxxxxxxx1111xxxxxxxxxxxx
+v2_1:11101xxxxxxxxxx1111xxxxxxxxxxxxx
+v2:011101xxxxxxxxxx1111xxxxxxxxxxxx
+v1: 11101xxxxxxxxxx1111xxxxxxxxxxxxx 0
+Fault name: g208
+Fault typed:1
+Or:111100xxxxxxxxxx11111xxxxxxxxxxx
+v2_1:11100xxxxxxxxxx11111xxxxxxxxxxxx
+v2:111100xxxxxxxxxx11111xxxxxxxxxxx
+v1: 11100xxxxxxxxxx11111xxxxxxxxxxxx 1
+Fault name: g208
+Fault typed:1
+Or:111100xxxxxxxxxx11110xxxxxxxxxxx
+v2_1:11100xxxxxxxxxx11110xxxxxxxxxxxx
+v2:111100xxxxxxxxxx11110xxxxxxxxxxx
+v1: 11100xxxxxxxxxx11110xxxxxxxxxxxx 1
+Fault name: g208
+Fault typed:1
+Or:011100xxxxxxxxxx1111xxxxxxxxxxxx
+v2_1:11100xxxxxxxxxx1111xxxxxxxxxxxxx
+v2:011100xxxxxxxxxx1111xxxxxxxxxxxx
+v1: 11100xxxxxxxxxx1111xxxxxxxxxxxxx 0
+Fault name: g208
+Fault typed:1
+Or:11110xxxxxxxxxxx11101xxxxxxxxxxx
+v2_1:1110xxxxxxxxxxx11101xxxxxxxxxxxx
+v2:11110xxxxxxxxxxx11101xxxxxxxxxxx
+v1: 1110xxxxxxxxxxx11101xxxxxxxxxxxx 1
+Fault name: g208
+Fault typed:1
+Or:11110xxxxxxxxxxx11100xxxxxxxxxxx
+v2_1:1110xxxxxxxxxxx11100xxxxxxxxxxxx
+v2:11110xxxxxxxxxxx11100xxxxxxxxxxx
+v1: 1110xxxxxxxxxxx11100xxxxxxxxxxxx 1
+11101xxxxxxxxxx11111xxxxxxxxxxxx 1
+11101xxxxxxxxxx11110xxxxxxxxxxxx 1
+11101xxxxxxxxxx1111xxxxxxxxxxxxx 0
+11100xxxxxxxxxx11111xxxxxxxxxxxx 1
+11100xxxxxxxxxx11110xxxxxxxxxxxx 1
+11100xxxxxxxxxx1111xxxxxxxxxxxxx 0
+1110xxxxxxxxxxx11101xxxxxxxxxxxx 1
+1110xxxxxxxxxxx11100xxxxxxxxxxxx 1
+# vector[93] detects 300 faults (124088)
+# vector[94] detects 311 faults (124399)
+# vector[95] detects 368 faults (124767)
+# vector[96] detects 180 faults (124947)
+# vector[97] detects 365 faults (125312)
+# vector[98] detects 259 faults (125571)
+# vector[99] detects 352 faults (125923)
+# vector[100] detects 222 faults (126145)
+Dual: 1
+Fault name: g203
+Fault typed:0
+Or:1110111111xxxxxx100001111xxxxxxx
+v2_1:110111111xxxxxx100001111xxxxxxxx
+v2:1110111111xxxxxx100001111xxxxxxx
+v1: 110111111xxxxxx100001111xxxxxxxx 1
+Fault name: g203
+Fault typed:0
+Or:0110111111xxxxxx100001111xxxxxxx
+v2_1:110111111xxxxxx100001111xxxxxxxx
+v2:0110111111xxxxxx100001111xxxxxxx
+v1: 110111111xxxxxx100001111xxxxxxxx 0
+Fault name: g203
+Fault typed:0
+Or:11101111111xxxxx1000011101xxxxxx
+v2_1:1101111111xxxxx1000011101xxxxxxx
+v2:11101111111xxxxx1000011101xxxxxx
+v1: 1101111111xxxxx1000011101xxxxxxx 1
+Fault name: g203
+Fault typed:0
+Or:01101111111xxxxx1000011101xxxxxx
+v2_1:1101111111xxxxx1000011101xxxxxxx
+v2:01101111111xxxxx1000011101xxxxxx
+v1: 1101111111xxxxx1000011101xxxxxxx 0
+Fault name: g203
+Fault typed:0
+Or:11101111111111xx1000011100111xxx
+v2_1:1101111111111xx1000011100111xxxx
+v2:11101111111111xx1000011100111xxx
+v1: 1101111111111xx1000011100111xxxx 1
+Fault name: g203
+Fault typed:0
+Or:01101111111111xx1000011100111xxx
+v2_1:1101111111111xx1000011100111xxxx
+v2:01101111111111xx1000011100111xxx
+v1: 1101111111111xx1000011100111xxxx 0
+Fault name: g203
+Fault typed:0
+Or:111011111111111x10000111001101xx
+v2_1:11011111111111x10000111001101xxx
+v2:111011111111111x10000111001101xx
+v1: 11011111111111x10000111001101xxx 1
+Fault name: g203
+Fault typed:0
+Or:011011111111111x10000111001101xx
+v2_1:11011111111111x10000111001101xxx
+v2:011011111111111x10000111001101xx
+v1: 11011111111111x10000111001101xxx 0
+110111111xxxxxx100001111xxxxxxxx 1
+110111111xxxxxx100001111xxxxxxxx 0
+1101111111xxxxx1000011101xxxxxxx 1
+1101111111xxxxx1000011101xxxxxxx 0
+1101111111111xx1000011100111xxxx 1
+1101111111111xx1000011100111xxxx 0
+11011111111111x10000111001101xxx 1
+11011111111111x10000111001101xxx 0
+# vector[101] detects 150 faults (126295)
+# vector[102] detects 171 faults (126466)
+# vector[103] detects 226 faults (126692)
+# vector[104] detects 161 faults (126853)
+# vector[105] detects 144 faults (126997)
+# vector[106] detects 159 faults (127156)
+# vector[107] detects 185 faults (127341)
+# vector[108] detects 127 faults (127468)
+Dual: 1
+Fault name: g192
+Fault typed:0
+Or:11110111xxxxxxxx1111111xxxxxxxxx
+v2_1:1110111xxxxxxxx1111111xxxxxxxxxx
+v2:11110111xxxxxxxx1111111xxxxxxxxx
+v1: 1110111xxxxxxxx1111111xxxxxxxxxx 1
+Fault name: g192
+Fault typed:0
+Or:01110111xxxxxxxx1111111xxxxxxxxx
+v2_1:1110111xxxxxxxx1111111xxxxxxxxxx
+v2:01110111xxxxxxxx1111111xxxxxxxxx
+v1: 1110111xxxxxxxx1111111xxxxxxxxxx 0
+Fault name: g192
+Fault typed:0
+Or:111101111xxxxxxx11111101xxxxxxxx
+v2_1:11101111xxxxxxx11111101xxxxxxxxx
+v2:111101111xxxxxxx11111101xxxxxxxx
+v1: 11101111xxxxxxx11111101xxxxxxxxx 1
+Fault name: g192
+Fault typed:0
+Or:011101111xxxxxxx11111101xxxxxxxx
+v2_1:11101111xxxxxxx11111101xxxxxxxxx
+v2:011101111xxxxxxx11111101xxxxxxxx
+v1: 11101111xxxxxxx11111101xxxxxxxxx 0
+Fault name: g192
+Fault typed:0
+Or:1111011111xxxxxx111111001xxxxxxx
+v2_1:111011111xxxxxx111111001xxxxxxxx
+v2:1111011111xxxxxx111111001xxxxxxx
+v1: 111011111xxxxxx111111001xxxxxxxx 1
+Fault name: g192
+Fault typed:0
+Or:0111011111xxxxxx111111001xxxxxxx
+v2_1:111011111xxxxxx111111001xxxxxxxx
+v2:0111011111xxxxxx111111001xxxxxxx
+v1: 111011111xxxxxx111111001xxxxxxxx 0
+Fault name: g192
+Fault typed:0
+Or:11110111111111xx1111110001111xxx
+v2_1:1110111111111xx1111110001111xxxx
+v2:11110111111111xx1111110001111xxx
+v1: 1110111111111xx1111110001111xxxx 1
+Fault name: g192
+Fault typed:0
+Or:01110111111111xx1111110001111xxx
+v2_1:1110111111111xx1111110001111xxxx
+v2:01110111111111xx1111110001111xxx
+v1: 1110111111111xx1111110001111xxxx 0
+1110111xxxxxxxx1111111xxxxxxxxxx 1
+1110111xxxxxxxx1111111xxxxxxxxxx 0
+11101111xxxxxxx11111101xxxxxxxxx 1
+11101111xxxxxxx11111101xxxxxxxxx 0
+111011111xxxxxx111111001xxxxxxxx 1
+111011111xxxxxx111111001xxxxxxxx 0
+1110111111111xx1111110001111xxxx 1
+1110111111111xx1111110001111xxxx 0
+# vector[109] detects 182 faults (127650)
+# vector[110] detects 297 faults (127947)
+# vector[111] detects 201 faults (128148)
+# vector[112] detects 203 faults (128351)
+# vector[113] detects 225 faults (128576)
+# vector[114] detects 99 faults (128675)
+# vector[115] detects 136 faults (128811)
+# vector[116] detects 158 faults (128969)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Fault name: g180
+Fault typed:0
+Or:10010111111111110111111111111111
+v2_1:0010111111111110111111111111111x
+v2:10010111111111110111111111111111
+v1: 0010111111111110111111111111111x 1
+Fault name: g180
+Fault typed:0
+Or:11010111111111110111111111111111
+v2_1:1010111111111110111111111111111x
+v2:11010111111111110111111111111111
+v1: 1010111111111110111111111111111x 1
+Fault name: g180
+Fault typed:0
+Or:10110111111111110111111111111111
+v2_1:0110111111111110111111111111111x
+v2:10110111111111110111111111111111
+v1: 0110111111111110111111111111111x 1
+Fault name: g180
+Fault typed:0
+Or:11110111111111110111111111111111
+v2_1:1110111111111110111111111111111x
+v2:11110111111111110111111111111111
+v1: 1110111111111110111111111111111x 1
+Fault name: g180
+Fault typed:0
+Or:01010111111111110111111111111110
+v2_1:1010111111111110111111111111110x
+v2:01010111111111110111111111111110
+v1: 1010111111111110111111111111110x 0
+Fault name: g180
+Fault typed:0
+Or:11010111111111110111111111111110
+v2_1:1010111111111110111111111111110x
+v2:11010111111111110111111111111110
+v1: 1010111111111110111111111111110x 1
+Fault name: g180
+Fault typed:0
+Or:01110111111111110111111111111110
+v2_1:1110111111111110111111111111110x
+v2:01110111111111110111111111111110
+v1: 1110111111111110111111111111110x 0
+Fault name: g180
+Fault typed:0
+Or:11110111111111110111111111111110
+v2_1:1110111111111110111111111111110x
+v2:11110111111111110111111111111110
+v1: 1110111111111110111111111111110x 1
+0010111111111110111111111111111x 1
+1010111111111110111111111111111x 1
+0110111111111110111111111111111x 1
+1110111111111110111111111111111x 1
+1010111111111110111111111111110x 0
+1010111111111110111111111111110x 1
+1110111111111110111111111111110x 0
+1110111111111110111111111111110x 1
+# vector[117] detects 53 faults (129022)
+# vector[118] detects 33 faults (129055)
+# vector[119] detects 84 faults (129139)
+# vector[120] detects 32 faults (129171)
+# vector[121] detects 24 faults (129195)
+# vector[122] detects 25 faults (129220)
+# vector[123] detects 29 faults (129249)
+# vector[124] detects 27 faults (129276)
+Dual: 0
+Dual: 0
+Fault name: g177
+Fault typed:1
+Or:xx111011111111110111111111111111
+v2_1:x111011111111110111111111111111x
+v2:xx111011111111110111111111111111
+v1: x1110111111111101111111111111111 x
+Fault name: g177
+Fault typed:1
+Or:x1011011111111110111111111111111
+v2_1:1011011111111110111111111111111x
+v2:x1011011111111110111111111111111
+v1: 10110111111111101111111111111111 x
+Fault name: g177
+Fault typed:1
+Or:00011011111111110111111111111111
+v2_1:0011011111111110111111111111111x
+v2:00011011111111110111111111111111
+v1: 00110111111111101111111111111111 0
+Fault name: g177
+Fault typed:1
+Or:10011011111111110111111111111111
+v2_1:0011011111111110111111111111111x
+v2:10011011111111110111111111111111
+v1: 00110111111111101111111111111111 1
+Fault name: g177
+Fault typed:1
+Or:xx011011111111110111111111111101
+v2_1:x011011111111110111111111111101x
+v2:xx011011111111110111111111111101
+v1: x0110111111111101111111111111011 x
+Fault name: g177
+Fault typed:1
+Or:x0111011111111110111111111111101
+v2_1:0111011111111110111111111111101x
+v2:x0111011111111110111111111111101
+v1: 01110111111111101111111111111011 x
+Fault name: g177
+Fault typed:1
+Or:x1111011111111110111111111111101
+v2_1:1111011111111110111111111111101x
+v2:x1111011111111110111111111111101
+v1: 11110111111111101111111111111011 x
+Fault name: g177
+Fault typed:1
+Or:xx101011111111110111111111111111
+v2_1:x101011111111110111111111111111x
+v2:xx101011111111110111111111111111
+v1: x1010111111111101111111111111111 x
+x1110111111111101111111111111111 x
+10110111111111101111111111111111 x
+00110111111111101111111111111111 0
+00110111111111101111111111111111 1
+x0110111111111101111111111111011 x
+01110111111111101111111111111011 x
+11110111111111101111111111111011 x
+x1010111111111101111111111111111 x
+# vector[125] detects 98 faults (129374)
+# vector[126] detects 67 faults (129441)
+# vector[127] detects 57 faults (129498)
+# vector[128] detects 52 faults (129550)
+# vector[129] detects 48 faults (129598)
+# vector[130] detects 42 faults (129640)
+# vector[131] detects 26 faults (129666)
+# vector[132] detects 31 faults (129697)
+Dual: 1
+Fault name: g176
+Fault typed:0
+Or:111110111xxxxxxx11111111xxxxxxxx
+v2_1:11110111xxxxxxx11111111xxxxxxxxx
+v2:111110111xxxxxxx11111111xxxxxxxx
+v1: 11110111xxxxxxx11111111xxxxxxxxx 1
+Fault name: g176
+Fault typed:0
+Or:011110111xxxxxxx11111111xxxxxxxx
+v2_1:11110111xxxxxxx11111111xxxxxxxxx
+v2:011110111xxxxxxx11111111xxxxxxxx
+v1: 11110111xxxxxxx11111111xxxxxxxxx 0
+Fault name: g176
+Fault typed:0
+Or:1111101111xxxxxx111111101xxxxxxx
+v2_1:111101111xxxxxx111111101xxxxxxxx
+v2:1111101111xxxxxx111111101xxxxxxx
+v1: 111101111xxxxxx111111101xxxxxxxx 1
+Fault name: g176
+Fault typed:0
+Or:0111101111xxxxxx111111101xxxxxxx
+v2_1:111101111xxxxxx111111101xxxxxxxx
+v2:0111101111xxxxxx111111101xxxxxxx
+v1: 111101111xxxxxx111111101xxxxxxxx 0
+Fault name: g176
+Fault typed:0
+Or:11111011111xxxxx1111111001xxxxxx
+v2_1:1111011111xxxxx1111111001xxxxxxx
+v2:11111011111xxxxx1111111001xxxxxx
+v1: 1111011111xxxxx1111111001xxxxxxx 1
+Fault name: g176
+Fault typed:0
+Or:01111011111xxxxx1111111001xxxxxx
+v2_1:1111011111xxxxx1111111001xxxxxxx
+v2:01111011111xxxxx1111111001xxxxxx
+v1: 1111011111xxxxx1111111001xxxxxxx 0
+Fault name: g176
+Fault typed:0
+Or:111110111111xxxx11111110001xxxxx
+v2_1:11110111111xxxx11111110001xxxxxx
+v2:111110111111xxxx11111110001xxxxx
+v1: 11110111111xxxx11111110001xxxxxx 1
+Fault name: g176
+Fault typed:0
+Or:011110111111xxxx11111110001xxxxx
+v2_1:11110111111xxxx11111110001xxxxxx
+v2:011110111111xxxx11111110001xxxxx
+v1: 11110111111xxxx11111110001xxxxxx 0
+11110111xxxxxxx11111111xxxxxxxxx 1
+11110111xxxxxxx11111111xxxxxxxxx 0
+111101111xxxxxx111111101xxxxxxxx 1
+111101111xxxxxx111111101xxxxxxxx 0
+1111011111xxxxx1111111001xxxxxxx 1
+1111011111xxxxx1111111001xxxxxxx 0
+11110111111xxxx11111110001xxxxxx 1
+11110111111xxxx11111110001xxxxxx 0
+# vector[133] detects 152 faults (129849)
+# vector[134] detects 95 faults (129944)
+# vector[135] detects 183 faults (130127)
+# vector[136] detects 120 faults (130247)
+# vector[137] detects 134 faults (130381)
+# vector[138] detects 92 faults (130473)
+# vector[139] detects 75 faults (130548)
+# vector[140] detects 41 faults (130589)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Fault name: g165
+Fault typed:0
+Or:10001011111111110111111111111111
+v2_1:0001011111111110111111111111111x
+v2:10001011111111110111111111111111
+v1: 0001011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:11001011111111110111111111111111
+v2_1:1001011111111110111111111111111x
+v2:11001011111111110111111111111111
+v1: 1001011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:10101011111111110111111111111111
+v2_1:0101011111111110111111111111111x
+v2:10101011111111110111111111111111
+v1: 0101011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:11101011111111110111111111111111
+v2_1:1101011111111110111111111111111x
+v2:11101011111111110111111111111111
+v1: 1101011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:10011011111111110111111111111111
+v2_1:0011011111111110111111111111111x
+v2:10011011111111110111111111111111
+v1: 0011011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:11011011111111110111111111111111
+v2_1:1011011111111110111111111111111x
+v2:11011011111111110111111111111111
+v1: 1011011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:10111011111111110111111111111111
+v2_1:0111011111111110111111111111111x
+v2:10111011111111110111111111111111
+v1: 0111011111111110111111111111111x 1
+Fault name: g165
+Fault typed:0
+Or:11111011111111110111111111111111
+v2_1:1111011111111110111111111111111x
+v2:11111011111111110111111111111111
+v1: 1111011111111110111111111111111x 1
+0001011111111110111111111111111x 1
+1001011111111110111111111111111x 1
+0101011111111110111111111111111x 1
+1101011111111110111111111111111x 1
+0011011111111110111111111111111x 1
+1011011111111110111111111111111x 1
+0111011111111110111111111111111x 1
+1111011111111110111111111111111x 1
+# vector[141] detects 15 faults (130604)
+# vector[142] detects 30 faults (130634)
+# vector[143] detects 15 faults (130649)
+# vector[144] detects 29 faults (130678)
+# vector[145] detects 8 faults (130686)
+# vector[146] detects 5 faults (130691)
+# vector[147] detects 8 faults (130699)
+# vector[148] detects 10 faults (130709)
+Dual: 0
+Dual: 1
+Fault name: g160
+Fault typed:0
+Or:1111110111xxxxxx111111111xxxxxxx
+v2_1:111110111xxxxxx111111111xxxxxxxx
+v2:1111110111xxxxxx111111111xxxxxxx
+v1: 111110111xxxxxx111111111xxxxxxxx 1
+Fault name: g160
+Fault typed:0
+Or:0111110111xxxxxx111111111xxxxxxx
+v2_1:111110111xxxxxx111111111xxxxxxxx
+v2:0111110111xxxxxx111111111xxxxxxx
+v1: 111110111xxxxxx111111111xxxxxxxx 0
+Fault name: g160
+Fault typed:0
+Or:11111101111xxxxx1111111101xxxxxx
+v2_1:1111101111xxxxx1111111101xxxxxxx
+v2:11111101111xxxxx1111111101xxxxxx
+v1: 1111101111xxxxx1111111101xxxxxxx 1
+Fault name: g160
+Fault typed:0
+Or:01111101111xxxxx1111111101xxxxxx
+v2_1:1111101111xxxxx1111111101xxxxxxx
+v2:01111101111xxxxx1111111101xxxxxx
+v1: 1111101111xxxxx1111111101xxxxxxx 0
+Fault name: g160
+Fault typed:0
+Or:111111011111xxxx11111111001xxxxx
+v2_1:11111011111xxxx11111111001xxxxxx
+v2:111111011111xxxx11111111001xxxxx
+v1: 11111011111xxxx11111111001xxxxxx 1
+Fault name: g160
+Fault typed:0
+Or:011111011111xxxx11111111001xxxxx
+v2_1:11111011111xxxx11111111001xxxxxx
+v2:011111011111xxxx11111111001xxxxx
+v1: 11111011111xxxx11111111001xxxxxx 0
+Fault name: g160
+Fault typed:0
+Or:1111110111111xxx111111110001xxxx
+v2_1:111110111111xxx111111110001xxxxx
+v2:1111110111111xxx111111110001xxxx
+v1: 111110111111xxx111111110001xxxxx 1
+Fault name: g160
+Fault typed:0
+Or:0111110111111xxx111111110001xxxx
+v2_1:111110111111xxx111111110001xxxxx
+v2:0111110111111xxx111111110001xxxx
+v1: 111110111111xxx111111110001xxxxx 0
+111110111xxxxxx111111111xxxxxxxx 1
+111110111xxxxxx111111111xxxxxxxx 0
+1111101111xxxxx1111111101xxxxxxx 1
+1111101111xxxxx1111111101xxxxxxx 0
+11111011111xxxx11111111001xxxxxx 1
+11111011111xxxx11111111001xxxxxx 0
+111110111111xxx111111110001xxxxx 1
+111110111111xxx111111110001xxxxx 0
+# vector[149] detects 164 faults (130873)
+# vector[150] detects 71 faults (130944)
+# vector[151] detects 140 faults (131084)
+# vector[152] detects 83 faults (131167)
+# vector[153] detects 99 faults (131266)
+# vector[154] detects 109 faults (131375)
+# vector[155] detects 89 faults (131464)
+# vector[156] detects 80 faults (131544)
+Dual: 1
+Fault name: g152
+Fault typed:0
+Or:1111110111111111100000001111111x
+v2_1:111110111111111100000001111111xx
+v2:1111110111111111100000001111111x
+v1: 111110111111111100000001111111xx 1
+Fault name: g152
+Fault typed:0
+Or:0111110111111111100000001111111x
+v2_1:111110111111111100000001111111xx
+v2:0111110111111111100000001111111x
+v1: 111110111111111100000001111111xx 0
+Fault name: g152
+Fault typed:0
+Or:11111101111111111000000011111101
+v2_1:1111101111111111000000011111101x
+v2:11111101111111111000000011111101
+v1: 1111101111111111000000011111101x 1
+Fault name: g152
+Fault typed:0
+Or:01111101111111111000000011111101
+v2_1:1111101111111111000000011111101x
+v2:01111101111111111000000011111101
+v1: 1111101111111111000000011111101x 0
+Fault name: g152
+Fault typed:0
+Or:01111101111111111000000011111100
+v2_1:1111101111111111000000011111100x
+v2:01111101111111111000000011111100
+v1: 1111101111111111000000011111100x 0
+Fault name: g152
+Fault typed:0
+Or:11111101111111111000000011111100
+v2_1:1111101111111111000000011111100x
+v2:11111101111111111000000011111100
+v1: 1111101111111111000000011111100x 1
+Fault name: g152
+Fault typed:0
+Or:1011110111111111100000001111111x
+v2_1:011110111111111100000001111111xx
+v2:1011110111111111100000001111111x
+v1: 011110111111111100000001111111xx 1
+Fault name: g152
+Fault typed:0
+Or:1011110111111111100000001111110x
+v2_1:011110111111111100000001111110xx
+v2:1011110111111111100000001111110x
+v1: 011110111111111100000001111110xx 1
+111110111111111100000001111111xx 1
+111110111111111100000001111111xx 0
+1111101111111111000000011111101x 1
+1111101111111111000000011111101x 0
+1111101111111111000000011111100x 0
+1111101111111111000000011111100x 1
+011110111111111100000001111111xx 1
+011110111111111100000001111110xx 1
+# vector[157] detects 54 faults (131598)
+# vector[158] detects 24 faults (131622)
+# vector[159] detects 36 faults (131658)
+# vector[160] detects 12 faults (131670)
+# vector[161] detects 15 faults (131685)
+# vector[162] detects 6 faults (131691)
+# vector[163] detects 8 faults (131699)
+# vector[164] detects 1 faults (131700)
+Dual: 1
+Fault name: g144
+Fault typed:0
+Or:11111110111xxxxx1111111111xxxxxx
+v2_1:1111110111xxxxx1111111111xxxxxxx
+v2:11111110111xxxxx1111111111xxxxxx
+v1: 1111110111xxxxx1111111111xxxxxxx 1
+Fault name: g144
+Fault typed:0
+Or:01111110111xxxxx1111111111xxxxxx
+v2_1:1111110111xxxxx1111111111xxxxxxx
+v2:01111110111xxxxx1111111111xxxxxx
+v1: 1111110111xxxxx1111111111xxxxxxx 0
+Fault name: g144
+Fault typed:0
+Or:111111101111xxxx11111111101xxxxx
+v2_1:11111101111xxxx11111111101xxxxxx
+v2:111111101111xxxx11111111101xxxxx
+v1: 11111101111xxxx11111111101xxxxxx 1
+Fault name: g144
+Fault typed:0
+Or:011111101111xxxx11111111101xxxxx
+v2_1:11111101111xxxx11111111101xxxxxx
+v2:011111101111xxxx11111111101xxxxx
+v1: 11111101111xxxx11111111101xxxxxx 0
+Fault name: g144
+Fault typed:0
+Or:1111111011111xxx111111111001xxxx
+v2_1:111111011111xxx111111111001xxxxx
+v2:1111111011111xxx111111111001xxxx
+v1: 111111011111xxx111111111001xxxxx 1
+Fault name: g144
+Fault typed:0
+Or:0111111011111xxx111111111001xxxx
+v2_1:111111011111xxx111111111001xxxxx
+v2:0111111011111xxx111111111001xxxx
+v1: 111111011111xxx111111111001xxxxx 0
+Fault name: g144
+Fault typed:0
+Or:11111110111111xx1111111110001xxx
+v2_1:1111110111111xx1111111110001xxxx
+v2:11111110111111xx1111111110001xxx
+v1: 1111110111111xx1111111110001xxxx 1
+Fault name: g144
+Fault typed:0
+Or:01111110111111xx1111111110001xxx
+v2_1:1111110111111xx1111111110001xxxx
+v2:01111110111111xx1111111110001xxx
+v1: 1111110111111xx1111111110001xxxx 0
+1111110111xxxxx1111111111xxxxxxx 1
+1111110111xxxxx1111111111xxxxxxx 0
+11111101111xxxx11111111101xxxxxx 1
+11111101111xxxx11111111101xxxxxx 0
+111111011111xxx111111111001xxxxx 1
+111111011111xxx111111111001xxxxx 0
+1111110111111xx1111111110001xxxx 1
+1111110111111xx1111111110001xxxx 0
+# vector[165] detects 79 faults (131779)
+# vector[166] detects 72 faults (131851)
+# vector[167] detects 68 faults (131919)
+# vector[168] detects 61 faults (131980)
+# vector[169] detects 60 faults (132040)
+# vector[170] detects 80 faults (132120)
+# vector[171] detects 35 faults (132155)
+# vector[172] detects 39 faults (132194)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Fault name: g128
+Fault typed:0
+Or:111111110111xxxx11111111111xxxxx
+v2_1:11111110111xxxx11111111111xxxxxx
+v2:111111110111xxxx11111111111xxxxx
+v1: 11111110111xxxx11111111111xxxxxx 1
+Fault name: g128
+Fault typed:0
+Or:011111110111xxxx11111111111xxxxx
+v2_1:11111110111xxxx11111111111xxxxxx
+v2:011111110111xxxx11111111111xxxxx
+v1: 11111110111xxxx11111111111xxxxxx 0
+Fault name: g128
+Fault typed:0
+Or:1111111101111xxx111111111101xxxx
+v2_1:111111101111xxx111111111101xxxxx
+v2:1111111101111xxx111111111101xxxx
+v1: 111111101111xxx111111111101xxxxx 1
+Fault name: g128
+Fault typed:0
+Or:0111111101111xxx111111111101xxxx
+v2_1:111111101111xxx111111111101xxxxx
+v2:0111111101111xxx111111111101xxxx
+v1: 111111101111xxx111111111101xxxxx 0
+Fault name: g128
+Fault typed:0
+Or:11111111011111xx1111111111001xxx
+v2_1:1111111011111xx1111111111001xxxx
+v2:11111111011111xx1111111111001xxx
+v1: 1111111011111xx1111111111001xxxx 1
+Fault name: g128
+Fault typed:0
+Or:01111111011111xx1111111111001xxx
+v2_1:1111111011111xx1111111111001xxxx
+v2:01111111011111xx1111111111001xxx
+v1: 1111111011111xx1111111111001xxxx 0
+Fault name: g128
+Fault typed:0
+Or:111111110111111x11111111110001xx
+v2_1:11111110111111x11111111110001xxx
+v2:111111110111111x11111111110001xx
+v1: 11111110111111x11111111110001xxx 1
+Fault name: g128
+Fault typed:0
+Or:011111110111111x11111111110001xx
+v2_1:11111110111111x11111111110001xxx
+v2:011111110111111x11111111110001xx
+v1: 11111110111111x11111111110001xxx 0
+11111110111xxxx11111111111xxxxxx 1
+11111110111xxxx11111111111xxxxxx 0
+111111101111xxx111111111101xxxxx 1
+111111101111xxx111111111101xxxxx 0
+1111111011111xx1111111111001xxxx 1
+1111111011111xx1111111111001xxxx 0
+11111110111111x11111111110001xxx 1
+11111110111111x11111111110001xxx 0
+# vector[173] detects 81 faults (132275)
+# vector[174] detects 70 faults (132345)
+# vector[175] detects 91 faults (132436)
+# vector[176] detects 53 faults (132489)
+# vector[177] detects 83 faults (132572)
+# vector[178] detects 17 faults (132589)
+# vector[179] detects 39 faults (132628)
+# vector[180] detects 30 faults (132658)
+Dual: 0
+Dual: 1
+Fault name: g112
+Fault typed:0
+Or:1111111110111xxx111111111111xxxx
+v2_1:111111110111xxx111111111111xxxxx
+v2:1111111110111xxx111111111111xxxx
+v1: 111111110111xxx111111111111xxxxx 1
+Fault name: g112
+Fault typed:0
+Or:0111111110111xxx111111111111xxxx
+v2_1:111111110111xxx111111111111xxxxx
+v2:0111111110111xxx111111111111xxxx
+v1: 111111110111xxx111111111111xxxxx 0
+Fault name: g112
+Fault typed:0
+Or:11111111101111xx1111111111101xxx
+v2_1:1111111101111xx1111111111101xxxx
+v2:11111111101111xx1111111111101xxx
+v1: 1111111101111xx1111111111101xxxx 1
+Fault name: g112
+Fault typed:0
+Or:01111111101111xx1111111111101xxx
+v2_1:1111111101111xx1111111111101xxxx
+v2:01111111101111xx1111111111101xxx
+v1: 1111111101111xx1111111111101xxxx 0
+Fault name: g112
+Fault typed:0
+Or:111111111011111x11111111111001xx
+v2_1:11111111011111x11111111111001xxx
+v2:111111111011111x11111111111001xx
+v1: 11111111011111x11111111111001xxx 1
+Fault name: g112
+Fault typed:0
+Or:011111111011111x11111111111001xx
+v2_1:11111111011111x11111111111001xxx
+v2:011111111011111x11111111111001xx
+v1: 11111111011111x11111111111001xxx 0
+Fault name: g112
+Fault typed:0
+Or:1111111110111111111111111110001x
+v2_1:111111110111111111111111110001xx
+v2:1111111110111111111111111110001x
+v1: 111111110111111111111111110001xx 1
+Fault name: g112
+Fault typed:0
+Or:0111111110111111111111111110001x
+v2_1:111111110111111111111111110001xx
+v2:0111111110111111111111111110001x
+v1: 111111110111111111111111110001xx 0
+111111110111xxx111111111111xxxxx 1
+111111110111xxx111111111111xxxxx 0
+1111111101111xx1111111111101xxxx 1
+1111111101111xx1111111111101xxxx 0
+11111111011111x11111111111001xxx 1
+11111111011111x11111111111001xxx 0
+111111110111111111111111110001xx 1
+111111110111111111111111110001xx 0
+# vector[181] detects 47 faults (132705)
+# vector[182] detects 33 faults (132738)
+# vector[183] detects 34 faults (132772)
+# vector[184] detects 33 faults (132805)
+# vector[185] detects 15 faults (132820)
+# vector[186] detects 9 faults (132829)
+# vector[187] detects 8 faults (132837)
+# vector[188] detects 8 faults (132845)
+Dual: 0
+Dual: 1
+Fault name: g96
+Fault typed:0
+Or:11111111110111xx1111111111111xxx
+v2_1:1111111110111xx1111111111111xxxx
+v2:11111111110111xx1111111111111xxx
+v1: 1111111110111xx1111111111111xxxx 1
+Fault name: g96
+Fault typed:0
+Or:01111111110111xx1111111111111xxx
+v2_1:1111111110111xx1111111111111xxxx
+v2:01111111110111xx1111111111111xxx
+v1: 1111111110111xx1111111111111xxxx 0
+Fault name: g96
+Fault typed:0
+Or:111111111101111x11111111111101xx
+v2_1:11111111101111x11111111111101xxx
+v2:111111111101111x11111111111101xx
+v1: 11111111101111x11111111111101xxx 1
+Fault name: g96
+Fault typed:0
+Or:011111111101111x11111111111101xx
+v2_1:11111111101111x11111111111101xxx
+v2:011111111101111x11111111111101xx
+v1: 11111111101111x11111111111101xxx 0
+Fault name: g96
+Fault typed:0
+Or:1111111111011111111111111111001x
+v2_1:111111111011111111111111111001xx
+v2:1111111111011111111111111111001x
+v1: 111111111011111111111111111001xx 1
+Fault name: g96
+Fault typed:0
+Or:0111111111011111111111111111001x
+v2_1:111111111011111111111111111001xx
+v2:0111111111011111111111111111001x
+v1: 111111111011111111111111111001xx 0
+Fault name: g96
+Fault typed:0
+Or:11111111110111111111111111110001
+v2_1:1111111110111111111111111110001x
+v2:11111111110111111111111111110001
+v1: 1111111110111111111111111110001x 1
+Fault name: g96
+Fault typed:0
+Or:01111111110111111111111111110001
+v2_1:1111111110111111111111111110001x
+v2:01111111110111111111111111110001
+v1: 1111111110111111111111111110001x 0
+1111111110111xx1111111111111xxxx 1
+1111111110111xx1111111111111xxxx 0
+11111111101111x11111111111101xxx 1
+11111111101111x11111111111101xxx 0
+111111111011111111111111111001xx 1
+111111111011111111111111111001xx 0
+1111111110111111111111111110001x 1
+1111111110111111111111111110001x 0
+# vector[189] detects 36 faults (132881)
+# vector[190] detects 36 faults (132917)
+# vector[191] detects 63 faults (132980)
+# vector[192] detects 17 faults (132997)
+# vector[193] detects 19 faults (133016)
+# vector[194] detects 13 faults (133029)
+# vector[195] detects 6 faults (133035)
+# vector[196] detects 5 faults (133040)
+Dual: 1
+Fault name: g75
+Fault typed:0
+Or:10000000001011110111111111111111
+v2_1:0000000001011110111111111111111x
+v2:10000000001011110111111111111111
+v1: 0000000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:11000000001011110111111111111111
+v2_1:1000000001011110111111111111111x
+v2:11000000001011110111111111111111
+v1: 1000000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:10100000001011110111111111111111
+v2_1:0100000001011110111111111111111x
+v2:10100000001011110111111111111111
+v1: 0100000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:11100000001011110111111111111111
+v2_1:1100000001011110111111111111111x
+v2:11100000001011110111111111111111
+v1: 1100000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:10010000001011110111111111111111
+v2_1:0010000001011110111111111111111x
+v2:10010000001011110111111111111111
+v1: 0010000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:11010000001011110111111111111111
+v2_1:1010000001011110111111111111111x
+v2:11010000001011110111111111111111
+v1: 1010000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:10110000001011110111111111111111
+v2_1:0110000001011110111111111111111x
+v2:10110000001011110111111111111111
+v1: 0110000001011110111111111111111x 1
+Fault name: g75
+Fault typed:0
+Or:11110000001011110111111111111111
+v2_1:1110000001011110111111111111111x
+v2:11110000001011110111111111111111
+v1: 1110000001011110111111111111111x 1
+0000000001011110111111111111111x 1
+1000000001011110111111111111111x 1
+0100000001011110111111111111111x 1
+1100000001011110111111111111111x 1
+0010000001011110111111111111111x 1
+1010000001011110111111111111111x 1
+0110000001011110111111111111111x 1
+1110000001011110111111111111111x 1
+# vector[197] detects 18 faults (133058)
+# vector[198] detects 15 faults (133073)
+# vector[199] detects 17 faults (133090)
+# vector[200] detects 11 faults (133101)
+# vector[201] detects 6 faults (133107)
+# vector[202] detects 5 faults (133112)
+# vector[203] detects 5 faults (133117)
+# vector[204] detects 5 faults (133122)
+Dual: 1
+Fault name: g64
+Fault typed:0
+Or:1111111111110111111111111111111x
+v2_1:111111111110111111111111111111xx
+v2:1111111111110111111111111111111x
+v1: 111111111110111111111111111111xx 1
+Fault name: g64
+Fault typed:0
+Or:0111111111110111111111111111111x
+v2_1:111111111110111111111111111111xx
+v2:0111111111110111111111111111111x
+v1: 111111111110111111111111111111xx 0
+Fault name: g64
+Fault typed:0
+Or:11111111111101111111111111111101
+v2_1:1111111111101111111111111111101x
+v2:11111111111101111111111111111101
+v1: 1111111111101111111111111111101x 1
+Fault name: g64
+Fault typed:0
+Or:01111111111101111111111111111101
+v2_1:1111111111101111111111111111101x
+v2:01111111111101111111111111111101
+v1: 1111111111101111111111111111101x 0
+Fault name: g64
+Fault typed:0
+Or:01111111111101111111111111111100
+v2_1:1111111111101111111111111111100x
+v2:01111111111101111111111111111100
+v1: 1111111111101111111111111111100x 0
+Fault name: g64
+Fault typed:0
+Or:11111111111101111111111111111100
+v2_1:1111111111101111111111111111100x
+v2:11111111111101111111111111111100
+v1: 1111111111101111111111111111100x 1
+Fault name: g64
+Fault typed:0
+Or:101111111111011111111111111111xx
+v2_1:01111111111011111111111111111xxx
+v2:101111111111011111111111111111xx
+v1: 01111111111011111111111111111xxx 1
+Fault name: g64
+Fault typed:0
+Or:001111111111011111111111111111xx
+v2_1:01111111111011111111111111111xxx
+v2:001111111111011111111111111111xx
+v1: 01111111111011111111111111111xxx 0
+111111111110111111111111111111xx 1
+111111111110111111111111111111xx 0
+1111111111101111111111111111101x 1
+1111111111101111111111111111101x 0
+1111111111101111111111111111100x 0
+1111111111101111111111111111100x 1
+01111111111011111111111111111xxx 1
+01111111111011111111111111111xxx 0
+# vector[205] detects 7 faults (133129)
+# vector[206] detects 5 faults (133134)
+# vector[207] detects 5 faults (133139)
+# vector[208] detects 2 faults (133141)
+# vector[209] detects 1 faults (133142)
+# vector[210] detects 1 faults (133143)
+# vector[211] detects 4 faults (133147)
+# vector[212] detects 1 faults (133148)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Fault name: g15
+Fault typed:0
+Or:11111111111111111011111111111111
+v2_1:1111111111111111011111111111111x
+v2:11111111111111111011111111111111
+v1: 1111111111111111011111111111111x 1
+Fault name: g15
+Fault typed:0
+Or:10111111111111111011111111111111
+v2_1:0111111111111111011111111111111x
+v2:10111111111111111011111111111111
+v1: 0111111111111111011111111111111x 1
+Fault name: g15
+Fault typed:0
+Or:01111111111111111011111111111110
+v2_1:1111111111111111011111111111110x
+v2:01111111111111111011111111111110
+v1: 1111111111111111011111111111110x 0
+Fault name: g15
+Fault typed:0
+Or:11111111111111111011111111111110
+v2_1:1111111111111111011111111111110x
+v2:11111111111111111011111111111110
+v1: 1111111111111111011111111111110x 1
+Fault name: g15
+Fault typed:0
+Or:11011111111111111011111111111111
+v2_1:1011111111111111011111111111111x
+v2:11011111111111111011111111111111
+v1: 1011111111111111011111111111111x 1
+Fault name: g15
+Fault typed:0
+Or:01011111111111111011111111111110
+v2_1:1011111111111111011111111111110x
+v2:01011111111111111011111111111110
+v1: 1011111111111111011111111111110x 0
+Fault name: g15
+Fault typed:0
+Or:11011111111111111011111111111110
+v2_1:1011111111111111011111111111110x
+v2:11011111111111111011111111111110
+v1: 1011111111111111011111111111110x 1
+Fault name: g15
+Fault typed:0
+Or:10011111111111111011111111111111
+v2_1:0011111111111111011111111111111x
+v2:10011111111111111011111111111111
+v1: 0011111111111111011111111111111x 1
+1111111111111111011111111111111x 1
+0111111111111111011111111111111x 1
+1111111111111111011111111111110x 0
+1111111111111111011111111111110x 1
+1011111111111111011111111111111x 1
+1011111111111111011111111111110x 0
+1011111111111111011111111111110x 1
+0011111111111111011111111111111x 1
+# vector[213] detects 11 faults (133159)
+# vector[214] detects 17 faults (133176)
+# vector[215] detects 11 faults (133187)
+# vector[216] detects 5 faults (133192)
+# vector[217] detects 6 faults (133198)
+# vector[218] detects 6 faults (133204)
+# vector[219] detects 1 faults (133205)
+# vector[220] detects 2 faults (133207)
+Dual: 0
+Dual: 0
+Fault name: g255
+Fault typed:1
+Or:11xxxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v2_1:1xxxxxxxxxxxxxx11xxxxxxxxxxxxxxx
+v2:11xxxxxxxxxxxxxx11xxxxxxxxxxxxxx
+v1: 1xxxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+Fault name: g255
+Fault typed:1
+Or:11xxxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v2_1:1xxxxxxxxxxxxxx01xxxxxxxxxxxxxxx
+v2:11xxxxxxxxxxxxxx01xxxxxxxxxxxxxx
+v1: 1xxxxxxxxxxxxxx010xxxxxxxxxxxxxx 1
+1xxxxxxxxxxxxxx110xxxxxxxxxxxxxx 1
+1xxxxxxxxxxxxxx010xxxxxxxxxxxxxx 1
+# vector[221] detects 71 faults (133278)
+# vector[222] detects 53 faults (133331)
+Dual: 0
+Fault name: g223
+Fault typed:1
+Or:1111xxxxxxxxxxxx1101xxxxxxxxxxxx
+v2_1:111xxxxxxxxxxxx1101xxxxxxxxxxxxx
+v2:1111xxxxxxxxxxxx1101xxxxxxxxxxxx
+v1: 111xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+Fault name: g223
+Fault typed:1
+Or:1111xxxxxxxxxxxx1100xxxxxxxxxxxx
+v2_1:111xxxxxxxxxxxx1100xxxxxxxxxxxxx
+v2:1111xxxxxxxxxxxx1100xxxxxxxxxxxx
+v1: 111xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+Fault name: g223
+Fault typed:1
+Or:0111xxxxxxxxxxxx110xxxxxxxxxxxxx
+v2_1:111xxxxxxxxxxxx110xxxxxxxxxxxxxx
+v2:0111xxxxxxxxxxxx110xxxxxxxxxxxxx
+v1: 111xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+Fault name: g223
+Fault typed:1
+Or:1011xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx11x1xxxxxxxxxxxxx
+v2:1011xxxxxxxxxxxx11x1xxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+Fault name: g223
+Fault typed:1
+Or:1011xxxxxxxxxxxx11x0xxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx11x0xxxxxxxxxxxxx
+v2:1011xxxxxxxxxxxx11x0xxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+Fault name: g223
+Fault typed:1
+Or:0011xxxxxxxxxxxx11xxxxxxxxxxxxxx
+v2_1:011xxxxxxxxxxxx11xxxxxxxxxxxxxxx
+v2:0011xxxxxxxxxxxx11xxxxxxxxxxxxxx
+v1: 011xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+111xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+111xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+111xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+011xxxxxxxxxxxx1101xxxxxxxxxxxxx 1
+011xxxxxxxxxxxx1100xxxxxxxxxxxxx 1
+011xxxxxxxxxxxx110xxxxxxxxxxxxxx 0
+# vector[223] detects 108 faults (133439)
+# vector[224] detects 76 faults (133515)
+# vector[225] detects 32 faults (133547)
+# vector[226] detects 56 faults (133603)
+# vector[227] detects 36 faults (133639)
+# vector[228] detects 54 faults (133693)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Fault name: g94
+Fault typed:0
+Or:11111111111111xx1001111111111xxx
+v2_1:1111111111111xx1001111111111xxxx
+v2:11111111111111xx1001111111111xxx
+v1: 1111111111111xx1001111111111xxxx 1
+Fault name: g94
+Fault typed:0
+Or:11111111111111xx1001111111110xxx
+v2_1:1111111111111xx1001111111110xxxx
+v2:11111111111111xx1001111111110xxx
+v1: 1111111111111xx1001111111110xxxx 1
+Fault name: g94
+Fault typed:0
+Or:01111111111111xx100111111111xxxx
+v2_1:1111111111111xx100111111111xxxxx
+v2:01111111111111xx100111111111xxxx
+v1: 1111111111111xx100111111111xxxxx 0
+Fault name: g94
+Fault typed:0
+Or:11111111111111xx1001111111101xxx
+v2_1:1111111111111xx1001111111101xxxx
+v2:11111111111111xx1001111111101xxx
+v1: 1111111111111xx1001111111101xxxx 1
+Fault name: g94
+Fault typed:0
+Or:01111111111111xx1001111111101xxx
+v2_1:1111111111111xx1001111111101xxxx
+v2:01111111111111xx1001111111101xxx
+v1: 1111111111111xx1001111111101xxxx 0
+Fault name: g94
+Fault typed:0
+Or:111111111111111x10011111111001xx
+v2_1:11111111111111x10011111111001xxx
+v2:111111111111111x10011111111001xx
+v1: 11111111111111x10011111111001xxx 1
+Fault name: g94
+Fault typed:0
+Or:011111111111111x10011111111001xx
+v2_1:11111111111111x10011111111001xxx
+v2:011111111111111x10011111111001xx
+v1: 11111111111111x10011111111001xxx 0
+Fault name: g94
+Fault typed:0
+Or:1111111111111111100111111110001x
+v2_1:111111111111111100111111110001xx
+v2:1111111111111111100111111110001x
+v1: 111111111111111100111111110001xx 1
+1111111111111xx1001111111111xxxx 1
+1111111111111xx1001111111110xxxx 1
+1111111111111xx100111111111xxxxx 0
+1111111111111xx1001111111101xxxx 1
+1111111111111xx1001111111101xxxx 0
+11111111111111x10011111111001xxx 1
+11111111111111x10011111111001xxx 0
+111111111111111100111111110001xx 1
+# vector[229] detects 51 faults (133744)
+# vector[230] detects 46 faults (133790)
+# vector[231] detects 26 faults (133816)
+# vector[232] detects 24 faults (133840)
+# vector[233] detects 12 faults (133852)
+# vector[234] detects 6 faults (133858)
+# vector[235] detects 5 faults (133863)
+# vector[236] detects 1 faults (133864)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Fault name: g254
+Fault typed:1
+Or:111xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx101xxxxxxxxxxxxxx
+v2:111xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx1010xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:111xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:111xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:1x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v2_1:x1xxxxxxxxxxxxx001xxxxxxxxxxxxxx
+v2:1x1xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx0010xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:111xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:11xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:111xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 11xxxxxxxxxxxxx0110xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:110xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx101xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx101xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx1010xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:110xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx001xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx001xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx0010xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:110xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx111xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx111xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+Fault name: g254
+Fault typed:1
+Or:110xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v2_1:10xxxxxxxxxxxxx011xxxxxxxxxxxxxx
+v2:110xxxxxxxxxxxxx011xxxxxxxxxxxxx
+v1: 10xxxxxxxxxxxxx0110xxxxxxxxxxxxx 1
+11xxxxxxxxxxxxx1010xxxxxxxxxxxxx 1
+11xxxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+11xxxxxxxxxxxxx0010xxxxxxxxxxxxx 1
+11xxxxxxxxxxxxx0110xxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx1010xxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx0010xxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx1110xxxxxxxxxxxxx 1
+10xxxxxxxxxxxxx0110xxxxxxxxxxxxx 1
+# vector[237] detects 76 faults (133940)
+# vector[238] detects 33 faults (133973)
+# vector[239] detects 54 faults (134027)
+# vector[240] detects 45 faults (134072)
+# vector[241] detects 47 faults (134119)
+# vector[242] detects 39 faults (134158)
+# vector[243] detects 36 faults (134194)
+# vector[244] detects 35 faults (134229)
+Dual: 0
+Dual: 1
+Fault name: g45
+Fault typed:0
+Or:10011111111101110110111111111111
+v2_1:0011111111101110110111111111111x
+v2:10011111111101110110111111111111
+v1: 0011111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:11011111111101110110111111111111
+v2_1:1011111111101110110111111111111x
+v2:11011111111101110110111111111111
+v1: 1011111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:10111111111101110110111111111111
+v2_1:0111111111101110110111111111111x
+v2:10111111111101110110111111111111
+v1: 0111111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:11111111111101110110111111111111
+v2_1:1111111111101110110111111111111x
+v2:11111111111101110110111111111111
+v1: 1111111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:10001111111101110110111111111111
+v2_1:0001111111101110110111111111111x
+v2:10001111111101110110111111111111
+v1: 0001111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:11001111111101110110111111111111
+v2_1:1001111111101110110111111111111x
+v2:11001111111101110110111111111111
+v1: 1001111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:10101111111101110110111111111111
+v2_1:0101111111101110110111111111111x
+v2:10101111111101110110111111111111
+v1: 0101111111101110110111111111111x 1
+Fault name: g45
+Fault typed:0
+Or:11101111111101110110111111111111
+v2_1:1101111111101110110111111111111x
+v2:11101111111101110110111111111111
+v1: 1101111111101110110111111111111x 1
+0011111111101110110111111111111x 1
+1011111111101110110111111111111x 1
+0111111111101110110111111111111x 1
+1111111111101110110111111111111x 1
+0001111111101110110111111111111x 1
+1001111111101110110111111111111x 1
+0101111111101110110111111111111x 1
+1101111111101110110111111111111x 1
+# vector[245] detects 55 faults (134284)
+# vector[246] detects 51 faults (134335)
+# vector[247] detects 43 faults (134378)
+# vector[248] detects 37 faults (134415)
+# vector[249] detects 27 faults (134442)
+# vector[250] detects 28 faults (134470)
+# vector[251] detects 23 faults (134493)
+# vector[252] detects 6 faults (134499)
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxxxx01111111111111111101111
+v2_1:xxxxxxxx01111111111111111101111x
+v2:xxxxxxxxx01111111111111111101111
+v1: xxxxxxxx01111111111111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxxx011111111111111111101111
+v2_1:xxxxxxx011111111111111111101111x
+v2:xxxxxxxx011111111111111111101111
+v1: xxxxxxx011111111111111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxx0111111111111111111101111
+v2_1:xxxxxx0111111111111111111101111x
+v2:xxxxxxx0111111111111111111101111
+v1: xxxxxx0111111111111111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxx01111111111111111111101111
+v2_1:xxxxx01111111111111111111101111x
+v2:xxxxxx01111111111111111111101111
+v1: xxxxx01111111111111111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxx11111111111111111111101111
+v2_1:xxxxx11111111111111111111101111x
+v2:xxxxxx11111111111111111111101111
+v1: xxxxx11111111111111111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxxxx01111111011111111101111
+v2_1:xxxxxxxx01111111011111111101111x
+v2:xxxxxxxxx01111111011111111101111
+v1: xxxxxxxx01111111011111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxxx011111111011111111101111
+v2_1:xxxxxxx011111111011111111101111x
+v2:xxxxxxxx011111111011111111101111
+v1: xxxxxxx011111111011111111101111x x
+Fault name: g1592
+Fault typed:1
+Or:xxxxxxx0111111111011111111101111
+v2_1:xxxxxx0111111111011111111101111x
+v2:xxxxxxx0111111111011111111101111
+v1: xxxxxx0111111111011111111101111x x
+xxxxxxxx01111111111111111101111x x
+xxxxxxx011111111111111111101111x x
+xxxxxx0111111111111111111101111x x
+xxxxx01111111111111111111101111x x
+xxxxx11111111111111111111101111x x
+xxxxxxxx01111111011111111101111x x
+xxxxxxx011111111011111111101111x x
+xxxxxx0111111111011111111101111x x
+# vector[253] detects 12 faults (134511)
+# vector[254] detects 9 faults (134520)
+# vector[255] detects 3 faults (134523)
+# vector[256] detects 15 faults (134538)
+# vector[257] detects 2 faults (134540)
+# vector[258] detects 8 faults (134548)
+# vector[259] detects 19 faults (134567)
+# vector[260] detects 13 faults (134580)
+Dual: 0
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxxxx0111111000111111110111
+v2_1:xxxxxxxxx0111111000111111110111x
+v2:xxxxxxxxxx0111111000111111110111
+v1: xxxxxxxxx0111111000111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxxx01111111000111111110111
+v2_1:xxxxxxxx01111111000111111110111x
+v2:xxxxxxxxx01111111000111111110111
+v1: xxxxxxxx01111111000111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxx011111111000111111110111
+v2_1:xxxxxxx011111111000111111110111x
+v2:xxxxxxxx011111111000111111110111
+v1: xxxxxxx011111111000111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxx0111111111000111111110111
+v2_1:xxxxxx0111111111000111111110111x
+v2:xxxxxxx0111111111000111111110111
+v1: xxxxxx0111111111000111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxx1111111111000111111110111
+v2_1:xxxxxx1111111111000111111110111x
+v2:xxxxxxx1111111111000111111110111
+v1: xxxxxx1111111111000111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxxxx0111111001111111110111
+v2_1:xxxxxxxxx0111111001111111110111x
+v2:xxxxxxxxxx0111111001111111110111
+v1: xxxxxxxxx0111111001111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxxx01111111001111111110111
+v2_1:xxxxxxxx01111111001111111110111x
+v2:xxxxxxxxx01111111001111111110111
+v1: xxxxxxxx01111111001111111110111x x
+Fault name: g1717
+Fault typed:1
+Or:xxxxxxxx011111111001111111110111
+v2_1:xxxxxxx011111111001111111110111x
+v2:xxxxxxxx011111111001111111110111
+v1: xxxxxxx011111111001111111110111x x
+xxxxxxxxx0111111000111111110111x x
+xxxxxxxx01111111000111111110111x x
+xxxxxxx011111111000111111110111x x
+xxxxxx0111111111000111111110111x x
+xxxxxx1111111111000111111110111x x
+xxxxxxxxx0111111001111111110111x x
+xxxxxxxx01111111001111111110111x x
+xxxxxxx011111111001111111110111x x
+# vector[261] detects 10 faults (134590)
+# vector[262] detects 3 faults (134593)
+# vector[263] detects 2 faults (134595)
+# vector[264] detects 3 faults (134598)
+# vector[265] detects 2 faults (134600)
+# vector[266] detects 5 faults (134605)
+# vector[267] detects 5 faults (134610)
+# vector[268] detects 5 faults (134615)
+Dual: 0
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxxxx011111000000111111011
+v2_1:xxxxxxxxxx011111000000111111011x
+v2:xxxxxxxxxxx011111000000111111011
+v1: xxxxxxxxxx011111000000111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxxx0111111000000111111011
+v2_1:xxxxxxxxx0111111000000111111011x
+v2:xxxxxxxxxx0111111000000111111011
+v1: xxxxxxxxx0111111000000111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxx01111111000000111111011
+v2_1:xxxxxxxx01111111000000111111011x
+v2:xxxxxxxxx01111111000000111111011
+v1: xxxxxxxx01111111000000111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxx11111111000000111111011
+v2_1:xxxxxxxx11111111000000111111011x
+v2:xxxxxxxxx11111111000000111111011
+v1: xxxxxxxx11111111000000111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxxxx011111000001111111011
+v2_1:xxxxxxxxxx011111000001111111011x
+v2:xxxxxxxxxxx011111000001111111011
+v1: xxxxxxxxxx011111000001111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxxx0111111000001111111011
+v2_1:xxxxxxxxx0111111000001111111011x
+v2:xxxxxxxxxx0111111000001111111011
+v1: xxxxxxxxx0111111000001111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxxx01111111000001111111011
+v2_1:xxxxxxxx01111111000001111111011x
+v2:xxxxxxxxx01111111000001111111011
+v1: xxxxxxxx01111111000001111111011x x
+Fault name: g1848
+Fault typed:1
+Or:xxxxxxxx011111111000001111111011
+v2_1:xxxxxxx011111111000001111111011x
+v2:xxxxxxxx011111111000001111111011
+v1: xxxxxxx011111111000001111111011x x
+xxxxxxxxxx011111000000111111011x x
+xxxxxxxxx0111111000000111111011x x
+xxxxxxxx01111111000000111111011x x
+xxxxxxxx11111111000000111111011x x
+xxxxxxxxxx011111000001111111011x x
+xxxxxxxxx0111111000001111111011x x
+xxxxxxxx01111111000001111111011x x
+xxxxxxx011111111000001111111011x x
+# vector[269] detects 12 faults (134627)
+# vector[270] detects 14 faults (134641)
+# vector[271] detects 9 faults (134650)
+# vector[272] detects 5 faults (134655)
+# vector[273] detects 11 faults (134666)
+# vector[274] detects 3 faults (134669)
+# vector[275] detects 2 faults (134671)
+# vector[276] detects 6 faults (134677)
+Dual: 0
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx0111000000000000110
+v2_1:xxxxxxxxxxxx0111000000000000110x
+v2:xxxxxxxxxxxxx0111000000000000110
+v1: xxxxxxxxxxxx01110000000000001101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx1111000000000000110
+v2_1:xxxxxxxxxxxx1111000000000000110x
+v2:xxxxxxxxxxxxx1111000000000000110
+v1: xxxxxxxxxxxx11110000000000001101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx0111000000000001110
+v2_1:xxxxxxxxxxxx0111000000000001110x
+v2:xxxxxxxxxxxxx0111000000000001110
+v1: xxxxxxxxxxxx01110000000000011101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxx01111000000000001110
+v2_1:xxxxxxxxxxx01111000000000001110x
+v2:xxxxxxxxxxxx01111000000000001110
+v1: xxxxxxxxxxx011110000000000011101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxx11111000000000001110
+v2_1:xxxxxxxxxxx11111000000000001110x
+v2:xxxxxxxxxxxx11111000000000001110
+v1: xxxxxxxxxxx111110000000000011101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx0111000000000010110
+v2_1:xxxxxxxxxxxx0111000000000010110x
+v2:xxxxxxxxxxxxx0111000000000010110
+v1: xxxxxxxxxxxx01110000000000101101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx1111000000000010110
+v2_1:xxxxxxxxxxxx1111000000000010110x
+v2:xxxxxxxxxxxxx1111000000000010110
+v1: xxxxxxxxxxxx11110000000000101101 x
+Fault name: g2105
+Fault typed:1
+Or:xxxxxxxxxxxxx0111000000000011110
+v2_1:xxxxxxxxxxxx0111000000000011110x
+v2:xxxxxxxxxxxxx0111000000000011110
+v1: xxxxxxxxxxxx01110000000000111101 x
+xxxxxxxxxxxx01110000000000001101 x
+xxxxxxxxxxxx11110000000000001101 x
+xxxxxxxxxxxx01110000000000011101 x
+xxxxxxxxxxx011110000000000011101 x
+xxxxxxxxxxx111110000000000011101 x
+xxxxxxxxxxxx01110000000000101101 x
+xxxxxxxxxxxx11110000000000101101 x
+xxxxxxxxxxxx01110000000000111101 x
+# vector[277] detects 3 faults (134680)
+# vector[278] detects 3 faults (134683)
+# vector[279] detects 2 faults (134685)
+# vector[280] detects 0 faults (134685)
+# vector[281] detects 2 faults (134687)
+# vector[282] detects 4 faults (134691)
+# vector[283] detects 5 faults (134696)
+# vector[284] detects 8 faults (134704)
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Fault name: g580
+Fault typed:1
+Or:11111111111111100110111111111111
+v2_1:1111111111111100110111111111111x
+v2:11111111111111100110111111111111
+v1: 1111111111111100110111111111111x 1
+Fault name: g580
+Fault typed:1
+Or:01111111111111100110111111111111
+v2_1:1111111111111100110111111111111x
+v2:01111111111111100110111111111111
+v1: 1111111111111100110111111111111x 0
+Fault name: g580
+Fault typed:1
+Or:10111111111111100110111111111111
+v2_1:0111111111111100110111111111111x
+v2:10111111111111100110111111111111
+v1: 0111111111111100110111111111111x 1
+Fault name: g580
+Fault typed:1
+Or:10111111111111100110111111111110
+v2_1:0111111111111100110111111111110x
+v2:10111111111111100110111111111110
+v1: 0111111111111100110111111111110x 1
+Fault name: g580
+Fault typed:1
+Or:00111111111111100110111111111110
+v2_1:0111111111111100110111111111110x
+v2:00111111111111100110111111111110
+v1: 0111111111111100110111111111110x 0
+Fault name: g580
+Fault typed:1
+Or:00111111111111100110111111111111
+v2_1:0111111111111100110111111111111x
+v2:00111111111111100110111111111111
+v1: 0111111111111100110111111111111x 0
+Fault name: g580
+Fault typed:1
+Or:11111111111111100110111111111101
+v2_1:1111111111111100110111111111101x
+v2:11111111111111100110111111111101
+v1: 1111111111111100110111111111101x 1
+Fault name: g580
+Fault typed:1
+Or:01111111111111100110111111111101
+v2_1:1111111111111100110111111111101x
+v2:01111111111111100110111111111101
+v1: 1111111111111100110111111111101x 0
+1111111111111100110111111111111x 1
+1111111111111100110111111111111x 0
+0111111111111100110111111111111x 1
+0111111111111100110111111111110x 1
+0111111111111100110111111111110x 0
+0111111111111100110111111111111x 0
+1111111111111100110111111111101x 1
+1111111111111100110111111111101x 0
+# vector[285] detects 26 faults (134730)
+# vector[286] detects 18 faults (134748)
+# vector[287] detects 16 faults (134764)
+# vector[288] detects 10 faults (134774)
+# vector[289] detects 4 faults (134778)
+# vector[290] detects 3 faults (134781)
+# vector[291] detects 7 faults (134788)
+# vector[292] detects 1 faults (134789)
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+Dual: 1
+Dual: 0
+# number of detected faults = 134789
+#STATS
+# number of aborted faults = 476
+# number of redundant faults = 256
+# number of calling podem1 = 774
+# total number of backtracks = 25640
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 293
+#total number of gate faults = 17376
+#total number of detected faults = 16669
+#total gate fault coverage = 95.93%
+#number of equivalent gate faults = 17312
+#number of equivalent detected faults = 16622
+#equivalent gate fault coverage = 96.01%
+
+#STATS END
+#STATS
+# original test set length: 293
+# duplicated tests: 400
+# after enhanced_RO, test set length: 467
+#STATS END
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'01001101010000101101111101010111 1'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'10011111001100001110101100001000 0'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11000000110111001100110011100101 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'11110111101001001000101011111100 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10011010010010001101010110100000 1'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'10111000000110111111101000111110 0'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001011101111110100111100100110 1'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'11001101000111000111010101000011 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'10111110011101110101101110011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01111001110101111010101011011010 0'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'01100001100100111110110110110001 1'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111111011111111001101110001 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11011111110100110000111011010111 0'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11111111101111011111111111101110 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101011111111010101110101111 1'
+T'11001101111101011010011110001100 0'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'11111010010011111011011100111111 1'
+T'10001010001101110101000110100010 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01011000011000110001111101011111 1'
+T'01111001101000010001110110010111 1'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'10100111101000111111011111011111 0'
+T'11101010011110111111011001011101 0'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11101111101001011111100111111101 1'
+T'11011111110110010000111011100101 1'
+T'10111100100010110111100100110110 0'
+T'10111100100010110111100100110110 0'
+T'10111100100010110111100100110110 0'
+T'10111100100010110111100100110110 0'
+T'10111100100010110111100100110110 0'
+T'10111100100010110111100100110110 0'
+T'10000001100101110110001111111000 0'
+T'01011111100101100111011110001101 1'
+T'10110101010110000111101110001101 0'
+T'10110101010110000111101110001101 0'
+T'10110101010110000111101110001101 0'
+T'10110101010110000111101110001101 0'
+T'10110101010110000111101110001101 0'
+T'10110101010110000111101110001101 0'
+T'11101011111010001110001100100101 0'
+T'01100011011010001110010011011111 1'
+T'01110111111111010110101011100111 1'
+T'01110111111111010110101011100111 1'
+T'01110111111111010110101011100111 1'
+T'01110111111111010110101011100111 1'
+T'01110111111111010110101011100111 1'
+T'01110111111111010110101011100111 1'
+T'10100110011010100101000111001011 1'
+T'11100101111011110111001110001011 0'
+T'10100001100101011101111101001110 0'
+T'10100001100101011101111101001110 0'
+T'10100001100101011101111101001110 0'
+T'10100001100101011101111101001110 0'
+T'10100001100101011101111101001110 0'
+T'10100001100101011101111101001110 0'
+T'11101111111001011110101111110001 1'
+T'11101101100101011100111001001001 1'
+T'11011111011101011111010101000110 0'
+T'11011111011101011111010101000110 0'
+T'11011111011101011111010101000110 0'
+T'11011111011101011111010101000110 0'
+T'11011111011101011111010101000110 0'
+T'11011111011101011111010101000110 0'
+T'01010000111111110000011111110110 0'
+T'01111111011010010000110111100110 1'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111001110100 0'
+T'11111011111111011111111000110111 0'
+T'11110111110111111111110011000000 0'
+T'11110010001010110011101110101101 0'
+T'11110010001010110011101110101101 0'
+T'11110010001010110011101110101101 0'
+T'11110010001010110011101110101101 0'
+T'11110010001010110011101110101101 0'
+T'11110010001010110011101110101101 0'
+T'01111000011010010011100010100100 1'
+T'00111111111011010111101000011101 1'
+T'01010010010000111111100010100100 1'
+T'01010010010000111111100010100100 1'
+T'01010010010000111111100010100100 1'
+T'01010010010000111111100010100100 1'
+T'01010010010000111111100010100100 1'
+T'01010010010000111111100010100100 1'
+T'10100110011010100101000111001011 1'
+T'11001101010111111110010010000101 1'
+T'10100001000111111011111010100111 0'
+T'10100001000111111011111010100111 0'
+T'10100001000111111011111010100111 0'
+T'10100001000111111011111010100111 0'
+T'10100001000111111011111010100111 0'
+T'10100001000111111011111010100111 0'
+T'11111011110111111111111010111110 1'
+T'00111110100100110001110011000110 1'
+T'11110111111110011111110001100100 1'
+T'11110111111110011111110001100100 1'
+T'11110111111110011111110001100100 1'
+T'11110111111110011111110001100100 1'
+T'11110111111110011111110001100100 1'
+T'11110111111110011111110001100100 1'
+T'10001001111111110001111111101111 1'
+T'11111101001101010000011001010010 0'
+T'01101000110101111000110111010010 1'
+T'01101000110101111000110111010010 1'
+T'01101000110101111000110111010010 1'
+T'01101000110101111000110111010010 1'
+T'01101000110101111000110111010010 1'
+T'11111111011111111111111111010101 0'
+T'11101111001001111111101000110010 1'
+T'11101011000011111101111100110111 1'
+T'01110001010100011101010110101111 1'
+T'01110001010100011101010110101111 1'
+T'01110001010100011101010110101111 1'
+T'01110001010100011101010110101111 1'
+T'01110001010100011101010110101111 1'
+T'11111011100000011111111111010101 0'
+T'11110111110000011111111101011111 0'
+T'11011111111000011111001111110111 0'
+T'01011111100101100111011110001101 1'
+T'01011111100101100111011110001101 1'
+T'01011111100101100111011110001101 1'
+T'01011111100101100111011110001101 1'
+T'01011111100101100111011110001101 1'
+T'11101111001001111111101000110010 1'
+T'11011111000110011111010011100010 1'
+T'01111111001101010011110010011010 1'
+T'11110111100101011111110101111001 1'
+T'11110111100101011111110101111001 1'
+T'11110111100101011111110101111001 1'
+T'11110111100101011111110101111001 1'
+T'11110111100101011111110101111001 1'
+T'11101111111111111111100011110110 0'
+T'11011100000011011111110101000010 1'
+T'00100001111001100111100111110111 1'
+T'10000001100101110110001111111000 0'
+T'10000001100101110110001111111000 0'
+T'10000001100101110110001111111000 0'
+T'10000001100101110110001111111000 0'
+T'10000001100101110110001111111000 0'
+T'11111101111111111111111101011010 0'
+T'11110111111110011111110011010110 1'
+T'00111110100100110001110011000110 1'
+T'11001101111101011010011110001100 0'
+T'11001101111101011010011110001100 0'
+T'11001101111101011010011110001100 0'
+T'11001101111101011010011110001100 0'
+T'11001101111101011010011110001100 0'
+T'11111101111010011111111101011100 1'
+T'11111100100001110001011100101010 0'
+T'00111111111011010111101000011101 1'
+T'00111101100101110010111111101001 1'
+T'00111101100101110010111111101001 1'
+T'00111101100101110010111111101001 1'
+T'00111101100101110010111111101001 1'
+T'00111101100101110010111111101001 1'
+T'01110100001101110000000000111101 1'
+T'11111101111111011111111100101110 0'
+T'11100000111001111111111111011111 0'
+T'11101011000011111101111100110111 1'
+T'11101011000011111101111100110111 1'
+T'11101011000011111101111100110111 1'
+T'11101011000011111101111100110111 1'
+T'11111111111110110011111111011101 1'
+T'11011111111111110000111111000001 1'
+T'11011111111111110000111001101100 1'
+T'11011111111111110000111001101101 0'
+T'01111000011010010011100010100100 1'
+T'01111000011010010011100010100100 1'
+T'01111000011010010011100010100100 1'
+T'01111000011010010011100010100100 1'
+T'11111101110011111111111110101111 1'
+T'11111011110111111111111010111110 1'
+T'10001111010101011000010000111100 1'
+T'11101100010100011110000000100101 0'
+T'11110011110011111001011011111111 1'
+T'11110011110011111001011011111111 1'
+T'11110011110011111001011011111111 1'
+T'11110011110011111001011011111111 1'
+T'11111011100000011111111111010101 0'
+T'10111100101100110000011000101011 0'
+T'11111100100001110001011100101010 0'
+T'10111001101001110011111000000100 0'
+T'00111010010010011111111110110000 1'
+T'00111010010010011111111110110000 1'
+T'00111010010010011111111110110000 1'
+T'00111010010010011111111110110000 1'
+T'00000110011111110000001111110111 0'
+T'11111110111110011111111111000000 1'
+T'11111110111101111111111110111010 1'
+T'11111110111110011111111110100111 0'
+T'01100000100011111011000011011010 1'
+T'01100000100011111011000011011010 1'
+T'01100000100011111011000011011010 1'
+T'01100000100011111011000011011010 1'
+T'11111101111111111111111101011010 0'
+T'11111101111110111111111100010100 1'
+T'11110111110111111111110011000000 0'
+T'11011111111110110000111001110011 0'
+T'11001101010111111110010010000101 1'
+T'11001101010111111110010010000101 1'
+T'11001101010111111110010010000101 1'
+T'11001101010111111110010010000101 1'
+T'10011101001111110000001111110110 0'
+T'11111110111111011111111110010011 1'
+T'11111110111111111111111110001110 1'
+T'11111110111111111111111110001101 0'
+T'11101010011110111111011001011101 0'
+T'11101010011110111111011001011101 0'
+T'11101010011110111111011001011101 0'
+T'11101010011110111111011001011101 0'
+T'11111111011110011111111111111100 0'
+T'11111111011111111111111111010101 0'
+T'11111011111111011111111000110111 0'
+T'00111000100010110000110001011100 1'
+T'11101110110110111111110111101010 0'
+T'11101110110110111111110111101010 0'
+T'11101110110110111111110111101010 0'
+T'11101110110110111111110111101010 0'
+T'11111011111100111111111000111010 1'
+T'10111111000110110001111111101011 0'
+T'11111100000010110111100000011011 0'
+T'00110110000010110011001111011011 1'
+T'10111010010101011101001011110110 1'
+T'10111010010101011101001011110110 1'
+T'10111010010101011101001011110110 1'
+T'10111010010101011101001011110110 1'
+T'00010001111111110000000000011101 0'
+T'11111111101111111111111111100100 1'
+T'11101111111111011111100011111000 1'
+T'01011111111111110000000000011100 1'
+T'11001100110000111100100101000011 1'
+T'11001100110000111100100101000011 1'
+T'11001100110000111100100101000011 1'
+T'11000110111111110111111111011110 0'
+T'11101100101100111101011000000110 1'
+T'11101101100101011100111001001001 1'
+T'01100011011010001110010011011111 1'
+T'00110110000010110011001111011011 1'
+T'11110111111110011111110011010110 1'
+T'11110111111110011111110011010110 1'
+T'11110111111110011111110011010110 1'
+T'00000110011111110000001111110111 0'
+T'11111101111110111111111100111101 1'
+T'11011111111110110000111001110011 0'
+T'10111110000100110001011000010100 0'
+T'10001110001010001100101101010110 0'
+T'11011100110011111111101001010010 0'
+T'11011100110011111111101001010010 0'
+T'11111101111111011111111100101110 0'
+T'11111101111111011111111100010001 0'
+T'11011111111111110000111001101100 1'
+T'11011111111111110000111001101101 0'
+T'11101111001001111111101000110010 1'
+T'10111001101001110011111000000100 0'
+T'11100101101111011110001100111110 1'
+T'11100101101111011110001100111110 1'
+T'10011101001111110000001111110110 0'
+T'11011001010111110000011111110111 1'
+T'11111101110011111111111110101111 1'
+T'11011111111111110000111001101100 1'
+T'11011111111111110000111001101101 0'
+T'01111111011010010000110111100110 1'
+T'11011111111011011111001110101001 1'
+T'11011111111011011111001110101001 1'
+T'00110010100011110000000000001101 0'
+T'01000111010111110000000000101101 0'
+T'11111111111111001101111111111011 1'
+T'11111111111111001101111111111010 0'
+T'11111111111111110011111111001101 0'
+T'11111110111111111111111110001101 0'
+T'01011111111011101101111111111110 1'
+T'00010000011011011110011101110111 1'
+T'10100111111100111100110101111110 1'
+T'11001101011110011001000001011010 1'
+T'00011101111110100110011101101110 1'
+T'00100001111001100111100111110111 1'
+T'11101100101001111000000110111100 0'
+T'11111011011101110101111011001011 0'
+T'11101101100101011100111001001001 1'
+T'11111011110110011111111010111001 0'
+T'11110111100101011111110101111001 1'
+T'00110110000010110011001111011011 1'
+T'11011111110110010000111011100101 1'
+T'11101110110110111111110111101010 0'
+T'01001000110011111000101001111010 1'
+T'00011111111011101101111111111110 1'
+T'01111111111011101101111111111110 1'
+T'00111111111011101101111111111110 1'
+T'11101111001001111111101000110010 1'
+T'10111111000110110001111111101011 0'
+T'11011111111011101101111111111111 1'
+T'10100100011111111110010111001000 1'
+T'10011111111011101101111111111111 1'
+T'11011111111011011111001110101001 1'
+T'11110011110011111001011011111111 1'
+T'10110001000111111010011011000101 1'
+T'10001010001101110101000110100010 1'
+T'11011100000011011111110101000010 1'
+T'10111001101001110011111000000100 0'
+T'11011100110011111111101001010010 0'
+T'01101000110101111000110111010010 1'
+T'00111110100100110001110011000110 1'
+T'10101111111111101111111111111101 0'
+T'10110101010110000111101110001101 0'
+T'10111111111011101101111111111111 1'
+T'11010001111100111101000110011110 0'
+T'10100000010111101111111111111110 1'
+T'01000000010111101111111111111110 1'
+T'01111000011010010011100010100100 1'
+T'10111100100010110111100100110110 0'
+T'00111010010010011111111110110000 1'
+T'11101011111010001110001100100101 0'
+T'01110001010000101110001000001101 0'
+T'11111111111111001101111111111010 0'
+T'01010111111111101111111111111111 1'
+T'01111111111111001101111111111101 1'
+T'01010111111111101111111111111111 0'
+T'10010111111111101111111111111110 1'
+T'01110000011000010111110010111001 1'
+T'11001010101111110001111111101110 1'
+T'11111101111010111111111110001110 0'
+T'10111101100000010000111011110101 0'
+T'11111111111011101101111111111110 1'
+T'11101110010010011111101100110001 1'
+T'11111111011110011111111111111100 0'
+T'10100110111111111111111111011111 0'
+T'10101111111111101111111111111100 1'
+T'00100000010111101111111111111111 1'
+T'11111111111111001101111111111110 0'
+T'11111011111011111111111111001111 1'
+T'01101111111111101111111111111110 1'
+T'11111111111111001101111111111011 1'
+T'11111111111111110011111111001101 0'
+T'11101111111111101111111111111101 0'
+T'00101111111111101111111111111111 1'
+T'11101111111111101111111111111101 1'
+T'10101111111111101111111111111111 1'
+#atpg: cputime for test pattern generation ../sample_circuits/c6288.ckt: 5.5s 5.5s
+
+#Circuit Summary:
+#---------------
+#number of inputs = 32
+#number of outputs = 32
+#number of gates = 4800
+#number of wires = 4832
+#atpg: cputime for reading in circuit ../sample_circuits/c6288.ckt: 0.0s 0.0s
+#atpg: cputime for levelling circuit ../sample_circuits/c6288.ckt: 0.1s 0.1s
+#atpg: cputime for rearranging gate inputs ../sample_circuits/c6288.ckt: 0.0s 0.1s
+#atpg: cputime for creating dummy nodes ../sample_circuits/c6288.ckt: 0.0s 0.1s
+#atpg: cputime for generating fault list ../sample_circuits/c6288.ckt: 0.0s 0.1s
+vector[466] detects 0 faults (0)
+vector[465] detects 0 faults (0)
+vector[464] detects 0 faults (0)
+vector[463] detects 0 faults (0)
+vector[462] detects 0 faults (0)
+vector[461] detects 0 faults (0)
+vector[460] detects 0 faults (0)
+vector[459] detects 6 faults (6)
+vector[458] detects 48 faults (54)
+vector[457] detects 135 faults (189)
+vector[456] detects 201 faults (390)
+vector[455] detects 84 faults (474)
+vector[454] detects 54 faults (528)
+vector[453] detects 53 faults (581)
+vector[452] detects 80 faults (661)
+vector[451] detects 28 faults (689)
+vector[450] detects 49 faults (738)
+vector[449] detects 91 faults (829)
+vector[448] detects 32 faults (861)
+vector[447] detects 107 faults (968)
+vector[446] detects 23 faults (991)
+vector[445] detects 61 faults (1052)
+vector[444] detects 46 faults (1098)
+vector[443] detects 139 faults (1237)
+vector[442] detects 70 faults (1307)
+vector[441] detects 166 faults (1473)
+vector[440] detects 94 faults (1567)
+vector[439] detects 120 faults (1687)
+vector[438] detects 134 faults (1821)
+vector[437] detects 135 faults (1956)
+vector[436] detects 194 faults (2150)
+vector[435] detects 182 faults (2332)
+vector[434] detects 174 faults (2506)
+vector[433] detects 227 faults (2733)
+vector[432] detects 204 faults (2937)
+vector[431] detects 128 faults (3065)
+vector[430] detects 231 faults (3296)
+vector[429] detects 242 faults (3538)
+vector[428] detects 208 faults (3746)
+vector[427] detects 234 faults (3980)
+vector[426] detects 208 faults (4188)
+vector[425] detects 248 faults (4436)
+vector[424] detects 306 faults (4742)
+vector[423] detects 292 faults (5034)
+vector[422] detects 170 faults (5204)
+vector[421] detects 252 faults (5456)
+vector[420] detects 246 faults (5702)
+vector[419] detects 241 faults (5943)
+vector[418] detects 217 faults (6160)
+vector[417] detects 153 faults (6313)
+vector[416] detects 191 faults (6504)
+vector[415] detects 127 faults (6631)
+vector[414] detects 288 faults (6919)
+vector[413] detects 277 faults (7196)
+vector[412] detects 266 faults (7462)
+vector[411] detects 232 faults (7694)
+vector[410] detects 268 faults (7962)
+vector[409] detects 279 faults (8241)
+vector[408] detects 248 faults (8489)
+vector[407] detects 237 faults (8726)
+vector[406] detects 193 faults (8919)
+vector[405] detects 206 faults (9125)
+vector[404] detects 238 faults (9363)
+vector[403] detects 189 faults (9552)
+vector[402] detects 211 faults (9763)
+vector[401] detects 205 faults (9968)
+vector[400] detects 61 faults (10029)
+vector[399] detects 162 faults (10191)
+vector[398] detects 131 faults (10322)
+vector[397] detects 89 faults (10411)
+vector[396] detects 69 faults (10480)
+vector[395] detects 55 faults (10535)
+vector[394] detects 39 faults (10574)
+vector[393] detects 163 faults (10737)
+vector[392] detects 120 faults (10857)
+vector[391] detects 164 faults (11021)
+vector[390] detects 103 faults (11124)
+vector[389] detects 129 faults (11253)
+vector[388] detects 121 faults (11374)
+vector[387] detects 145 faults (11519)
+vector[386] detects 90 faults (11609)
+vector[385] detects 144 faults (11753)
+vector[384] detects 202 faults (11955)
+vector[383] detects 140 faults (12095)
+vector[382] detects 161 faults (12256)
+vector[381] detects 74 faults (12330)
+vector[380] detects 73 faults (12403)
+vector[379] detects 85 faults (12488)
+vector[378] detects 100 faults (12588)
+vector[377] detects 129 faults (12717)
+vector[376] detects 90 faults (12807)
+vector[375] detects 100 faults (12907)
+vector[374] detects 89 faults (12996)
+vector[373] detects 64 faults (13060)
+vector[372] detects 83 faults (13143)
+vector[371] detects 69 faults (13212)
+vector[370] detects 81 faults (13293)
+vector[369] detects 76 faults (13369)
+vector[368] detects 75 faults (13444)
+vector[367] detects 95 faults (13539)
+vector[366] detects 115 faults (13654)
+vector[365] detects 86 faults (13740)
+vector[364] detects 72 faults (13812)
+vector[363] detects 73 faults (13885)
+vector[362] detects 69 faults (13954)
+vector[361] detects 64 faults (14018)
+vector[360] detects 44 faults (14062)
+vector[359] detects 29 faults (14091)
+vector[358] detects 35 faults (14126)
+vector[357] detects 49 faults (14175)
+vector[356] detects 17 faults (14192)
+vector[355] detects 91 faults (14283)
+vector[354] detects 103 faults (14386)
+vector[353] detects 60 faults (14446)
+vector[352] detects 40 faults (14486)
+vector[351] detects 48 faults (14534)
+vector[350] detects 47 faults (14581)
+vector[349] detects 51 faults (14632)
+vector[348] detects 58 faults (14690)
+vector[347] detects 64 faults (14754)
+vector[346] detects 43 faults (14797)
+vector[345] detects 39 faults (14836)
+vector[344] detects 16 faults (14852)
+vector[343] detects 42 faults (14894)
+vector[342] detects 40 faults (14934)
+vector[341] detects 45 faults (14979)
+vector[340] detects 43 faults (15022)
+vector[339] detects 51 faults (15073)
+vector[338] detects 34 faults (15107)
+vector[337] detects 24 faults (15131)
+vector[336] detects 26 faults (15157)
+vector[335] detects 28 faults (15185)
+vector[334] detects 11 faults (15196)
+vector[333] detects 26 faults (15222)
+vector[332] detects 26 faults (15248)
+vector[331] detects 33 faults (15281)
+vector[330] detects 24 faults (15305)
+vector[329] detects 32 faults (15337)
+vector[328] detects 28 faults (15365)
+vector[327] detects 22 faults (15387)
+vector[326] detects 18 faults (15405)
+vector[325] detects 17 faults (15422)
+vector[324] detects 21 faults (15443)
+vector[323] detects 39 faults (15482)
+vector[322] detects 32 faults (15514)
+vector[321] detects 32 faults (15546)
+vector[320] detects 21 faults (15567)
+vector[319] detects 28 faults (15595)
+vector[318] detects 31 faults (15626)
+vector[317] detects 10 faults (15636)
+vector[316] detects 8 faults (15644)
+vector[315] detects 23 faults (15667)
+vector[314] detects 14 faults (15681)
+vector[313] detects 5 faults (15686)
+vector[312] detects 4 faults (15690)
+vector[311] detects 20 faults (15710)
+vector[310] detects 24 faults (15734)
+vector[309] detects 12 faults (15746)
+vector[308] detects 8 faults (15754)
+vector[307] detects 25 faults (15779)
+vector[306] detects 19 faults (15798)
+vector[305] detects 35 faults (15833)
+vector[304] detects 11 faults (15844)
+vector[303] detects 16 faults (15860)
+vector[302] detects 21 faults (15881)
+vector[301] detects 11 faults (15892)
+vector[300] detects 14 faults (15906)
+vector[299] detects 13 faults (15919)
+vector[298] detects 21 faults (15940)
+vector[297] detects 5 faults (15945)
+vector[296] detects 8 faults (15953)
+vector[295] detects 6 faults (15959)
+vector[294] detects 8 faults (15967)
+vector[293] detects 15 faults (15982)
+vector[292] detects 17 faults (15999)
+vector[291] detects 17 faults (16016)
+vector[290] detects 19 faults (16035)
+vector[289] detects 18 faults (16053)
+vector[288] detects 4 faults (16057)
+vector[287] detects 13 faults (16070)
+vector[286] detects 9 faults (16079)
+vector[285] detects 7 faults (16086)
+vector[284] detects 22 faults (16108)
+vector[283] detects 24 faults (16132)
+vector[282] detects 5 faults (16137)
+vector[281] detects 22 faults (16159)
+vector[280] detects 12 faults (16171)
+vector[279] detects 15 faults (16186)
+vector[278] detects 8 faults (16194)
+vector[277] detects 14 faults (16208)
+vector[276] detects 19 faults (16227)
+vector[275] detects 13 faults (16240)
+vector[274] detects 22 faults (16262)
+vector[273] detects 11 faults (16273)
+vector[272] detects 12 faults (16285)
+vector[271] detects 6 faults (16291)
+vector[270] detects 4 faults (16295)
+vector[269] detects 10 faults (16305)
+vector[268] detects 18 faults (16323)
+vector[267] detects 10 faults (16333)
+vector[266] detects 16 faults (16349)
+vector[265] detects 6 faults (16355)
+vector[264] detects 5 faults (16360)
+vector[263] detects 18 faults (16378)
+vector[262] detects 13 faults (16391)
+vector[261] detects 9 faults (16400)
+vector[260] detects 13 faults (16413)
+vector[259] detects 10 faults (16423)
+vector[258] detects 1 faults (16424)
+vector[257] detects 7 faults (16431)
+vector[256] detects 4 faults (16435)
+vector[255] detects 5 faults (16440)
+vector[254] detects 5 faults (16445)
+vector[253] detects 9 faults (16454)
+vector[252] detects 8 faults (16462)
+vector[251] detects 22 faults (16484)
+vector[250] detects 11 faults (16495)
+vector[249] detects 10 faults (16505)
+vector[248] detects 11 faults (16516)
+vector[247] detects 5 faults (16521)
+vector[246] detects 6 faults (16527)
+vector[245] detects 0 faults (16527)
+vector[244] detects 5 faults (16532)
+vector[243] detects 4 faults (16536)
+vector[242] detects 6 faults (16542)
+vector[241] detects 4 faults (16546)
+vector[240] detects 3 faults (16549)
+vector[239] detects 5 faults (16554)
+vector[238] detects 9 faults (16563)
+vector[237] detects 1 faults (16564)
+vector[236] detects 13 faults (16577)
+vector[235] detects 4 faults (16581)
+vector[234] detects 8 faults (16589)
+vector[233] detects 5 faults (16594)
+vector[232] detects 1 faults (16595)
+vector[231] detects 3 faults (16598)
+vector[230] detects 3 faults (16601)
+vector[229] detects 3 faults (16604)
+vector[228] detects 1 faults (16605)
+vector[227] detects 1 faults (16606)
+vector[226] detects 1 faults (16607)
+vector[225] detects 0 faults (16607)
+vector[224] detects 1 faults (16608)
+vector[223] detects 1 faults (16609)
+vector[222] detects 6 faults (16615)
+vector[221] detects 3 faults (16618)
+vector[220] detects 2 faults (16620)
+vector[219] detects 3 faults (16623)
+vector[218] detects 1 faults (16624)
+vector[217] detects 0 faults (16624)
+vector[216] detects 4 faults (16628)
+vector[215] detects 1 faults (16629)
+vector[214] detects 12 faults (16641)
+vector[213] detects 7 faults (16648)
+vector[212] detects 3 faults (16651)
+vector[211] detects 3 faults (16654)
+vector[210] detects 1 faults (16655)
+vector[209] detects 4 faults (16659)
+vector[208] detects 2 faults (16661)
+vector[207] detects 5 faults (16666)
+vector[206] detects 1 faults (16667)
+vector[205] detects 14 faults (16681)
+vector[204] detects 4 faults (16685)
+vector[203] detects 5 faults (16690)
+vector[202] detects 3 faults (16693)
+vector[201] detects 2 faults (16695)
+vector[200] detects 1 faults (16696)
+vector[199] detects 2 faults (16698)
+vector[198] detects 4 faults (16702)
+vector[197] detects 1 faults (16703)
+vector[196] detects 3 faults (16706)
+vector[195] detects 1 faults (16707)
+vector[194] detects 5 faults (16712)
+vector[193] detects 0 faults (16712)
+vector[192] detects 0 faults (16712)
+vector[191] detects 0 faults (16712)
+vector[190] detects 3 faults (16715)
+vector[189] detects 2 faults (16717)
+vector[188] detects 1 faults (16718)
+vector[187] detects 2 faults (16720)
+vector[186] detects 2 faults (16722)
+vector[185] detects 1 faults (16723)
+vector[184] detects 0 faults (16723)
+vector[183] detects 2 faults (16725)
+vector[182] detects 1 faults (16726)
+vector[181] detects 0 faults (16726)
+vector[180] detects 2 faults (16728)
+vector[179] detects 3 faults (16731)
+vector[178] detects 1 faults (16732)
+vector[177] detects 0 faults (16732)
+vector[176] detects 0 faults (16732)
+vector[175] detects 4 faults (16736)
+vector[174] detects 5 faults (16741)
+vector[173] detects 3 faults (16744)
+vector[172] detects 2 faults (16746)
+vector[171] detects 4 faults (16750)
+vector[170] detects 2 faults (16752)
+vector[169] detects 5 faults (16757)
+vector[168] detects 3 faults (16760)
+vector[167] detects 1 faults (16761)
+vector[166] detects 0 faults (16761)
+vector[165] detects 5 faults (16766)
+vector[164] detects 4 faults (16770)
+vector[163] detects 2 faults (16772)
+vector[162] detects 1 faults (16773)
+vector[161] detects 1 faults (16774)
+vector[160] detects 1 faults (16775)
+vector[159] detects 4 faults (16779)
+vector[158] detects 2 faults (16781)
+vector[157] detects 1 faults (16782)
+vector[156] detects 1 faults (16783)
+vector[155] detects 1 faults (16784)
+vector[154] detects 2 faults (16786)
+vector[153] detects 0 faults (16786)
+vector[152] detects 1 faults (16787)
+vector[151] detects 0 faults (16787)
+vector[150] detects 4 faults (16791)
+vector[149] detects 2 faults (16793)
+vector[148] detects 1 faults (16794)
+vector[147] detects 2 faults (16796)
+vector[146] detects 0 faults (16796)
+vector[145] detects 1 faults (16797)
+vector[144] detects 1 faults (16798)
+vector[143] detects 0 faults (16798)
+vector[142] detects 4 faults (16802)
+vector[141] detects 0 faults (16802)
+vector[140] detects 2 faults (16804)
+vector[139] detects 2 faults (16806)
+vector[138] detects 3 faults (16809)
+vector[137] detects 2 faults (16811)
+vector[136] detects 0 faults (16811)
+vector[135] detects 2 faults (16813)
+vector[134] detects 4 faults (16817)
+vector[133] detects 1 faults (16818)
+vector[132] detects 0 faults (16818)
+vector[131] detects 2 faults (16820)
+vector[130] detects 0 faults (16820)
+vector[129] detects 0 faults (16820)
+vector[128] detects 3 faults (16823)
+vector[127] detects 3 faults (16826)
+vector[126] detects 5 faults (16831)
+vector[125] detects 4 faults (16835)
+vector[124] detects 2 faults (16837)
+vector[123] detects 3 faults (16840)
+vector[122] detects 2 faults (16842)
+vector[121] detects 3 faults (16845)
+vector[120] detects 1 faults (16846)
+vector[119] detects 4 faults (16850)
+vector[118] detects 1 faults (16851)
+vector[117] detects 3 faults (16854)
+vector[116] detects 0 faults (16854)
+vector[115] detects 2 faults (16856)
+vector[114] detects 0 faults (16856)
+vector[113] detects 0 faults (16856)
+vector[112] detects 0 faults (16856)
+vector[111] detects 1 faults (16857)
+vector[110] detects 0 faults (16857)
+vector[109] detects 0 faults (16857)
+vector[108] detects 4 faults (16861)
+vector[107] detects 0 faults (16861)
+vector[106] detects 1 faults (16862)
+vector[105] detects 1 faults (16863)
+vector[104] detects 2 faults (16865)
+vector[103] detects 1 faults (16866)
+vector[102] detects 3 faults (16869)
+vector[101] detects 0 faults (16869)
+vector[100] detects 2 faults (16871)
+vector[99] detects 1 faults (16872)
+vector[98] detects 1 faults (16873)
+vector[97] detects 0 faults (16873)
+vector[96] detects 1 faults (16874)
+vector[95] detects 2 faults (16876)
+vector[94] detects 2 faults (16878)
+vector[93] detects 0 faults (16878)
+vector[92] detects 3 faults (16881)
+vector[91] detects 0 faults (16881)
+vector[90] detects 3 faults (16884)
+vector[89] detects 0 faults (16884)
+vector[88] detects 1 faults (16885)
+vector[87] detects 1 faults (16886)
+vector[86] detects 2 faults (16888)
+vector[85] detects 0 faults (16888)
+vector[84] detects 2 faults (16890)
+vector[83] detects 0 faults (16890)
+vector[82] detects 0 faults (16890)
+vector[81] detects 0 faults (16890)
+vector[80] detects 1 faults (16891)
+vector[79] detects 2 faults (16893)
+vector[78] detects 0 faults (16893)
+vector[77] detects 0 faults (16893)
+vector[76] detects 0 faults (16893)
+vector[75] detects 1 faults (16894)
+vector[74] detects 1 faults (16895)
+vector[73] detects 0 faults (16895)
+vector[72] detects 2 faults (16897)
+vector[71] detects 0 faults (16897)
+vector[70] detects 1 faults (16898)
+vector[69] detects 1 faults (16899)
+vector[68] detects 1 faults (16900)
+vector[67] detects 2 faults (16902)
+vector[66] detects 0 faults (16902)
+vector[65] detects 2 faults (16904)
+vector[64] detects 1 faults (16905)
+vector[63] detects 2 faults (16907)
+vector[62] detects 0 faults (16907)
+vector[61] detects 0 faults (16907)
+vector[60] detects 2 faults (16909)
+vector[59] detects 1 faults (16910)
+vector[58] detects 1 faults (16911)
+vector[57] detects 2 faults (16913)
+vector[56] detects 1 faults (16914)
+vector[55] detects 3 faults (16917)
+vector[54] detects 0 faults (16917)
+vector[53] detects 1 faults (16918)
+vector[52] detects 0 faults (16918)
+vector[51] detects 2 faults (16920)
+vector[50] detects 1 faults (16921)
+vector[49] detects 0 faults (16921)
+vector[48] detects 1 faults (16922)
+vector[47] detects 0 faults (16922)
+vector[46] detects 1 faults (16923)
+vector[45] detects 0 faults (16923)
+vector[44] detects 0 faults (16923)
+vector[43] detects 0 faults (16923)
+vector[42] detects 0 faults (16923)
+vector[41] detects 0 faults (16923)
+vector[40] detects 1 faults (16924)
+vector[39] detects 1 faults (16925)
+vector[38] detects 2 faults (16927)
+vector[37] detects 0 faults (16927)
+vector[36] detects 1 faults (16928)
+vector[35] detects 2 faults (16930)
+vector[34] detects 0 faults (16930)
+vector[33] detects 0 faults (16930)
+vector[32] detects 1 faults (16931)
+vector[31] detects 1 faults (16932)
+vector[30] detects 0 faults (16932)
+vector[29] detects 2 faults (16934)
+vector[28] detects 0 faults (16934)
+vector[27] detects 1 faults (16935)
+vector[26] detects 1 faults (16936)
+vector[25] detects 4 faults (16940)
+vector[24] detects 1 faults (16941)
+vector[23] detects 0 faults (16941)
+vector[22] detects 4 faults (16945)
+vector[21] detects 1 faults (16946)
+vector[20] detects 0 faults (16946)
+vector[19] detects 0 faults (16946)
+vector[18] detects 0 faults (16946)
+vector[17] detects 0 faults (16946)
+vector[16] detects 1 faults (16947)
+vector[15] detects 0 faults (16947)
+vector[14] detects 1 faults (16948)
+vector[13] detects 0 faults (16948)
+vector[12] detects 1 faults (16949)
+vector[11] detects 0 faults (16949)
+vector[10] detects 1 faults (16950)
+vector[9] detects 0 faults (16950)
+vector[8] detects 1 faults (16951)
+vector[7] detects 1 faults (16952)
+vector[6] detects 1 faults (16953)
+vector[5] detects 2 faults (16955)
+vector[4] detects 0 faults (16955)
+vector[3] detects 0 faults (16955)
+vector[2] detects 1 faults (16956)
+vector[1] detects 0 faults (16956)
+vector[0] detects 2 faults (16958)
+
+# Result:
+-----------------------
+# total transition delay faults: 17376
+# total detected faults: 16958
+# fault coverage: 97.594383 %
+#atpg: cputime for test pattern generation ../sample_circuits/c6288.ckt: 2.8s 2.9s

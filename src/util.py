@@ -14,11 +14,11 @@ def final_ans(file):
                 please_print = False
             if please_print:
                 if line != "#STATS\n" and line != "#STATS END\n":
-                    print("..."+line,end="")
+                    print(line,end=""),
         print("=============================================================")
         # print("========================= GOLDEN  ===========================")
         # for line in lines[-6:-1]:
-        #     print(line,end="")
+        #     print(line),
         # print("=============================================================")
 if __name__ == "__main__":
     final_ans(args.f1)

@@ -1,5 +1,5 @@
 #include "atpg.h"
-#include <algorithm>
+
 ////////////////////////////////////
 //Author:     Joe
 //Date    :    2018/11/29 
@@ -53,17 +53,20 @@ string ATPG::scan_ckt_out(void)
  
 int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 {
-	FAULT _F1=*x,_F2=*x;
+	FAULT _F1=*x;
 	// int nbt=0,nim=0;
-	// _F2.fault_type ^= 1;
+	// _F1.fault_type ^= 1;
+
 	vector<string> _regpats;
+  cout <<"Dual: " << _F1.fault_type <<endl;
 	switch(tdfpodem(&_F1,nbt,2,_regpats)){
     case TRUE:
-
+      // cout << "Current fault:  ";
+      // display_fault(&_F1);
       for(auto &x:_regpats)
       {
+        cout << x << endl;
         patterns.push_back(x);
-   
       }
       return(TRUE);
     case FALSE:
@@ -75,25 +78,9 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 
 void ATPG::tdfatpg()
 {
-
-
     // total_attempt_num = 8;
-  	backtrack_limit   = 1;
-    cout <<".........................................hihihihihihih:"<<endl;
-    if(cpdag==true){
-      // change the sequence from true prob height to low
-      cout <<".........................................hihihihihihih:"<<endl;
-      for(auto &y: hash_nlist)
-      {
-        for(auto &x:y){
-          // cout <<".........................................hihihihihihih:"<< x->name <<endl;
-          bubble_sort(x->iwire);
-          bubble_sort(x->owire);
-        }
-      }
-    }
-
-    // set_backtrack_limit(1);
+  	// backtrack_limit   = 500;
+    set_backtrack_limit(500);
     int nbt = 0;
 
     for(auto &x:flist_undetect)
@@ -113,7 +100,6 @@ void ATPG::tdfatpg()
     output_patterns();
 }
 
-
 void ATPG::random_fill(string& vec) {
    	for(auto &y: vec){
 
@@ -122,6 +108,7 @@ void ATPG::random_fill(string& vec) {
          		case '0': y='0'; break;
          		case '1': y='1'; break;
          		case 'x': y=(rand()%2)?'0':'1'; break;
+            // case 'x': y='1'; break;
          		case 'D': y='0'; break;
          		case 'B': y='1'; break;
          		case ' ': y=y  ; break;
@@ -327,36 +314,36 @@ bool ATPG::MayIassignYou(const fptr fault, string& _s)
 	for(int _i=0;_i<(ncktin-1);_i++){
   		cktin[_i]->value = _fi[_i+1];
   	}
-
+    string _s2_1=scan_ckt();
   
-
 	int pi_is_reach = set_uniquely_implied_value(fault);
+
+  wptr ret;
 	if(pi_is_reach == TRUE)
 	{
-		find_pi_assignment(sort_wlist[fault->to_swlist], fault->fault_type) ;
+		ret = find_pi_assignment(sort_wlist[fault->to_swlist], fault->fault_type) ;
 	}	
 
 // twice scan
 	string _s1=scan_ckt();
 
 //reset flag
-  	// for (int i = 0; i < ncktwire; i++) {
-   //  		sort_wlist[i]->flag  &= ~ALL_ASSIGNED;;
-  	// }
-  	for (int i = 0; i < ncktwire; i++) {
-    		sort_wlist[i]->value = _ov[i];
-  	}
+  for (int i = 0; i < ncktwire; i++) {
+   		sort_wlist[i]->value = _ov[i];
+  }
 
 	
 // print out
-	if(pi_is_reach == TRUE && _s1!=_s2)
+	if(pi_is_reach == TRUE && _s1!=_s2 )
 	{
-    /*
-		cout <<"Fault type: " << fault->node->name <<endl;
-		cout <<"Or:"<<_s<<endl;
-		cout <<"v2:"<< _s2 << endl;
-		cout <<"v1: " <<_s1 <<" " << _s[0]<<endl;
-    */
+    
+		// cout <<"Fault name: " << fault->node->name <<endl;
+  //   cout <<"Fault typed:" << fault->fault_type <<endl;
+		// cout <<"Or:"<<_s<<endl;
+  //   cout <<"v2_1:"  << _s2_1 << endl;
+		// cout <<"v2:"  << _s2 << endl;
+		// cout <<"v1: " <<_s1 <<" " << _s[0]<<endl;
+    
 		_s=_s1+" "+_s[0];
 		return true;
 	}
