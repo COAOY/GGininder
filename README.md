@@ -30,7 +30,17 @@ oh la ha la ya
 
 read file --> parsar --> logic simulation --> processor CPDAG
 
-
+# Easy to use
+## CPDAG produce command
+	build total circuit cpdag file script
+	sh run_all.sh 
+	
+	go to src tand key make 
+	
+	sh run.sh file_number 
+	ex: sh run.sh 7288 
+	
+	top is level selection result, below result is from cpdag 	
 
 
 ## After check you'll get a pdf file named Monty Hall Problem 
