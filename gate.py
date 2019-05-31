@@ -139,6 +139,8 @@ class Gate:
 					res = res&j[t]
 				elif(gtype=='nand'):
 					res = res&j[t]
+				elif(gtype=='nor'):
+					res = res|j[t]
 				elif(gtype=='or'):
 					res = res|j[t]
 				elif(gtype=='xor'):
@@ -147,7 +149,7 @@ class Gate:
 					res = not res
 				else:
 					print('wronf gtype in gate.py assign_ouput_to_true_tble')
-			if(gtype=='nand'):
+			if(gtype=='nand' or gtype=='nor'):
 				res = not res
 			if(gtype=='xor' and len(j)==3):
 				res = res^res

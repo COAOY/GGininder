@@ -112,18 +112,7 @@ void ATPG::tdfatpg()
     // patterns=_v2;
     output_patterns();
 }
-void ATPG::bubble_sort(vector<wptr>& vec)
-{
-  int bound=vec.size();
-  for(int i=0;i<bound;i++)
-  {
-    for(int j=0;j<bound-i-1;j++){
-      if( true_prob.find(vec[j]->name)->second < true_prob.find(vec[j+1]->name)->second  ){
-        swap(vec[j],vec[j+1]);
-      }
-    }
-  }
-}
+
 
 void ATPG::random_fill(string& vec) {
    	for(auto &y: vec){

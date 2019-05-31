@@ -1,5 +1,19 @@
 #include "atpg.h"
 
+
+void ATPG::bubble_sort(vector<wptr>& vec)
+{
+  int bound=vec.size();
+  for(int i=0;i<bound;i++)
+  {
+    for(int j=0;j<bound-i-1;j++){
+      if( true_prob.find(vec[j]->name)->second < true_prob.find(vec[j+1]->name)->second  ){
+        swap(vec[j],vec[j+1]);
+      }
+    }
+  }
+}
+
 void ATPG::test(void) {
   string vec;
   int current_detect_num = 0;
@@ -29,13 +43,17 @@ void ATPG::test(void) {
     return;
   }// if tdfsim only
 
-set_backtrack_limit(100);
+set_backtrack_limit(1);
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;
       
       for(auto &y: hash_nlist){
         for(auto &x:y){
+          cout << "True brobability of wire: ";
+          for(auto &z:x->iwire){
+            cout<< true_prob.find(z->name)->second << " ";
+          }cout<<endl;
           // cout <<".........................................hihihihihihih:"<< x->name <<endl;
           bubble_sort(x->iwire);
           bubble_sort(x->owire);

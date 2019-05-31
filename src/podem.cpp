@@ -366,18 +366,42 @@ ATPG::wptr ATPG::find_pi_assignment(const wptr object_wire, const int& object_le
   else {
     switch(object_wire->inode.front()->type) {
       case   OR:
-      case NAND:
-        if (object_level) new_object_wire = find_easiest_control(object_wire->inode.front());  // decision gate
-        else new_object_wire = find_hardest_control(object_wire->inode.front()); // imply gate
+        if(cpdag){
+            if (object_level) new_object_wire = find_easiest_control(object_wire->inode.front());  // decision gate
+            else new_object_wire = find_hardest_control(object_wire->inode.front()); // imply gate
+          break;
+        }
+      case NAND:  
+        if(cpdag){
+          new_object_wire =find_hardest_control(object_wire->inode.front());
+          break;
+        }
+        else
+        {
+          if (object_level) new_object_wire = find_easiest_control(object_wire->inode.front());  // decision gate
+          else new_object_wire = find_hardest_control(object_wire->inode.front()); // imply gate
         break;
+        }
       case  NOR:
+        if(cpdag){
+          if (object_level) new_object_wire = find_hardest_control(object_wire->inode.front());
+          else new_object_wire = find_easiest_control(object_wire->inode.front());
+          break;
+        }
       case  AND:
 		// TODO find the input wire  
     // Hint similar to OR and NAND but different polarity
     //--------------------------------- hole -------------------------------------------
-        if (object_level) new_object_wire = find_hardest_control(object_wire->inode.front());
-        else new_object_wire = find_easiest_control(object_wire->inode.front());
-        break;
+        if(cpdag)
+        {
+          new_object_wire =find_hardest_control(object_wire->inode.front());
+          break;
+        }
+        else{
+          if (object_level) new_object_wire = find_hardest_control(object_wire->inode.front());
+          else new_object_wire = find_easiest_control(object_wire->inode.front());
+          break;
+        }
     //----------------------------------------------------------------------------------
 		//  TODO 
       case  NOT:
