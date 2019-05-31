@@ -85,6 +85,7 @@ void ATPG::newgate(void) {
   int i;
 
   if ((targc < 5) || (targv[targc - 2] != ";")) error("Bad Gate Record");
+
   n = getnode(targv[0]);
   n->type = FindType(targv[1]);
   i = 2;
@@ -376,3 +377,23 @@ void ATPG::display_circuit(void) {
   }
   return;
 } /* end of display_circuit */
+
+void ATPG::write_cp_table(string name)
+{
+  string filename = string(name+".out");
+  ifstream file(filename, std::ifstream::in);
+  std::cout<<filename <<endl;
+  int i=0;
+  while(!file.eof()&& !file.bad())
+  {
+    string name,rep;
+    float t,f;
+    file>>name>>rep>>t>>rep>>f;
+    // std::cout<< name <<" " <<t <<" " <<f<<endl;
+    true_prob[name]=t;
+    false_prob[name]=f;
+    // if(i++==3)
+    //   break;
+  }
+  file.close();
+}
