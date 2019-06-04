@@ -107,8 +107,8 @@ void ATPG::random_fill(string& vec) {
    		{
          		case '0': y='0'; break;
          		case '1': y='1'; break;
-         		case 'x': y=(rand()%2)?'0':'1'; break;
-            // case 'x': y='1'; break;
+         		// case 'x': y=(rand()%2)?'0':'1'; break;
+            case 'x': y='1'; break;
          		case 'D': y='0'; break;
          		case 'B': y='1'; break;
          		case ' ': y=y  ; break;

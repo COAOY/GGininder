@@ -2,11 +2,7 @@
 True 0.5
 False 0.5
 
-1GAT(0)
-True 0.5
-False 0.5
-
-3GAT(2)
+6GAT(3)
 True 0.5
 False 0.5
 
@@ -14,7 +10,11 @@ False 0.5
 True 0.5
 False 0.5
 
-6GAT(3)
+3GAT(2)
+True 0.5
+False 0.5
+
+1GAT(0)
 True 0.5
 False 0.5
 

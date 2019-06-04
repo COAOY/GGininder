@@ -39,16 +39,20 @@ void ATPG::test(void) {
     
     return;
   }// if tdfsim only
-set_backtrack_limit(32);
+set_backtrack_limit(1);
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;
       
       for(auto &y: hash_nlist){
         for(auto &x:y){
-          cout << "True brobability of wire: ";
+          cout << "True brobability of wire  " << x->name << ": ";
           for(auto &z:x->iwire){
             cout<< true_prob.find(z->name)->second << " ";
+          }cout<<endl;
+          cout << "False brobability of wire  " << x->name << ": ";
+          for(auto &z:x->iwire){
+            cout<< false_prob.find(z->name)->second << " ";
           }cout<<endl;
           // cout <<".........................................hihihihihihih:"<< x->name <<endl;
           bubble_sort(x->iwire);
