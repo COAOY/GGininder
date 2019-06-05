@@ -1,0 +1,44 @@
+2GAT(1)
+True 0.5
+False 0.5
+
+1GAT(0)
+True 0.5
+False 0.5
+
+3GAT(2)
+True 0.5
+False 0.5
+
+7GAT(4)
+True 0.5
+False 0.5
+
+6GAT(3)
+True 0.5
+False 0.5
+
+11GAT(5)
+True 0.75
+False 0.25
+
+10GAT(6)
+True 0.75
+False 0.25
+
+19GAT(7)
+True 0.625
+False 0.375
+
+16GAT(8)
+True 0.625
+False 0.375
+
+23GAT(9)
+True 0.6094
+False 0.3906
+
+22GAT(10)
+True 0.5312
+False 0.4688
+

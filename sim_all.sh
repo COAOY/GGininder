@@ -1,11 +1,28 @@
-echo "Crete all probablity files"
+echo "Run Simulation"
 
-arr=("c17.ckt" "c432.ckt" "c499.ckt" "c880.ckt" "c1355.ckt" "c2670.ckt" "c5315.ckt" "c6288.ckt" "c7552.ckt")
+arr=("18" "19")
+# arr=("test")
 
 for ((i=0; i < ${#arr[@]}; i++))
 do
+	filename=log${arr[$i]}.txt
+    touch $filename
     echo ${arr[$i]}
-    python main.py sample_circuits/${arr[i]}
+    python main.py  $(pwd)/sample_circuits/bseries/b${arr[i]}_C.bench.txt.ckt > $filename
+
+    echo " " >> $filename
+    echo " " >> $filename
+    echo "[Level selection]" >> $filename
+	time $(pwd)/src/./atpg -tdfatpg -ndet 1 $(pwd)/sample_circuits/bseries/b${arr[i]}_C.bench.txt.ckt > ../log1
+	python $(pwd)/src/util.py ../log1 >> $filename
+
+	echo " " >> $filename
+    echo " " >> $filename
+	echo "[CPDAG selection]" >> $filename
+	time $(pwd)/src/./atpg -tdfatpg -cpdag -ndet 1 $(pwd)/sample_circuits/bseries/b${arr[i]}_C.bench.txt.ckt > ../log2
+	python $(pwd)/src/util.py ../log2 >> $filename
+   
+
        
 done
     
