@@ -1,0 +1,301 @@
+(venv) joe@ubuntu:~/Desktop/GGininder/src$ bash run_b.sh 17
+[Level selection]
+
+real	13m7.043s
+user	12m16.576s
+sys	0m50.433s
+==========================OUR  ANS===========================
+# number of aborted faults = 75274
+# number of redundant faults = 822
+# number of calling podem1 = 85986
+# total number of backtracks = 76948
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 9890
+#total number of gate faults = 142884
+#total number of detected faults = 59235
+#total gate fault coverage = 41.46%
+#number of equivalent gate faults = 133974
+#number of equivalent detected faults = 56374
+#equivalent gate fault coverage = 42.08%
+
+=============================================================
+[CPDAG selection]
+
+real	13m41.315s
+user	12m52.740s
+sys	0m48.346s
+==========================OUR  ANS===========================
+# number of aborted faults = 55147
+# number of redundant faults = 815
+# number of calling podem1 = 71733
+# total number of backtracks = 59882
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 15771
+#total number of gate faults = 142884
+#total number of detected faults = 77770
+#total gate fault coverage = 54.43%
+#number of equivalent gate faults = 133974
+#number of equivalent detected faults = 72508
+#equivalent gate fault coverage = 54.12%
+
+=============================================================
+15
+[Level selection]
+
+real	0m31.149s
+user	0m19.155s
+sys	0m11.985s
+==========================OUR  ANS===========================
+# number of aborted faults = 20492
+# number of redundant faults = 385
+# number of calling podem1 = 23813
+# total number of backtracks = 21130
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2936
+#total number of gate faults = 40232
+#total number of detected faults = 17523
+#total gate fault coverage = 43.55%
+#number of equivalent gate faults = 38242
+#number of equivalent detected faults = 16798
+#equivalent gate fault coverage = 43.93%
+
+=============================================================
+[CPDAG selection]
+
+real	0m29.326s
+user	0m17.949s
+sys	0m11.376s
+==========================OUR  ANS===========================
+# number of aborted faults = 15751
+# number of redundant faults = 365
+# number of calling podem1 = 20105
+# total number of backtracks = 16276
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3989
+#total number of gate faults = 40232
+#total number of detected faults = 21456
+#total gate fault coverage = 53.33%
+#number of equivalent gate faults = 38242
+#number of equivalent detected faults = 20491
+#equivalent gate fault coverage = 53.58%
+
+=============================================================
+20
+[Level selection]
+
+real	4m17.146s
+user	3m48.162s
+sys	0m28.964s
+==========================OUR  ANS===========================
+# number of aborted faults = 46538
+# number of redundant faults = 259
+# number of calling podem1 = 49372
+# total number of backtracks = 47519
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2575
+#total number of gate faults = 86740
+#total number of detected faults = 35671
+#total gate fault coverage = 41.12%
+#number of equivalent gate faults = 80606
+#number of equivalent detected faults = 33718
+#equivalent gate fault coverage = 41.83%
+
+=============================================================
+[CPDAG selection]
+
+real	4m3.931s
+user	3m35.972s
+sys	0m27.955s
+==========================OUR  ANS===========================
+# number of aborted faults = 43279
+# number of redundant faults = 262
+# number of calling podem1 = 46854
+# total number of backtracks = 51241
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3313
+#total number of gate faults = 86740
+#total number of detected faults = 39693
+#total gate fault coverage = 45.76%
+#number of equivalent gate faults = 80606
+#number of equivalent detected faults = 37353
+#equivalent gate fault coverage = 46.34%
+
+=============================================================
+21
+[Level selection]
+
+real	4m32.728s
+user	4m2.697s
+sys	0m30.016s
+==========================OUR  ANS===========================
+# number of aborted faults = 47796
+# number of redundant faults = 266
+# number of calling podem1 = 50785
+# total number of backtracks = 48864
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2723
+#total number of gate faults = 88236
+#total number of detected faults = 35595
+#total gate fault coverage = 40.34%
+#number of equivalent gate faults = 82062
+#number of equivalent detected faults = 33699
+#equivalent gate fault coverage = 41.07%
+
+=============================================================
+[CPDAG selection]
+
+real	4m36.772s
+user	4m8.715s
+sys	0m27.992s
+==========================OUR  ANS===========================
+# number of aborted faults = 43280
+# number of redundant faults = 257
+# number of calling podem1 = 47153
+# total number of backtracks = 59229
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3616
+#total number of gate faults = 88236
+#total number of detected faults = 42587
+#total gate fault coverage = 48.26%
+#number of equivalent gate faults = 82062
+#number of equivalent detected faults = 40022
+#equivalent gate fault coverage = 48.77%
+
+=============================================================
+15
+[Level selection]
+
+real	0m31.149s
+user	0m19.155s
+sys	0m11.985s
+==========================OUR  ANS===========================
+# number of aborted faults = 20492
+# number of redundant faults = 385
+# number of calling podem1 = 23813
+# total number of backtracks = 21130
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2936
+#total number of gate faults = 40232
+#total number of detected faults = 17523
+#total gate fault coverage = 43.55%
+#number of equivalent gate faults = 38242
+#number of equivalent detected faults = 16798
+#equivalent gate fault coverage = 43.93%
+
+=============================================================
+[CPDAG selection]
+
+real	0m29.326s
+user	0m17.949s
+sys	0m11.376s
+==========================OUR  ANS===========================
+# number of aborted faults = 15751
+# number of redundant faults = 365
+# number of calling podem1 = 20105
+# total number of backtracks = 16276
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3989
+#total number of gate faults = 40232
+#total number of detected faults = 21456
+#total gate fault coverage = 53.33%
+#number of equivalent gate faults = 38242
+#number of equivalent detected faults = 20491
+#equivalent gate fault coverage = 53.58%
+
+=============================================================
+20
+[Level selection]
+
+real	4m17.146s
+user	3m48.162s
+sys	0m28.964s
+==========================OUR  ANS===========================
+# number of aborted faults = 46538
+# number of redundant faults = 259
+# number of calling podem1 = 49372
+# total number of backtracks = 47519
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2575
+#total number of gate faults = 86740
+#total number of detected faults = 35671
+#total gate fault coverage = 41.12%
+#number of equivalent gate faults = 80606
+#number of equivalent detected faults = 33718
+#equivalent gate fault coverage = 41.83%
+
+=============================================================
+[CPDAG selection]
+
+real	4m3.931s
+user	3m35.972s
+sys	0m27.955s
+==========================OUR  ANS===========================
+# number of aborted faults = 43279
+# number of redundant faults = 262
+# number of calling podem1 = 46854
+# total number of backtracks = 51241
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3313
+#total number of gate faults = 86740
+#total number of detected faults = 39693
+#total gate fault coverage = 45.76%
+#number of equivalent gate faults = 80606
+#number of equivalent detected faults = 37353
+#equivalent gate fault coverage = 46.34%
+
+=============================================================
+21
+[Level selection]
+
+real	4m32.728s
+user	4m2.697s
+sys	0m30.016s
+==========================OUR  ANS===========================
+# number of aborted faults = 47796
+# number of redundant faults = 266
+# number of calling podem1 = 50785
+# total number of backtracks = 48864
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 2723
+#total number of gate faults = 88236
+#total number of detected faults = 35595
+#total gate fault coverage = 40.34%
+#number of equivalent gate faults = 82062
+#number of equivalent detected faults = 33699
+#equivalent gate fault coverage = 41.07%
+
+=============================================================
+[CPDAG selection]
+
+real	4m36.772s
+user	4m8.715s
+sys	0m27.992s
+==========================OUR  ANS===========================
+# number of aborted faults = 43280
+# number of redundant faults = 257
+# number of calling podem1 = 47153
+# total number of backtracks = 59229
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 3616
+#total number of gate faults = 88236
+#total number of detected faults = 42587
+#total gate fault coverage = 48.26%
+#number of equivalent gate faults = 82062
+#number of equivalent detected faults = 40022
+#equivalent gate fault coverage = 48.77%
+
+=============================================================

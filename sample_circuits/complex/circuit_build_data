@@ -1,0 +1,13 @@
+python main.py sample_circuits/complex_cicruts/cmulti.ckt
+[main] Bayesain ATPG  =3=
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 50632
+ ..Number of inputs  : 128
+ ..Number of outputs : 128
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 796.4531223773956 seconds
+ ..Write file
+[main] program end

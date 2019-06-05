@@ -1,0 +1,65 @@
+ b17_C
+ ..Logic simulation
+ ..Number of gates   : 32229
+ ..Number of inputs  : 1452
+ ..Number of outputs : 1512
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 1058.4321982860565 seconds
+ ..Write file
+[main] program end
+b15
+[main] Bayesain ATPG  =3=
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 8852
+ ..Number of inputs  : 485
+ ..Number of outputs : 519
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 232.44176602363586 seconds
+ ..Write file
+[main] program end
+sim_b.sh: line 3: ckt: command not found
+[main] Bayesain ATPG  =3=
+
+b20
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 20204
+ ..Number of inputs  : 522
+ ..Number of outputs : 512
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 888.5363512039185 seconds
+ ..Write file
+[main] program end
+
+b21
+[main] Bayesain ATPG  =3=
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 20549
+ ..Number of inputs  : 522
+ ..Number of outputs : 512
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 751.0577161312103 seconds
+ ..Write file
+[main] program end
+b22
+[main] Bayesain ATPG  =3=
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 29929
+ ..Number of inputs  : 767
+ ..Number of outputs : 757
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 1309.5747547149658 seconds
+ ..Write file
+[main] program end

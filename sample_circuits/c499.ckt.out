@@ -1,0 +1,2380 @@
+ID18(18)
+True 0.5
+False 0.5
+
+IC2(34)
+True 0.5
+False 0.5
+
+IC6(38)
+True 0.5
+False 0.5
+
+ID16(16)
+True 0.5
+False 0.5
+
+IC4(36)
+True 0.5
+False 0.5
+
+ID12(12)
+True 0.5
+False 0.5
+
+ID7(7)
+True 0.5
+False 0.5
+
+ID25(25)
+True 0.5
+False 0.5
+
+IC1(33)
+True 0.5
+False 0.5
+
+IC7(39)
+True 0.5
+False 0.5
+
+ID14(14)
+True 0.5
+False 0.5
+
+ID0(0)
+True 0.5
+False 0.5
+
+ID2(2)
+True 0.5
+False 0.5
+
+ID1(1)
+True 0.5
+False 0.5
+
+ID30(30)
+True 0.5
+False 0.5
+
+ID15(15)
+True 0.5
+False 0.5
+
+ID29(29)
+True 0.5
+False 0.5
+
+ID10(10)
+True 0.5
+False 0.5
+
+IC3(35)
+True 0.5
+False 0.5
+
+ID9(9)
+True 0.5
+False 0.5
+
+ID19(19)
+True 0.5
+False 0.5
+
+ID8(8)
+True 0.5
+False 0.5
+
+ID26(26)
+True 0.5
+False 0.5
+
+ID22(22)
+True 0.5
+False 0.5
+
+ID27(27)
+True 0.5
+False 0.5
+
+R(40)
+True 0.5
+False 0.5
+
+ID28(28)
+True 0.5
+False 0.5
+
+ID24(24)
+True 0.5
+False 0.5
+
+ID23(23)
+True 0.5
+False 0.5
+
+ID17(17)
+True 0.5
+False 0.5
+
+ID3(3)
+True 0.5
+False 0.5
+
+ID4(4)
+True 0.5
+False 0.5
+
+IC5(37)
+True 0.5
+False 0.5
+
+ID13(13)
+True 0.5
+False 0.5
+
+IC0(32)
+True 0.5
+False 0.5
+
+ID11(11)
+True 0.5
+False 0.5
+
+ID31(31)
+True 0.5
+False 0.5
+
+ID5(5)
+True 0.5
+False 0.5
+
+ID20(20)
+True 0.5
+False 0.5
+
+ID21(21)
+True 0.5
+False 0.5
+
+ID6(6)
+True 0.5
+False 0.5
+
+H7(41)
+True 0.25
+False 0.75
+
+H6(42)
+True 0.25
+False 0.75
+
+H5(43)
+True 0.25
+False 0.75
+
+H4(44)
+True 0.25
+False 0.75
+
+H3(45)
+True 0.25
+False 0.75
+
+H2(46)
+True 0.25
+False 0.75
+
+H1(47)
+True 0.25
+False 0.75
+
+H0(48)
+True 0.25
+False 0.75
+
+ID31(31)*
+True 0.5
+False 0.5
+
+internal__11
+True 0.25
+False 0.75
+
+ID30(30)*
+True 0.5
+False 0.5
+
+internal__10
+True 0.25
+False 0.75
+
+XA15(49)
+True 0.4375
+False 0.5625
+
+ID29(29)*
+True 0.5
+False 0.5
+
+internal__14
+True 0.25
+False 0.75
+
+ID28(28)*
+True 0.5
+False 0.5
+
+internal__13
+True 0.25
+False 0.75
+
+XA14(50)
+True 0.4375
+False 0.5625
+
+internal__17
+True 0.25
+False 0.75
+
+ID27(27)*
+True 0.5
+False 0.5
+
+internal__16
+True 0.25
+False 0.75
+
+XC7(51)
+True 0.4375
+False 0.5625
+
+internal__20
+True 0.25
+False 0.75
+
+ID26(26)*
+True 0.5
+False 0.5
+
+internal__19
+True 0.25
+False 0.75
+
+XC6(52)
+True 0.4375
+False 0.5625
+
+internal__23
+True 0.25
+False 0.75
+
+internal__22
+True 0.25
+False 0.75
+
+XA13(53)
+True 0.4375
+False 0.5625
+
+internal__26
+True 0.25
+False 0.75
+
+ID25(25)*
+True 0.5
+False 0.5
+
+internal__25
+True 0.25
+False 0.75
+
+XC5(54)
+True 0.4375
+False 0.5625
+
+internal__29
+True 0.25
+False 0.75
+
+ID24(24)*
+True 0.5
+False 0.5
+
+internal__28
+True 0.25
+False 0.75
+
+XC4(55)
+True 0.4375
+False 0.5625
+
+internal__32
+True 0.25
+False 0.75
+
+internal__31
+True 0.25
+False 0.75
+
+XA12(56)
+True 0.4375
+False 0.5625
+
+ID23(23)*
+True 0.5
+False 0.5
+
+internal__35
+True 0.25
+False 0.75
+
+ID22(22)*
+True 0.5
+False 0.5
+
+internal__34
+True 0.25
+False 0.75
+
+XA11(57)
+True 0.4375
+False 0.5625
+
+ID21(21)*
+True 0.5
+False 0.5
+
+internal__38
+True 0.25
+False 0.75
+
+ID20(20)*
+True 0.5
+False 0.5
+
+internal__37
+True 0.25
+False 0.75
+
+XA10(58)
+True 0.4375
+False 0.5625
+
+internal__41
+True 0.25
+False 0.75
+
+ID19(19)*
+True 0.5
+False 0.5
+
+internal__40
+True 0.25
+False 0.75
+
+XB7(59)
+True 0.4375
+False 0.5625
+
+internal__44
+True 0.25
+False 0.75
+
+ID18(18)*
+True 0.5
+False 0.5
+
+internal__43
+True 0.25
+False 0.75
+
+XB6(60)
+True 0.4375
+False 0.5625
+
+internal__47
+True 0.25
+False 0.75
+
+internal__46
+True 0.25
+False 0.75
+
+XA9(61)
+True 0.4375
+False 0.5625
+
+internal__50
+True 0.25
+False 0.75
+
+ID17(17)*
+True 0.5
+False 0.5
+
+internal__49
+True 0.25
+False 0.75
+
+XB5(62)
+True 0.4375
+False 0.5625
+
+internal__53
+True 0.25
+False 0.75
+
+ID16(16)*
+True 0.5
+False 0.5
+
+internal__52
+True 0.25
+False 0.75
+
+XB4(63)
+True 0.4375
+False 0.5625
+
+internal__56
+True 0.25
+False 0.75
+
+internal__55
+True 0.25
+False 0.75
+
+XA8(64)
+True 0.4375
+False 0.5625
+
+ID15(15)*
+True 0.5
+False 0.5
+
+internal__59
+True 0.25
+False 0.75
+
+ID14(14)*
+True 0.5
+False 0.5
+
+internal__58
+True 0.25
+False 0.75
+
+XA7(65)
+True 0.4375
+False 0.5625
+
+ID13(13)*
+True 0.5
+False 0.5
+
+internal__62
+True 0.25
+False 0.75
+
+ID12(12)*
+True 0.5
+False 0.5
+
+internal__61
+True 0.25
+False 0.75
+
+XA6(66)
+True 0.4375
+False 0.5625
+
+internal__65
+True 0.25
+False 0.75
+
+ID11(11)*
+True 0.5
+False 0.5
+
+internal__64
+True 0.25
+False 0.75
+
+XC3(67)
+True 0.4375
+False 0.5625
+
+internal__68
+True 0.25
+False 0.75
+
+ID10(10)*
+True 0.5
+False 0.5
+
+internal__67
+True 0.25
+False 0.75
+
+XC2(68)
+True 0.4375
+False 0.5625
+
+internal__71
+True 0.25
+False 0.75
+
+internal__70
+True 0.25
+False 0.75
+
+XA5(69)
+True 0.4375
+False 0.5625
+
+internal__74
+True 0.25
+False 0.75
+
+ID9(9)*
+True 0.5
+False 0.5
+
+internal__73
+True 0.25
+False 0.75
+
+XC1(70)
+True 0.4375
+False 0.5625
+
+internal__77
+True 0.25
+False 0.75
+
+ID8(8)*
+True 0.5
+False 0.5
+
+internal__76
+True 0.25
+False 0.75
+
+XC0(71)
+True 0.4375
+False 0.5625
+
+internal__80
+True 0.25
+False 0.75
+
+internal__79
+True 0.25
+False 0.75
+
+XA4(72)
+True 0.4375
+False 0.5625
+
+ID7(7)*
+True 0.5
+False 0.5
+
+internal__83
+True 0.25
+False 0.75
+
+ID6(6)*
+True 0.5
+False 0.5
+
+internal__82
+True 0.25
+False 0.75
+
+XA3(73)
+True 0.4375
+False 0.5625
+
+ID5(5)*
+True 0.5
+False 0.5
+
+internal__86
+True 0.25
+False 0.75
+
+ID4(4)*
+True 0.5
+False 0.5
+
+internal__85
+True 0.25
+False 0.75
+
+XA2(74)
+True 0.4375
+False 0.5625
+
+internal__89
+True 0.25
+False 0.75
+
+ID3(3)*
+True 0.5
+False 0.5
+
+internal__88
+True 0.25
+False 0.75
+
+XB3(75)
+True 0.4375
+False 0.5625
+
+internal__92
+True 0.25
+False 0.75
+
+ID2(2)*
+True 0.5
+False 0.5
+
+internal__91
+True 0.25
+False 0.75
+
+XB2(76)
+True 0.4375
+False 0.5625
+
+internal__95
+True 0.25
+False 0.75
+
+internal__94
+True 0.25
+False 0.75
+
+XA1(77)
+True 0.4375
+False 0.5625
+
+internal__98
+True 0.25
+False 0.75
+
+ID1(1)*
+True 0.5
+False 0.5
+
+internal__97
+True 0.25
+False 0.75
+
+XB1(78)
+True 0.4375
+False 0.5625
+
+internal__101
+True 0.25
+False 0.75
+
+ID0(0)*
+True 0.5
+False 0.5
+
+internal__100
+True 0.25
+False 0.75
+
+XB0(79)
+True 0.4375
+False 0.5625
+
+internal__104
+True 0.25
+False 0.75
+
+internal__103
+True 0.25
+False 0.75
+
+XA0(80)
+True 0.4375
+False 0.5625
+
+XA15(49)*
+True 0.4375
+False 0.5625
+
+internal__107
+True 0.1914
+False 0.8086
+
+XA14(50)*
+True 0.4375
+False 0.5625
+
+internal__106
+True 0.1914
+False 0.8086
+
+F7(81)
+True 0.3462
+False 0.6538
+
+XC7(51)*
+True 0.4375
+False 0.5625
+
+internal__110
+True 0.1914
+False 0.8086
+
+XB7(59)*
+True 0.4375
+False 0.5625
+
+internal__109
+True 0.1914
+False 0.8086
+
+XE7(82)
+True 0.3462
+False 0.6538
+
+XC6(52)*
+True 0.4375
+False 0.5625
+
+internal__113
+True 0.1914
+False 0.8086
+
+XB6(60)*
+True 0.4375
+False 0.5625
+
+internal__112
+True 0.1914
+False 0.8086
+
+XE6(83)
+True 0.3462
+False 0.6538
+
+XA13(53)*
+True 0.4375
+False 0.5625
+
+internal__116
+True 0.1914
+False 0.8086
+
+XA12(56)*
+True 0.4375
+False 0.5625
+
+internal__115
+True 0.1914
+False 0.8086
+
+F6(84)
+True 0.3462
+False 0.6538
+
+XC5(54)*
+True 0.4375
+False 0.5625
+
+internal__119
+True 0.1914
+False 0.8086
+
+XB5(62)*
+True 0.4375
+False 0.5625
+
+internal__118
+True 0.1914
+False 0.8086
+
+XE5(85)
+True 0.3462
+False 0.6538
+
+XC4(55)*
+True 0.4375
+False 0.5625
+
+internal__122
+True 0.1914
+False 0.8086
+
+XB4(63)*
+True 0.4375
+False 0.5625
+
+internal__121
+True 0.1914
+False 0.8086
+
+XE4(86)
+True 0.3462
+False 0.6538
+
+XA11(57)*
+True 0.4375
+False 0.5625
+
+internal__125
+True 0.1914
+False 0.8086
+
+XA10(58)*
+True 0.4375
+False 0.5625
+
+internal__124
+True 0.1914
+False 0.8086
+
+F5(87)
+True 0.3462
+False 0.6538
+
+XA9(61)*
+True 0.4375
+False 0.5625
+
+internal__128
+True 0.1914
+False 0.8086
+
+XA8(64)*
+True 0.4375
+False 0.5625
+
+internal__127
+True 0.1914
+False 0.8086
+
+F4(88)
+True 0.3462
+False 0.6538
+
+XA7(65)*
+True 0.4375
+False 0.5625
+
+internal__131
+True 0.1914
+False 0.8086
+
+XA6(66)*
+True 0.4375
+False 0.5625
+
+internal__130
+True 0.1914
+False 0.8086
+
+F3(89)
+True 0.3462
+False 0.6538
+
+XC3(67)*
+True 0.4375
+False 0.5625
+
+internal__134
+True 0.1914
+False 0.8086
+
+XB3(75)*
+True 0.4375
+False 0.5625
+
+internal__133
+True 0.1914
+False 0.8086
+
+XE3(90)
+True 0.3462
+False 0.6538
+
+XC2(68)*
+True 0.4375
+False 0.5625
+
+internal__137
+True 0.1914
+False 0.8086
+
+XB2(76)*
+True 0.4375
+False 0.5625
+
+internal__136
+True 0.1914
+False 0.8086
+
+XE2(91)
+True 0.3462
+False 0.6538
+
+XA5(69)*
+True 0.4375
+False 0.5625
+
+internal__140
+True 0.1914
+False 0.8086
+
+XA4(72)*
+True 0.4375
+False 0.5625
+
+internal__139
+True 0.1914
+False 0.8086
+
+F2(92)
+True 0.3462
+False 0.6538
+
+XC1(70)*
+True 0.4375
+False 0.5625
+
+internal__143
+True 0.1914
+False 0.8086
+
+XB1(78)*
+True 0.4375
+False 0.5625
+
+internal__142
+True 0.1914
+False 0.8086
+
+XE1(93)
+True 0.3462
+False 0.6538
+
+XC0(71)*
+True 0.4375
+False 0.5625
+
+internal__146
+True 0.1914
+False 0.8086
+
+XB0(79)*
+True 0.4375
+False 0.5625
+
+internal__145
+True 0.1914
+False 0.8086
+
+XE0(94)
+True 0.3462
+False 0.6538
+
+XA3(73)*
+True 0.4375
+False 0.5625
+
+internal__149
+True 0.1914
+False 0.8086
+
+XA2(74)*
+True 0.4375
+False 0.5625
+
+internal__148
+True 0.1914
+False 0.8086
+
+F1(95)
+True 0.3462
+False 0.6538
+
+XA1(77)*
+True 0.4375
+False 0.5625
+
+internal__152
+True 0.1914
+False 0.8086
+
+XA0(80)*
+True 0.4375
+False 0.5625
+
+internal__151
+True 0.1914
+False 0.8086
+
+F0(96)
+True 0.3462
+False 0.6538
+
+F7(81)*
+True 0.3462
+False 0.6538
+
+internal__155
+True 0.1198
+False 0.8802
+
+F6(84)*
+True 0.3462
+False 0.6538
+
+internal__154
+True 0.1198
+False 0.8802
+
+G5(97)
+True 0.2253
+False 0.7747
+
+internal__158
+True 0.1198
+False 0.8802
+
+F5(87)*
+True 0.3462
+False 0.6538
+
+internal__157
+True 0.1198
+False 0.8802
+
+G7(98)
+True 0.2253
+False 0.7747
+
+internal__161
+True 0.1198
+False 0.8802
+
+F4(88)*
+True 0.3462
+False 0.6538
+
+internal__160
+True 0.1198
+False 0.8802
+
+G6(99)
+True 0.2253
+False 0.7747
+
+internal__164
+True 0.1198
+False 0.8802
+
+internal__163
+True 0.1198
+False 0.8802
+
+G4(100)
+True 0.2253
+False 0.7747
+
+F3(89)*
+True 0.3462
+False 0.6538
+
+internal__167
+True 0.1198
+False 0.8802
+
+F2(92)*
+True 0.3462
+False 0.6538
+
+internal__166
+True 0.1198
+False 0.8802
+
+G1(101)
+True 0.2253
+False 0.7747
+
+internal__170
+True 0.1198
+False 0.8802
+
+F1(95)*
+True 0.3462
+False 0.6538
+
+internal__169
+True 0.1198
+False 0.8802
+
+G3(102)
+True 0.2253
+False 0.7747
+
+internal__173
+True 0.1198
+False 0.8802
+
+F0(96)*
+True 0.3462
+False 0.6538
+
+internal__172
+True 0.1198
+False 0.8802
+
+G2(103)
+True 0.2253
+False 0.7747
+
+internal__176
+True 0.1198
+False 0.8802
+
+internal__175
+True 0.1198
+False 0.8802
+
+G0(104)
+True 0.2253
+False 0.7747
+
+G3(102)*
+True 0.2253
+False 0.7747
+
+internal__179
+True 0.0563
+False 0.9437
+
+H7(41)*
+True 0.25
+False 0.75
+
+internal__178
+True 0.0563
+False 0.9437
+
+XD7(105)
+True 0.1095
+False 0.8905
+
+G2(103)*
+True 0.2253
+False 0.7747
+
+internal__182
+True 0.0563
+False 0.9437
+
+H6(42)*
+True 0.25
+False 0.75
+
+internal__181
+True 0.0563
+False 0.9437
+
+XD6(106)
+True 0.1095
+False 0.8905
+
+G1(101)*
+True 0.2253
+False 0.7747
+
+internal__185
+True 0.0563
+False 0.9437
+
+H5(43)*
+True 0.25
+False 0.75
+
+internal__184
+True 0.0563
+False 0.9437
+
+XD5(107)
+True 0.1095
+False 0.8905
+
+G0(104)*
+True 0.2253
+False 0.7747
+
+internal__188
+True 0.0563
+False 0.9437
+
+H4(44)*
+True 0.25
+False 0.75
+
+internal__187
+True 0.0563
+False 0.9437
+
+XD4(108)
+True 0.1095
+False 0.8905
+
+G7(98)*
+True 0.2253
+False 0.7747
+
+internal__191
+True 0.0563
+False 0.9437
+
+H3(45)*
+True 0.25
+False 0.75
+
+internal__190
+True 0.0563
+False 0.9437
+
+XD3(109)
+True 0.1095
+False 0.8905
+
+G6(99)*
+True 0.2253
+False 0.7747
+
+internal__194
+True 0.0563
+False 0.9437
+
+H2(46)*
+True 0.25
+False 0.75
+
+internal__193
+True 0.0563
+False 0.9437
+
+XD2(110)
+True 0.1095
+False 0.8905
+
+G5(97)*
+True 0.2253
+False 0.7747
+
+internal__197
+True 0.0563
+False 0.9437
+
+H1(47)*
+True 0.25
+False 0.75
+
+internal__196
+True 0.0563
+False 0.9437
+
+XD1(111)
+True 0.1095
+False 0.8905
+
+G4(100)*
+True 0.2253
+False 0.7747
+
+internal__200
+True 0.0563
+False 0.9437
+
+H0(48)*
+True 0.25
+False 0.75
+
+internal__199
+True 0.0563
+False 0.9437
+
+XD0(112)
+True 0.1095
+False 0.8905
+
+XD7(105)*
+True 0.1095
+False 0.8905
+
+internal__203
+True 0.0379
+False 0.9621
+
+XE7(82)*
+True 0.3462
+False 0.6538
+
+internal__202
+True 0.0379
+False 0.9621
+
+S7(113)
+True 0.0744
+False 0.9256
+
+XD6(106)*
+True 0.1095
+False 0.8905
+
+internal__206
+True 0.0379
+False 0.9621
+
+XE6(83)*
+True 0.3462
+False 0.6538
+
+internal__205
+True 0.0379
+False 0.9621
+
+S6(114)
+True 0.0744
+False 0.9256
+
+XD5(107)*
+True 0.1095
+False 0.8905
+
+internal__209
+True 0.0379
+False 0.9621
+
+XE5(85)*
+True 0.3462
+False 0.6538
+
+internal__208
+True 0.0379
+False 0.9621
+
+S5(115)
+True 0.0744
+False 0.9256
+
+XD4(108)*
+True 0.1095
+False 0.8905
+
+internal__212
+True 0.0379
+False 0.9621
+
+XE4(86)*
+True 0.3462
+False 0.6538
+
+internal__211
+True 0.0379
+False 0.9621
+
+S4(116)
+True 0.0744
+False 0.9256
+
+XD3(109)*
+True 0.1095
+False 0.8905
+
+internal__215
+True 0.0379
+False 0.9621
+
+XE3(90)*
+True 0.3462
+False 0.6538
+
+internal__214
+True 0.0379
+False 0.9621
+
+S3(117)
+True 0.0744
+False 0.9256
+
+XD2(110)*
+True 0.1095
+False 0.8905
+
+internal__218
+True 0.0379
+False 0.9621
+
+XE2(91)*
+True 0.3462
+False 0.6538
+
+internal__217
+True 0.0379
+False 0.9621
+
+S2(118)
+True 0.0744
+False 0.9256
+
+XD1(111)*
+True 0.1095
+False 0.8905
+
+internal__221
+True 0.0379
+False 0.9621
+
+XE1(93)*
+True 0.3462
+False 0.6538
+
+internal__220
+True 0.0379
+False 0.9621
+
+S1(119)
+True 0.0744
+False 0.9256
+
+XD0(112)*
+True 0.1095
+False 0.8905
+
+internal__224
+True 0.0379
+False 0.9621
+
+XE0(94)*
+True 0.3462
+False 0.6538
+
+internal__223
+True 0.0379
+False 0.9621
+
+S0(120)
+True 0.0744
+False 0.9256
+
+Y7B(121)
+True 0.0744
+False 0.9256
+
+Y7C(122)
+True 0.0744
+False 0.9256
+
+Y7D(123)
+True 0.0744
+False 0.9256
+
+Y7I(124)
+True 0.0744
+False 0.9256
+
+Y7K(125)
+True 0.0744
+False 0.9256
+
+Y6A(126)
+True 0.0744
+False 0.9256
+
+Y6C(127)
+True 0.0744
+False 0.9256
+
+Y6D(128)
+True 0.0744
+False 0.9256
+
+Y6J(129)
+True 0.0744
+False 0.9256
+
+Y6L(130)
+True 0.0744
+False 0.9256
+
+Y5A(131)
+True 0.0744
+False 0.9256
+
+Y5B(132)
+True 0.0744
+False 0.9256
+
+Y5D(133)
+True 0.0744
+False 0.9256
+
+Y5I(134)
+True 0.0744
+False 0.9256
+
+Y5J(135)
+True 0.0744
+False 0.9256
+
+Y4A(136)
+True 0.0744
+False 0.9256
+
+Y4B(137)
+True 0.0744
+False 0.9256
+
+Y4C(138)
+True 0.0744
+False 0.9256
+
+Y4K(139)
+True 0.0744
+False 0.9256
+
+Y4L(140)
+True 0.0744
+False 0.9256
+
+Y3B(141)
+True 0.0744
+False 0.9256
+
+Y3C(142)
+True 0.0744
+False 0.9256
+
+Y3D(143)
+True 0.0744
+False 0.9256
+
+Y3I(144)
+True 0.0744
+False 0.9256
+
+Y3K(145)
+True 0.0744
+False 0.9256
+
+Y2A(146)
+True 0.0744
+False 0.9256
+
+Y2C(147)
+True 0.0744
+False 0.9256
+
+Y2D(148)
+True 0.0744
+False 0.9256
+
+Y2J(149)
+True 0.0744
+False 0.9256
+
+Y2L(150)
+True 0.0744
+False 0.9256
+
+Y1A(151)
+True 0.0744
+False 0.9256
+
+Y1B(152)
+True 0.0744
+False 0.9256
+
+Y1D(153)
+True 0.0744
+False 0.9256
+
+Y1I(154)
+True 0.0744
+False 0.9256
+
+Y1J(155)
+True 0.0744
+False 0.9256
+
+Y0A(156)
+True 0.0744
+False 0.9256
+
+Y0B(157)
+True 0.0744
+False 0.9256
+
+Y0C(158)
+True 0.0744
+False 0.9256
+
+Y0K(159)
+True 0.0744
+False 0.9256
+
+Y0L(160)
+True 0.0744
+False 0.9256
+
+T4(161)
+True 0.0
+False 1.0
+
+T5(162)
+True 0.0
+False 1.0
+
+T6(163)
+True 0.0
+False 1.0
+
+T7(164)
+True 0.0
+False 1.0
+
+T0(165)
+True 0.0
+False 1.0
+
+T1(166)
+True 0.0
+False 1.0
+
+T2(167)
+True 0.0
+False 1.0
+
+T3(168)
+True 0.0
+False 1.0
+
+T7(164)*
+True 0.0
+False 1.0
+
+T6(163)*
+True 0.0
+False 1.0
+
+T5(162)*
+True 0.0
+False 1.0
+
+T4(161)*
+True 0.0
+False 1.0
+
+U1(169)
+True 0.0
+False 1.0
+
+T3(168)*
+True 0.0
+False 1.0
+
+T2(167)*
+True 0.0
+False 1.0
+
+T1(166)*
+True 0.0
+False 1.0
+
+T0(165)*
+True 0.0
+False 1.0
+
+U0(170)
+True 0.0
+False 1.0
+
+WB(171)
+True 0.0
+False 1.0
+
+WD(172)
+True 0.0
+False 1.0
+
+WA(173)
+True 0.0
+False 1.0
+
+WC(174)
+True 0.0
+False 1.0
+
+WF(175)
+True 0.0
+False 1.0
+
+WH(176)
+True 0.0
+False 1.0
+
+WE(177)
+True 0.0
+False 1.0
+
+WG(178)
+True 0.0
+False 1.0
+
+E19(179)
+True 0.0
+False 1.0
+
+E23(180)
+True 0.0
+False 1.0
+
+E27(181)
+True 0.0
+False 1.0
+
+E31(182)
+True 0.0
+False 1.0
+
+E18(183)
+True 0.0
+False 1.0
+
+E22(184)
+True 0.0
+False 1.0
+
+E26(185)
+True 0.0
+False 1.0
+
+E30(186)
+True 0.0
+False 1.0
+
+E17(187)
+True 0.0
+False 1.0
+
+E21(188)
+True 0.0
+False 1.0
+
+E25(189)
+True 0.0
+False 1.0
+
+E29(190)
+True 0.0
+False 1.0
+
+E16(191)
+True 0.0
+False 1.0
+
+E20(192)
+True 0.0
+False 1.0
+
+E24(193)
+True 0.0
+False 1.0
+
+E28(194)
+True 0.0
+False 1.0
+
+E3(195)
+True 0.0
+False 1.0
+
+E7(196)
+True 0.0
+False 1.0
+
+E11(197)
+True 0.0
+False 1.0
+
+E15(198)
+True 0.0
+False 1.0
+
+E2(199)
+True 0.0
+False 1.0
+
+E6(200)
+True 0.0
+False 1.0
+
+E10(201)
+True 0.0
+False 1.0
+
+E14(202)
+True 0.0
+False 1.0
+
+E1(203)
+True 0.0
+False 1.0
+
+E5(204)
+True 0.0
+False 1.0
+
+E9(205)
+True 0.0
+False 1.0
+
+E13(206)
+True 0.0
+False 1.0
+
+E0(207)
+True 0.0
+False 1.0
+
+E4(208)
+True 0.0
+False 1.0
+
+E8(209)
+True 0.0
+False 1.0
+
+E12(210)
+True 0.0
+False 1.0
+
+E31(182)*
+True 0.0
+False 1.0
+
+internal__317
+True 0.0
+False 1.0
+
+internal__316
+True 0.0
+False 1.0
+
+OD31(211)
+True 0.0
+False 1.0
+
+E30(186)*
+True 0.0
+False 1.0
+
+internal__320
+True 0.0
+False 1.0
+
+internal__319
+True 0.0
+False 1.0
+
+OD30(212)
+True 0.0
+False 1.0
+
+E29(190)*
+True 0.0
+False 1.0
+
+internal__323
+True 0.0
+False 1.0
+
+internal__322
+True 0.0
+False 1.0
+
+OD29(213)
+True 0.0
+False 1.0
+
+E28(194)*
+True 0.0
+False 1.0
+
+internal__326
+True 0.0
+False 1.0
+
+internal__325
+True 0.0
+False 1.0
+
+OD28(214)
+True 0.0
+False 1.0
+
+E27(181)*
+True 0.0
+False 1.0
+
+internal__329
+True 0.0
+False 1.0
+
+internal__328
+True 0.0
+False 1.0
+
+OD27(215)
+True 0.0
+False 1.0
+
+E26(185)*
+True 0.0
+False 1.0
+
+internal__332
+True 0.0
+False 1.0
+
+internal__331
+True 0.0
+False 1.0
+
+OD26(216)
+True 0.0
+False 1.0
+
+E25(189)*
+True 0.0
+False 1.0
+
+internal__335
+True 0.0
+False 1.0
+
+internal__334
+True 0.0
+False 1.0
+
+OD25(217)
+True 0.0
+False 1.0
+
+E24(193)*
+True 0.0
+False 1.0
+
+internal__338
+True 0.0
+False 1.0
+
+internal__337
+True 0.0
+False 1.0
+
+OD24(218)
+True 0.0
+False 1.0
+
+E23(180)*
+True 0.0
+False 1.0
+
+internal__341
+True 0.0
+False 1.0
+
+internal__340
+True 0.0
+False 1.0
+
+OD23(219)
+True 0.0
+False 1.0
+
+E22(184)*
+True 0.0
+False 1.0
+
+internal__344
+True 0.0
+False 1.0
+
+internal__343
+True 0.0
+False 1.0
+
+OD22(220)
+True 0.0
+False 1.0
+
+E21(188)*
+True 0.0
+False 1.0
+
+internal__347
+True 0.0
+False 1.0
+
+internal__346
+True 0.0
+False 1.0
+
+OD21(221)
+True 0.0
+False 1.0
+
+E20(192)*
+True 0.0
+False 1.0
+
+internal__350
+True 0.0
+False 1.0
+
+internal__349
+True 0.0
+False 1.0
+
+OD20(222)
+True 0.0
+False 1.0
+
+E19(179)*
+True 0.0
+False 1.0
+
+internal__353
+True 0.0
+False 1.0
+
+internal__352
+True 0.0
+False 1.0
+
+OD19(223)
+True 0.0
+False 1.0
+
+E18(183)*
+True 0.0
+False 1.0
+
+internal__356
+True 0.0
+False 1.0
+
+internal__355
+True 0.0
+False 1.0
+
+OD18(224)
+True 0.0
+False 1.0
+
+E17(187)*
+True 0.0
+False 1.0
+
+internal__359
+True 0.0
+False 1.0
+
+internal__358
+True 0.0
+False 1.0
+
+OD17(225)
+True 0.0
+False 1.0
+
+E16(191)*
+True 0.0
+False 1.0
+
+internal__362
+True 0.0
+False 1.0
+
+internal__361
+True 0.0
+False 1.0
+
+OD16(226)
+True 0.0
+False 1.0
+
+E15(198)*
+True 0.0
+False 1.0
+
+internal__365
+True 0.0
+False 1.0
+
+internal__364
+True 0.0
+False 1.0
+
+OD15(227)
+True 0.0
+False 1.0
+
+E14(202)*
+True 0.0
+False 1.0
+
+internal__368
+True 0.0
+False 1.0
+
+internal__367
+True 0.0
+False 1.0
+
+OD14(228)
+True 0.0
+False 1.0
+
+E13(206)*
+True 0.0
+False 1.0
+
+internal__371
+True 0.0
+False 1.0
+
+internal__370
+True 0.0
+False 1.0
+
+OD13(229)
+True 0.0
+False 1.0
+
+E12(210)*
+True 0.0
+False 1.0
+
+internal__374
+True 0.0
+False 1.0
+
+internal__373
+True 0.0
+False 1.0
+
+OD12(230)
+True 0.0
+False 1.0
+
+E11(197)*
+True 0.0
+False 1.0
+
+internal__377
+True 0.0
+False 1.0
+
+internal__376
+True 0.0
+False 1.0
+
+OD11(231)
+True 0.0
+False 1.0
+
+E10(201)*
+True 0.0
+False 1.0
+
+internal__380
+True 0.0
+False 1.0
+
+internal__379
+True 0.0
+False 1.0
+
+OD10(232)
+True 0.0
+False 1.0
+
+E9(205)*
+True 0.0
+False 1.0
+
+internal__383
+True 0.0
+False 1.0
+
+internal__382
+True 0.0
+False 1.0
+
+OD9(233)
+True 0.0
+False 1.0
+
+E8(209)*
+True 0.0
+False 1.0
+
+internal__386
+True 0.0
+False 1.0
+
+internal__385
+True 0.0
+False 1.0
+
+OD8(234)
+True 0.0
+False 1.0
+
+E7(196)*
+True 0.0
+False 1.0
+
+internal__389
+True 0.0
+False 1.0
+
+internal__388
+True 0.0
+False 1.0
+
+OD7(235)
+True 0.0
+False 1.0
+
+E6(200)*
+True 0.0
+False 1.0
+
+internal__392
+True 0.0
+False 1.0
+
+internal__391
+True 0.0
+False 1.0
+
+OD6(236)
+True 0.0
+False 1.0
+
+E5(204)*
+True 0.0
+False 1.0
+
+internal__395
+True 0.0
+False 1.0
+
+internal__394
+True 0.0
+False 1.0
+
+OD5(237)
+True 0.0
+False 1.0
+
+E4(208)*
+True 0.0
+False 1.0
+
+internal__398
+True 0.0
+False 1.0
+
+internal__397
+True 0.0
+False 1.0
+
+OD4(238)
+True 0.0
+False 1.0
+
+E3(195)*
+True 0.0
+False 1.0
+
+internal__401
+True 0.0
+False 1.0
+
+internal__400
+True 0.0
+False 1.0
+
+OD3(239)
+True 0.0
+False 1.0
+
+E2(199)*
+True 0.0
+False 1.0
+
+internal__404
+True 0.0
+False 1.0
+
+internal__403
+True 0.0
+False 1.0
+
+OD2(240)
+True 0.0
+False 1.0
+
+E1(203)*
+True 0.0
+False 1.0
+
+internal__407
+True 0.0
+False 1.0
+
+internal__406
+True 0.0
+False 1.0
+
+OD1(241)
+True 0.0
+False 1.0
+
+E0(207)*
+True 0.0
+False 1.0
+
+internal__410
+True 0.0
+False 1.0
+
+internal__409
+True 0.0
+False 1.0
+
+OD0(242)
+True 0.0
+False 1.0
+
