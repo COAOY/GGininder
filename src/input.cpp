@@ -380,6 +380,10 @@ void ATPG::display_circuit(void) {
 {
   string filename = string(name+".out");
   ifstream file(filename, std::ifstream::in);
+  if(!file) { // if the ifstream obj does not exist, fail to open the file
+    fprintf(stderr,"Cannot open input file %s\n",filename.c_str());
+    exit(EXIT_FAILURE);
+  }
   std::cout<<filename <<endl;
   int i=0;
   while(!file.eof()&& !file.bad())

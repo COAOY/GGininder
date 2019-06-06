@@ -40,6 +40,7 @@ void ATPG::test(void) {
     return;
   }// if tdfsim only
 set_backtrack_limit(1);
+printf(" All filed excest!!\n");
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;

@@ -59,10 +59,10 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 
 	vector<string> _regpats;
   cout <<"Dual: " << _F1.fault_type <<endl;
+  cout << "Current fault:  ";
+  display_fault(&_F1);
 	switch(tdfpodem(&_F1,nbt,2,_regpats)){
     case TRUE:
-      // cout << "Current fault:  ";
-      // display_fault(&_F1);
       for(auto &x:_regpats)
       {
         cout << x << endl;
