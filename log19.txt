@@ -1,0 +1,22 @@
+[main] Bayesain ATPG  =3=
+[Read File] Parsar
+[parsar]
+ ..Logic simulation
+ ..Number of gates   : 231290
+ ..Number of inputs  : 6666
+ ..Number of outputs : 6669
+[Operation]
+ ..Probability operation
+ ..predict_proba run time: 12040.290035486221 seconds
+ ..Write file
+[main] program end
+ 
+ 
+[Level selection]
+==========================OUR  ANS===========================
+=============================================================
+ 
+ 
+[CPDAG selection]
+==========================OUR  ANS===========================
+=============================================================
