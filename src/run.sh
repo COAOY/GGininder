@@ -1,4 +1,7 @@
 # echo "atpg for c$1 with ndet ="
+
+
+
 echo "[Level selection]"
 # time ./atpg -ndet -anum 8 -tdfatpg -compression ../sample_circuits/c$1.ckt > ../logc$1
 # time ./atpg -tdfatpg -ndet 1 ../sample_circuits/c$1.ckt > ../log1
