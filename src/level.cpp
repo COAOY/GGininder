@@ -7,7 +7,9 @@
 
 #include <utility>
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 void ATPG::level_circuit(void) {
   nptr ncurrent,nprelast;
   bool schedule;

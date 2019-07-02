@@ -20,6 +20,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <unordered_map>
+#include <dlib/queue.h>
 
 
 #define HASHSIZE 3911
@@ -67,9 +68,9 @@
 #define GO 1
 
 /* 4-valued logic */
-#define U  2
-#define D  3
-#define B  4
+// #define U  2
+// #define D  3
+// #define B  4
 
 using namespace std;
 
@@ -161,6 +162,8 @@ public:
   bool atpg;                      /* flag to indicate tdfatpg */
   bool faultdrop;
   bool compression = false;              /* flag to indicate compression */
+  bool bayesian = false;
+  bool ssfatpg=false;
   int LIMIT = 16;
   
   /* orginally declared input.c */
@@ -224,7 +227,10 @@ public:
   int second_podem(const fptr, int&);
 
   void fault_simulate_vectors(int&);
-  void fault_sim_a_vector(const string&, int&, vector<int>**, const int&);
+  void fault_sim_a_vector(const string&, int&);
+  // void fault_sim_a_vector(const string&, int&, vector<int>**, const int&);
+  // if you want to use tdf_fault_sim you need use fault_sim_old.cpp and 
+  // and re commant the line 81 in tdf_sim.cpp
   void fault_sim_evaluate(const wptr);
   wptr get_faulty_wire(const fptr, int&);
   void inject_fault_value(const wptr, const int&, const int&);
@@ -279,6 +285,9 @@ public:
   unordered_map<string,float> false_prob;
   int number_of_total_backtracks=0;
   /* detail declaration of WIRE, NODE, and FAULT classes */
+  // bayesian in here
+  void run_bayesian();
+  //
   class WIRE {
   public:
     WIRE();

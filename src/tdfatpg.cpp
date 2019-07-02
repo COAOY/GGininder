@@ -1,5 +1,7 @@
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 ////////////////////////////////////
 //Author:     Joe
 //Date    :    2018/11/29 
@@ -58,14 +60,14 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
 	// _F1.fault_type ^= 1;
 
 	vector<string> _regpats;
-  cout <<"Dual: " << _F1.fault_type <<endl;
-  cout << "Current fault:  ";
+  // cout <<"Dual: " << _F1.fault_type <<endl;
+  // cout << "Current fault:  ";
   display_fault(&_F1);
 	switch(tdfpodem(&_F1,nbt,2,_regpats)){
     case TRUE:
       for(auto &x:_regpats)
       {
-        cout << x << endl;
+        // cout << x << endl;
         patterns.push_back(x);
       }
       return(TRUE);
@@ -74,13 +76,14 @@ int ATPG::dual_tdfpodem(const fptr x, int& nbt)
     case(MAYBE):
       return(MAYBE);
 	}
+  // cout << "Dual End\n";
 }
 
 void ATPG::tdfatpg()
 {
     // total_attempt_num = 8;
   	// backtrack_limit   = 500;
-    set_backtrack_limit(500);
+    // set_backtrack_limit(32);
     int nbt = 0;
 
     for(auto &x:flist_undetect)

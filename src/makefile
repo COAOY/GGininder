@@ -1,12 +1,17 @@
 #
 
-CFLAGS = -std=c++11 -O3 
-
-FILES = atpg.o tpgmain.o input.o level.o sim.o podem.o test.o init_flist.o faultsim.o tdfsim.o display.o tdfatpg.o stc.o dtc.o
-
+CFLAGS = -std=c++11 -I../../dlib-19.17 
+LFLAG = -L/usr/X11/lib
+SOURCE = ../../dlib-19.17/dlib/all/source.cpp
+FILES = source.o atpg.o bayesian.o tpgmain.o input.o level.o sim.o podem.o test.o init_flist.o faultsim.o tdfsim.o display.o tdfatpg.o stc.o dtc.o
+# export LDFLAGS="-L/usr/local/opt/openblas/lib"
+# export CPPFLAGS="-I/usr/local/opt/openblas/include"
+# export PKG_CONFIG_PATH="/usr/local/opt/openblas/lib/pkgconfig"
+# ln -s /opt/X11 X11
 atpg : $(FILES) 
-	g++ $(CFLAGS) $(FILES) -lm -o atpg
-
+	g++ $(CFLAGS) $(FILES) $(LFLAG) -lpthread -lX11 -lm -o atpg
+source.o: $(SOURCE)
+	g++ $(CFLAGS) $(LFLAG) -c $(SOURCE)
 atpg.o : atpg.h atpg.cpp
 	g++ $(CFLAGS) -c atpg.cpp
 tpgmain.o : atpg.h tpgmain.cpp
@@ -35,8 +40,10 @@ stc.o : atpg.h stc.cpp
 	g++ $(CFLAGS) -c stc.cpp
 dtc.o : atpg.h dtc.cpp
 	g++ $(CFLAGS) -c dtc.cpp
+bayesian.o : atpg.h bayesian.cpp
+	g++ $(CFLAGS) -c bayesian.cpp
 clean:
-	rm *.o
+	rm `ls *.o | egrep -v source.o`
 c:
 	# rm tpgmain.o
 	# g++ $(CFLAGS) -c tpgmain.cpp

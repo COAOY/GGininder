@@ -1,4 +1,7 @@
 #include "atpg.h"
+#define U  2
+#define D  3
+#define B  4
 void ATPG::bubble_sort(vector<wptr>& vec)
 {
   int bound=vec.size();
@@ -39,8 +42,11 @@ void ATPG::test(void) {
     
     return;
   }// if tdfsim only
-set_backtrack_limit(1);
+set_backtrack_limit(32);
 printf(" All filed excest!!\n");
+if(bayesian==true){
+  ;
+}
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;
@@ -64,16 +70,94 @@ if(cpdag==true){
 
   /* ATPG mode */
   /* Figure 5 in the PODEM paper */
+
+if(ssfatpg==true){
   while(fault_under_test != nullptr) {
+    // cout << "Hi\n";
     unsigned old_size = patterns.size();
+    // switch(podem(fault_under_test,current_backtracks)) {
+    int _p=podem(fault_under_test,current_backtracks);
+    // cout << "_p: " << _p <<endl;
+    switch(_p) {
+      case 1:
+      cout << old_size<<endl;
+        for(unsigned i=old_size; i<patterns.size(); i++) {
+
+          // if(compression)   secondary_fault(patterns[i]);
+          // cout << patterns[i] << endl;
+          random_fill(patterns[i]);
+          cout << "# SAF sim\n";
+          fault_sim_a_vector(patterns[i], current_detect_num);
+          // fault_sim_a_vector(const string&, int&, vector<int>**, const int&);  
+          total_detect_num += current_detect_num;
+          if(faultdrop) {
+            cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
+                << total_detect_num << ")" << endl;
+          }
+          else {
+            cout << "# vector[" << i << "] detects " << current_detect_num << " faults" << endl;
+          }
+        }
+        /* form a vector */
+        // vec.clear();
+        // for (wptr w: cktin) {
+          // vec.push_back(itoc(w->value));
+        // }
+        /*by defect, we want only one pattern per fault */
+        /*run a fault simulation, drop ALL detected faults */
+        // if (total_attempt_num == 1) {
+          // int dummy = 0;
+          /* fault_sim_a_vector(vec, current_detect_num,NULL, dummy); */
+          // tdf_sim_a_vector(vec, current_detect_num, NULL, dummy);
+          // total_detect_num += current_detect_num;
+        // }
+        /* If we want mutiple petterns per fault, 
+         * NO fault simulation.  drop ONLY the fault under test */ 
+        // else {
+          // fault_under_test->ndet++;
+          // if(fault_under_test->ndet >= ndet) {
+            // fault_under_test->detect = TRUE;
+            /* drop fault_under_test */
+            // flist_undetect.remove(fault_under_test);
+          // }
+        // }
+        // in_vector_no++;
+        break;
+    case 0:
+        fault_under_test->detect = REDUNDANT;
+        no_of_redundant_faults++;
+        break;
+  
+    case MAYBE:
+        no_of_aborted_faults++;
+        break;
+    }
+    fault_under_test->test_tried = true;
+    fault_under_test = nullptr;
+    for (fptr fptr_ele: flist_undetect) {
+      if (!fptr_ele->test_tried) {
+        fault_under_test = fptr_ele;
+        break;
+      }
+    }
+    total_no_of_backtracks += current_backtracks; // accumulate number of backtracks
+    no_of_calls++;
+  }
+}
+
+
+if(atpg==true){
+  while(fault_under_test != nullptr) {
+    unsigned old_size = vectors.size();
     // switch(podem(fault_under_test,current_backtracks)) {
     switch(dual_tdfpodem(fault_under_test,current_backtracks)) {
       case TRUE:
-        for(unsigned i=old_size; i<patterns.size(); i++) {
-          if(compression)   secondary_fault(patterns[i]);
+        for(unsigned i=old_size; i<vectors.size(); i++) {
+          if(compression)   secondary_fault(vectors[i]);
           // cout << patterns[i] << endl;
-          random_fill(patterns[i]);
-          tdf_sim_a_vector(patterns[i], current_detect_num, NULL, i);
+          random_fill(vectors[i]);
+          cout << "# tdf sim\n";
+          tdf_sim_a_vector(vectors[i], current_detect_num, NULL, i);
           total_detect_num += current_detect_num;
           if(faultdrop) {
             cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
@@ -128,6 +212,7 @@ if(cpdag==true){
     total_no_of_backtracks += current_backtracks; // accumulate number of backtracks
     no_of_calls++;
   }
+}
   in_vector_no = patterns.size();
 
   // display_undetect();

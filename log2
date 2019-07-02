@@ -6,6 +6,7 @@
 #number of gates = 6
 #number of wires = 11
 ../sample_circuits/c17.ckt.out
+Read over
  All filed excest!!
 True brobability of wire  g1: 0.5 0.5 
 False brobability of wire  g1: 0.5 0.5 
@@ -33,68 +34,55 @@ True brobability of wire  dummy_gate2:
 False brobability of wire  dummy_gate2: 
 True brobability of wire  dummy_gate1: 
 False brobability of wire  dummy_gate1: 
-Dual: 1
-Current fault:  primary input: 1GAT(0)
-fault_type = s-a-1
-Dual: 0
-Current fault:  primary input: 1GAT(0)
-fault_type = s-a-0
-01xxx 1
-# vector[0] detects 3 faults (3)
-Dual: 1
-Current fault:  primary input: 2GAT(1)
-fault_type = s-a-1
-Dual: 0
-Current fault:  primary input: 2GAT(1)
-fault_type = s-a-0
-10xxx x
-# vector[1] detects 8 faults (11)
-Dual: 1
-Current fault:  gate: g2 ;input wire name: 3GAT(2)
-fault_type = s-a-1
-Dual: 0
-Current fault:  gate: g2 ;input wire name: 3GAT(2)
-fault_type = s-a-0
-Dual: 0
-Current fault:  gate: g1 ;input wire name: 3GAT(2)
-fault_type = s-a-0
-Dual: 0
-Current fault:  primary input: 3GAT(2)
-fault_type = s-a-0
-010xx 1
-# vector[2] detects 3 faults (14)
-Dual: 0
-Current fault:  primary input: 6GAT(3)
-fault_type = s-a-0
-1110x 0
-# vector[3] detects 11 faults (25)
-Dual: 1
-Current fault:  primary input: 7GAT(4)
-fault_type = s-a-1
-00x01 x
-# vector[4] detects 2 faults (27)
-Dual: 0
-Current fault:  primary input: 7GAT(4)
-fault_type = s-a-0
-00x10 x
-# vector[5] detects 3 faults (30)
-Dual: 1
-Current fault:  gate: g3 ;input wire name: 7GAT(4)
-fault_type = s-a-1
-00101 x
-# vector[6] detects 0 faults (30)
-Dual: 1
-Current fault:  gate: g5 ;input wire name: 16GAT(8)
-fault_type = s-a-1
+T'00111'
+0
+# SAF sim
+# vector[0] detects 12 faults (12)
+T'10110'
+1
+# SAF sim
+# vector[1] detects 3 faults (15)
+T'00000'
+2
+# SAF sim
+# vector[2] detects 2 faults (17)
+T'01011'
+3
+# SAF sim
+# vector[3] detects 7 faults (24)
+T'10001'
+4
+# SAF sim
+# vector[4] detects 3 faults (27)
+T'10100'
+5
+# SAF sim
+# vector[5] detects 0 faults (27)
+T'01111'
+6
+# SAF sim
+# vector[6] detects 1 faults (28)
+T'01101'
+7
+# SAF sim
+# vector[7] detects 1 faults (29)
+T'11010'
+8
+# SAF sim
+# vector[8] detects 1 faults (30)
+T'00011'
+9
+# SAF sim
+# vector[9] detects 0 faults (30)
 # number of detected faults = 30
 #STATS
-# number of aborted faults = 6
+# number of aborted faults = 0
 # number of redundant faults = 0
-# number of calling podem1 = 13
-# total number of backtracks = 6
+# number of calling podem1 = 10
+# total number of backtracks = 0
 
 #FAULT COVERAGE RESULTS :
-#number of test vectors = 7
+#number of test vectors = 10
 #total number of gate faults = 34
 #total number of detected faults = 30
 #total gate fault coverage = 88.24%
@@ -103,11 +91,14 @@ fault_type = s-a-1
 #equivalent gate fault coverage = 88.24%
 
 #STATS END
-T'01111 1'
-T'10111 1'
-T'01011 1'
-T'11101 0'
-T'00101 1'
-T'00110 1'
-T'00101 1'
+T'00111'
+T'10110'
+T'00000'
+T'01011'
+T'10001'
+T'10100'
+T'01111'
+T'01101'
+T'11010'
+T'00011'
 #atpg: cputime for test pattern generation ../sample_circuits/c17.ckt: 0.0s 0.0s

@@ -7,7 +7,9 @@
 
 #include "atpg.h"
 #include "logic_tbl.h"
-
+#define U  2
+#define D  3
+#define B  4
 /*
 *   sim
 *

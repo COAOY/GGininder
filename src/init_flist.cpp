@@ -8,7 +8,9 @@
 /**********************************************************************/
 
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 /* the way of fault collapsing is different from what we teach in class
    need modification */
 void ATPG::generate_fault_list(int tdf_dummy) {

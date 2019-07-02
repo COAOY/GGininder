@@ -1,5 +1,7 @@
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 void ATPG::display_line(fptr fault) {
   int i;
 
@@ -123,6 +125,9 @@ void ATPG::display_undetect(void) {
 
 
 void ATPG::display_fault(fptr f) {
+    cout << f->node->name <<endl;
+    cout << f->node->iwire.size();
+    cout << f->node->owire.size();
   switch (f->node->type) {
     case INPUT:
       fprintf(stdout,"primary input: %s\n",f->node->owire.front()->name.c_str());
@@ -131,7 +136,7 @@ void ATPG::display_fault(fptr f) {
       fprintf(stdout,"primary output: %s\n",f->node->iwire.front()->name.c_str());
       break;
     default:
-      fprintf(stdout,"gate: %s ;",f->node->name.c_str());
+      fprintf(stdout,"gate: %s ;\n",f->node->name.c_str());
       if (f->io == GI) {
         fprintf(stdout,"input wire name: %s\n",
             f->node->iwire[f->index]->name.c_str());

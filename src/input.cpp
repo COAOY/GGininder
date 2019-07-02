@@ -6,7 +6,9 @@
 /**********************************************************************/
 
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 /* convert the name into integer to index the hashtable */
 int ATPG::hashcode(const string& name) {
   int i = 0, j = 0;

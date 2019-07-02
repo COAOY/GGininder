@@ -5,6 +5,9 @@
 
 #include "atpg.h"
 #include <cassert>
+#define U  2
+#define D  3
+#define B  4
 /* pack 16 faults into one packet.  simulate 16 faults togeter. 
  * the following variable name is somewhat misleading */
 #define num_of_pattern 16
@@ -75,7 +78,7 @@ void ATPG::tdf_sim_a_vector(const string& vector_i, int& current_detect_num, vec
       }
     
       current_detect_num = 0;
-      fault_sim_a_vector(vec, current_detect_num, pattern_list, i);
+      // fault_sim_a_vector(vec, current_detect_num, pattern_list, i);
 }
 
 void ATPG::transition_delay_fault_simulation(vector<string>& T_compact) {

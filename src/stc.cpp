@@ -8,6 +8,9 @@
 #include <cassert>
 #include <iomanip>
 using namespace std;
+#define U  2
+#define D  3
+#define B  4
 void ATPG::RO()
 {
     int old_fault_size = 0;

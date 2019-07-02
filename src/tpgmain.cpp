@@ -6,7 +6,9 @@
 /**********************************************************************/
 
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 void usage(void);
 
 int main(int argc, char *argv[]) {
@@ -15,11 +17,12 @@ int main(int argc, char *argv[]) {
   ATPG atpg; // create an ATPG obj, named atpg
   
   atpg.timer(stdout,"START");
-  
   i = 1;
+
   // bool tdfatpg=false, compression=false;
 /* parse the input switches & arguments */
   while(i< argc) {
+    // cout << argv[i] << " " << (strcmp(argv[i],"-tdfatpg")==0) << endl;
     if (strcmp(argv[i],"-anum") == 0) {
       atpg.set_total_attempt_num(atoi(argv[i+1]));
       i+=2;
@@ -45,7 +48,10 @@ int main(int argc, char *argv[]) {
     else if(strcmp(argv[i],"-cpdag")==0)
     {
       atpg.cpdag=true;
-      // cout <<".........................................hihihihihihih:2"<<endl;
+      i+=1;
+    }
+    else if(strcmp(argv[i],"-bayesian")==0){
+      atpg.bayesian=true;
       i+=1;
     }
 ////////////////////////////////////////////////
@@ -56,8 +62,11 @@ int main(int argc, char *argv[]) {
       // tdfatpg=true;
       atpg.set_tdfatpg(true);
       i+=1;
-      // cout << argv[i]<< " " <<i<<endl;
     } 
+    else if(strcmp(argv[i],"-ssfatpg")==0){
+      atpg.ssfatpg=true;
+      i+=1;
+    }
 
 ///////////////////////////////////////////////   
     else if (strcmp(argv[i],"-compression") == 0) {
@@ -100,6 +109,7 @@ int main(int argc, char *argv[]) {
   { 
     atpg.write_cp_table(inpFile);
   }
+  printf("Read over\n");
   atpg.level_circuit();  // level.cpp
   // atpg.timer(stdout,"for levelling circuit");
   

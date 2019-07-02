@@ -1,6 +1,8 @@
 #include "atpg.h"
 using namespace std;
-
+#define U  2
+#define D  3
+#define B  4
 void ATPG::secondary_fault(string& vec) {
    forward_list<wptr> path;       // path_tree (a LIFO stack)
    int inserted_num = 0;

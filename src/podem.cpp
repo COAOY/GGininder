@@ -6,7 +6,9 @@
 /**********************************************************************/
 
 #include "atpg.h"
-
+#define U  2
+#define D  3
+#define B  4
 // #define CONFLICT 2
 
 
@@ -155,6 +157,7 @@ again:  if (wpi) {
         case U: cktin[i]->value = rand()&01; break; // random fill U
         }
       }
+      patterns.push_back(scan_ckt());
       display_io();
     }
     else fprintf(stdout, "\n");  // do not random fill when multiple patterns per fault
