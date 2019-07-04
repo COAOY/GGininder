@@ -149,6 +149,8 @@ public:
   vector<wptr> cktin;                  /* input wire list */
   vector<wptr> cktout;                 /* output wire list */
   array<forward_list<wptr_s>,HASHSIZE> hash_wlist;   /* hashed wire list */
+
+  vector<vector<nptr_s> > vvnlist;
   array<forward_list<nptr_s>,HASHSIZE> hash_nlist;   /* hashed node list */
   int in_vector_no;                    /* number of test vectors generated */
   vector<string> vectors;              /* vector set */
@@ -285,9 +287,10 @@ public:
   unordered_map<string,float> false_prob;
   int number_of_total_backtracks=0;
   /* detail declaration of WIRE, NODE, and FAULT classes */
-  // bayesian in here
+  // bayesian in here--------------------------------------------
   void run_bayesian();
-  //
+  void bay_add_all_edge();
+  // -------------------------------------------------------------
   class WIRE {
   public:
     WIRE();
