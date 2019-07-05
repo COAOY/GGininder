@@ -150,7 +150,7 @@ public:
   vector<wptr> cktout;                 /* output wire list */
   array<forward_list<wptr_s>,HASHSIZE> hash_wlist;   /* hashed wire list */
 
-  vector<vector<nptr_s> > vvnlist;
+  
   array<forward_list<nptr_s>,HASHSIZE> hash_nlist;   /* hashed node list */
   int in_vector_no;                    /* number of test vectors generated */
   vector<string> vectors;              /* vector set */
@@ -288,8 +288,16 @@ public:
   int number_of_total_backtracks=0;
   /* detail declaration of WIRE, NODE, and FAULT classes */
   // bayesian in here--------------------------------------------
+  size_t node_count=0;
+  vector<nptr_s*> vnlist;
+  vector<nptr> bnode_list;
+
+  unordered_map<string,size_t> node_dic;
   void run_bayesian();
   void bay_add_all_edge();
+  unordered_map<size_t,float> truth_prob_by_id;
+  // vector<vector<bool> > enurmate_true_tables(int);
+  // bool return_gate_true_probability(int,vector<bool>);
   // -------------------------------------------------------------
   class WIRE {
   public:
@@ -314,11 +322,14 @@ public:
     int wlist_index;           /* index into the sorted_wlist array */
     int triv = 0;              /* triversal flag */
   };
-  
+
   class NODE {
   public:
     NODE();
-    
+    int id=-1;
+    vector<string> inodes;
+    vector<nptr> inode;
+
     string name;               /* ascii name of node */
     vector<wptr> iwire;        /* wires driving this node */
     vector<wptr> owire;        /* wires driven by this node */

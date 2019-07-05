@@ -11,7 +11,7 @@ python util.py ../log1
 
 echo "[CPDAG selection]"
 # time ./atpg -tdfatpg -cpdag -ndet 1 ../sample_circuits/c$1.ckt > ../log2
-time ./atpg -ssfatpg -cpdag -ndet 1 ../sample_circuits/c$1.ckt > ../log2
+time ./atpg -ssfatpg -bayesian -ndet 1 ../sample_circuits/c$1.ckt > ../log2
 # ../bin/golden_tdfsim -ndet 1 -tdfsim ../log2 ../sample_circuits/c$1.ckt > ../log2
 python util.py ../log2
 

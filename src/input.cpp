@@ -95,6 +95,8 @@ void ATPG::newgate(void) {
     if (targv[i] == ";") break;
     w = getwire(targv[i]);
     //w->onode.push_back(n);
+    n->id=node_count++;
+    n->inodes.push_back(targv[i]);
     n->iwire.push_back(w);
     i++;
   }
@@ -103,6 +105,7 @@ void ATPG::newgate(void) {
   w = getwire(targv[i]);
   //w->inode.push_back(n);
   n->owire.push_back(w);
+  bnode_list.push_back(n);
   return;
 }/* end of newgate */
 

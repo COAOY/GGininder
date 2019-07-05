@@ -8,7 +8,8 @@ void ATPG::bubble_sort(vector<wptr>& vec)
   for(int i=0;i<bound;i++)
   {
     for(int j=0;j<bound-i-1;j++){
-      if( true_prob.find(vec[j]->name)->second < true_prob.find(vec[j+1]->name)->second  ){
+      if( truth_prob_by_id.find( vec[j]->inode[0]->id)->second <
+        truth_prob_by_id.find( vec[j+1]->inode[0]->id)->second  ){
         swap(vec[j],vec[j+1]);
       }
     }
@@ -44,8 +45,39 @@ void ATPG::test(void) {
   }// if tdfsim only
 set_backtrack_limit(32);
 printf(" All filed excest!!\n");
+
+
+
 if(bayesian==true){
-  ;
+  cout << "[bayesian]..run!!\n";
+
+  for(auto &x:bnode_list){
+        cout<< x->id <<" : ";
+    for(auto &y:x->inodes)
+        cout << y << " ";
+    
+    cout<<endl;
+  }
+  return;
+  // run_bayesian();
+  cout << "[bayesian]..sort!!\n";
+  for(auto &y: hash_nlist){
+        for(auto &x:y){
+          // cout << "True brobability of wire  " << x->name << ": ";
+          // for(auto &z:x->iwire){
+          //   cout<< true_prob.find(z->name)->second << " ";
+          // }cout<<endl;
+          // cout << "False brobability of wire  " << x->name << ": ";
+          // for(auto &z:x->iwire){
+          //   cout<< false_prob.find(z->name)->second << " ";
+          // }cout<<endl;
+          // cout <<".........................................hihihihihihih:"<< x->name <<endl;
+          // bubble_sort(x->iwire);
+          bubble_sort(x->owire);
+        }
+      }
+  cout << "[bayesian]..over!!\n";
+
 }
 if(cpdag==true){
       // change the sequence from true prob height to low
@@ -53,20 +85,20 @@ if(cpdag==true){
       
       for(auto &y: hash_nlist){
         for(auto &x:y){
-          cout << "True brobability of wire  " << x->name << ": ";
-          for(auto &z:x->iwire){
-            cout<< true_prob.find(z->name)->second << " ";
-          }cout<<endl;
-          cout << "False brobability of wire  " << x->name << ": ";
-          for(auto &z:x->iwire){
-            cout<< false_prob.find(z->name)->second << " ";
-          }cout<<endl;
+          // cout << "True brobability of wire  " << x->name << ": ";
+          // for(auto &z:x->iwire){
+          //   cout<< true_prob.find(z->name)->second << " ";
+          // }cout<<endl;
+          // cout << "False brobability of wire  " << x->name << ": ";
+          // for(auto &z:x->iwire){
+          //   cout<< false_prob.find(z->name)->second << " ";
+          // }cout<<endl;
           // cout <<".........................................hihihihihihih:"<< x->name <<endl;
           bubble_sort(x->iwire);
           bubble_sort(x->owire);
         }
       }
-    }
+}
 
   /* ATPG mode */
   /* Figure 5 in the PODEM paper */
@@ -80,23 +112,23 @@ if(ssfatpg==true){
     // cout << "_p: " << _p <<endl;
     switch(_p) {
       case 1:
-      cout << old_size<<endl;
+      // cout << old_size<<endl;
         for(unsigned i=old_size; i<patterns.size(); i++) {
 
           // if(compression)   secondary_fault(patterns[i]);
           // cout << patterns[i] << endl;
           random_fill(patterns[i]);
-          cout << "# SAF sim\n";
+          // cout << "# SAF sim\n";
           fault_sim_a_vector(patterns[i], current_detect_num);
           // fault_sim_a_vector(const string&, int&, vector<int>**, const int&);  
           total_detect_num += current_detect_num;
-          if(faultdrop) {
-            cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
-                << total_detect_num << ")" << endl;
-          }
-          else {
-            cout << "# vector[" << i << "] detects " << current_detect_num << " faults" << endl;
-          }
+          // if(faultdrop) {
+          //   cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
+          //       << total_detect_num << ")" << endl;
+          // }
+          // else {
+          //   cout << "# vector[" << i << "] detects " << current_detect_num << " faults" << endl;
+          // }
         }
         /* form a vector */
         // vec.clear();

@@ -6,7 +6,7 @@ time ./atpg -ssfatpg -ndet 1 ../sample_circuits/bseries/b$1_C.bench.txt.ckt > ..
 python util.py ../log1
 
 echo "[CPDAG selection]"
-time ./atpg -ssfatpg -cpdag -ndet 1 ../sample_circuits/bseries/b$1_C.bench.txt.ckt > ../log2
+time ./atpg -ssfatpg -bayesian -ndet 1 ../sample_circuits/bseries/b$1_C.bench.txt.ckt > ../log2
 # ../bin/golden_tdfsim -ndet 1 -tdfsim ../log2 ../sample_circuits/bseries/b$1_C.bench.txt.ckt > ../log2
 python util.py ../log2
 
