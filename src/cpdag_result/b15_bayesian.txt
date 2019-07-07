@@ -1,0 +1,16 @@
+==========================OUR  ANS===========================
+# number of aborted faults = 1005
+# number of redundant faults = 166
+# number of calling podem1 = 2205
+# total number of backtracks = 35285
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 1034
+#total number of gate faults = 40232
+#total number of detected faults = 38865
+#total gate fault coverage = 96.60%
+#number of equivalent gate faults = 38242
+#number of equivalent detected faults = 36949
+#equivalent gate fault coverage = 96.62%
+
+=============================================================
