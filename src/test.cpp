@@ -4,13 +4,16 @@
 #define B  4
 void ATPG::bubble_sort(vector<wptr>& vec)
 {
+  // true_prob.find(z->name)->second
   int bound=vec.size();
+
   for(int i=0;i<bound;i++)
   {
+    cout<< vec[i]->name <<" ";
     for(int j=0;j<bound-i-1;j++){
-      if( truth_prob_by_id.find( vec[j]->inode[0]->id)->second <
-        truth_prob_by_id.find( vec[j+1]->inode[0]->id)->second  ){
-        swap(vec[j],vec[j+1]);
+      if( true_prob.find( vec[j]->name)->second <
+        true_prob.find( vec[j+1]->name)->second  ){
+          swap(vec[j],vec[j+1]);
       }
     }
   }
@@ -44,56 +47,53 @@ void ATPG::test(void) {
     return;
   }// if tdfsim only
 set_backtrack_limit(32);
-printf(" All filed excest!!\n");
+printf("Read file success!!\n");
 
 
 
-if(bayesian==true){
-  cout << "[bayesian]..run!!\n";
+// if(bayesian==true){
+//   cout << "[bayesian]..run!!\n";
 
-  for(auto &x:bnode_list){
-        cout<< x->id <<" : ";
-    for(auto &y:x->inodes)
-        cout << y << " ";
+//   for(auto &x:bnode_list){
+//         cout<< x->id <<" : ";
+//     for(auto &y:x->inodes)
+//         cout << y << " ";
     
-    cout<<endl;
-  }
-  return;
-  // run_bayesian();
-  cout << "[bayesian]..sort!!\n";
-  for(auto &y: hash_nlist){
-        for(auto &x:y){
-          // cout << "True brobability of wire  " << x->name << ": ";
-          // for(auto &z:x->iwire){
-          //   cout<< true_prob.find(z->name)->second << " ";
-          // }cout<<endl;
-          // cout << "False brobability of wire  " << x->name << ": ";
-          // for(auto &z:x->iwire){
-          //   cout<< false_prob.find(z->name)->second << " ";
-          // }cout<<endl;
-          // cout <<".........................................hihihihihihih:"<< x->name <<endl;
-          // bubble_sort(x->iwire);
-          bubble_sort(x->owire);
-        }
-      }
-  cout << "[bayesian]..over!!\n";
+//     cout<<endl;
+//   }
+//   return;
+//   // run_bayesian();
+//   cout << "[bayesian]..sort!!\n";
+//   for(auto &y: hash_nlist){
+//         for(auto &x:y){
+//           // cout << "True brobability of wire  " << x->name << ": ";
+//           // for(auto &z:x->iwire){
+//           //   cout<< true_prob.find(z->name)->second << " ";
+//           // }cout<<endl;
+//           // cout << "False brobability of wire  " << x->name << ": ";
+//           // for(auto &z:x->iwire){
+//           //   cout<< false_prob.find(z->name)->second << " ";
+//           // }cout<<endl;
+//           // cout <<".........................................hihihihihihih:"<< x->name <<endl;
+//           // bubble_sort(x->iwire);
+//           bubble_sort(x->owire);
+//         }
+//       }
+//   cout << "[bayesian]..over!!\n";
 
-}
+// }
 if(cpdag==true){
       // change the sequence from true prob height to low
       // cout <<".........................................hihihihihihih:"<<endl;
       
       for(auto &y: hash_nlist){
         for(auto &x:y){
-          // cout << "True brobability of wire  " << x->name << ": ";
-          // for(auto &z:x->iwire){
-          //   cout<< true_prob.find(z->name)->second << " ";
-          // }cout<<endl;
-          // cout << "False brobability of wire  " << x->name << ": ";
-          // for(auto &z:x->iwire){
-          //   cout<< false_prob.find(z->name)->second << " ";
-          // }cout<<endl;
-          // cout <<".........................................hihihihihihih:"<< x->name <<endl;
+          cout << "True brobability of wire  " << x->name << ": ";
+          for(auto &z:x->iwire){
+            cout<< true_prob.find(z->name)->second << " ";
+          }cout<<endl;
+          cout <<"Current process gate: "<< x->name <<" size: " << x->iwire.size()<<endl;
+          // if( (int)x->iwire.size()<2)continue;
           bubble_sort(x->iwire);
           bubble_sort(x->owire);
         }
@@ -122,38 +122,14 @@ if(ssfatpg==true){
           fault_sim_a_vector(patterns[i], current_detect_num);
           // fault_sim_a_vector(const string&, int&, vector<int>**, const int&);  
           total_detect_num += current_detect_num;
-          // if(faultdrop) {
-          //   cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
-          //       << total_detect_num << ")" << endl;
-          // }
-          // else {
-          //   cout << "# vector[" << i << "] detects " << current_detect_num << " faults" << endl;
-          // }
+          if(faultdrop) {
+            cout << "# vector[" << i << "] detects " << current_detect_num << " faults ("
+                << total_detect_num << ")" << endl;
+          }
+          else {
+            cout << "# vector[" << i << "] detects " << current_detect_num << " faults" << endl;
+          }
         }
-        /* form a vector */
-        // vec.clear();
-        // for (wptr w: cktin) {
-          // vec.push_back(itoc(w->value));
-        // }
-        /*by defect, we want only one pattern per fault */
-        /*run a fault simulation, drop ALL detected faults */
-        // if (total_attempt_num == 1) {
-          // int dummy = 0;
-          /* fault_sim_a_vector(vec, current_detect_num,NULL, dummy); */
-          // tdf_sim_a_vector(vec, current_detect_num, NULL, dummy);
-          // total_detect_num += current_detect_num;
-        // }
-        /* If we want mutiple petterns per fault, 
-         * NO fault simulation.  drop ONLY the fault under test */ 
-        // else {
-          // fault_under_test->ndet++;
-          // if(fault_under_test->ndet >= ndet) {
-            // fault_under_test->detect = TRUE;
-            /* drop fault_under_test */
-            // flist_undetect.remove(fault_under_test);
-          // }
-        // }
-        // in_vector_no++;
         break;
     case 0:
         fault_under_test->detect = REDUNDANT;
